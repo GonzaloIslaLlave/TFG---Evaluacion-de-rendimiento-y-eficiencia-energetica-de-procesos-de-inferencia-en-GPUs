@@ -1,0 +1,27 @@
+Modelo    Offline        Batch     QPS esperados  Resultado QPS  Valido         Latency ns     Completed      
+bert      Offline        1         200            185.116        VALID          712                           
+bert      Offline        2         300            267.23         VALID          740                           
+bert      Offline        3         400            329.997        VALID          799                           
+bert      Offline        4         400            353.37         VALID          746                           
+bert      Offline        5         400            373.755        VALID          706                           
+bert      Offline        6         400            396.779        VALID          665                           
+bert      Offline        7         450            404.881        VALID          733                           
+bert      Offline        8         450            412.178        VALID          720                           
+bert      Offline        9         450            439.302        VALID          675                           
+bert      Offline        10        450            449.952        VALID          659                           
+bert      Offline        12        500            461.347        VALID          715                           
+bert      Offline        14        500            470.526        VALID          701                           
+bert      Offline        16        500            476.968        VALID          691                           
+bert      Offline        18        500            492.719        VALID          669                           
+bert      Offline        20        500            502.88         VALID          656                           
+bert      Offline        30        500            515.451        VALID          640                           
+bert      Offline        40        500            524.059        VALID          629                           
+bert      Offline        50        500            512.687        VALID          643                           
+bert      Offline        60        500            518.769        VALID          635                           
+bert      Offline        70        500            534.112        VALID          617                           
+bert      Offline        80        500            532.196        VALID          619                           
+bert      Offline        90        500            533.014        VALID          619                           
+bert      Offline        100       500            537.62         VALID          613                           
+bert      Offline        110       500            533.74         VALID          618                           
+bert      Offline        120       500            536.61         VALID          614                           
+                     

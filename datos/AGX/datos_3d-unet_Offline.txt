@@ -1,0 +1,9 @@
+Modelo    Offline        Batch     QPS esperados  Resultado QPS  Valido         Latency ns     Completed      
+3d-unet   Offline        1         1              0.493581       VALID          261                           
+3d-unet   Offline        2         1              0.493878       VALID          261                           
+3d-unet   Offline        3         1              0.499986       VALID          258                           
+3d-unet   Offline        4         1              0.496041       VALID          260                           
+3d-unet   Offline        5         1              0.499489       VALID          258                           
+3d-unet   Offline        6         1              0.495408       VALID          260                           
+3d-unet   Offline        7         1              0.49673        VALID          259                           
+3d-unet   Offline        8         1              0.497589       VALID          259                           
