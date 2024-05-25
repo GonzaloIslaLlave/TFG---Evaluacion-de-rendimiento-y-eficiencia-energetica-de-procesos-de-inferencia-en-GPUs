@@ -1,0 +1,287 @@
+$ARCH is [x86_64]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+make[1]: Entering directory '/work'
+$ARCH is [x86_64]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+[03/24/2024-17:08:12] [TRT] [I] [MemUsageChange] Init CUDA: CPU +2, GPU +0, now: CPU 44, GPU 480 (MiB)
+[03/24/2024-17:08:20] [TRT] [I] [MemUsageChange] Init builder kernel library: CPU +1957, GPU +346, now: CPU 2106, GPU 826 (MiB)
+[03/24/2024-17:08:20] [TRT] [I] No importer registered for op: CONV3D3X3X3C1K32_TRT. Attempting to import as plugin.
+[03/24/2024-17:08:20] [TRT] [I] Searching for plugin: CONV3D3X3X3C1K32_TRT, plugin_version: 1, plugin_namespace: 
+[03/24/2024-17:08:20] [TRT] [I] Successfully created plugin: CONV3D3X3X3C1K32_TRT
+[03/24/2024-17:08:20] [TRT] [I] No importer registered for op: InstanceNormalization_TRT. Attempting to import as plugin.
+[03/24/2024-17:08:20] [TRT] [I] Searching for plugin: InstanceNormalization_TRT, plugin_version: 2, plugin_namespace: 
+[03/24/2024-17:08:20] [TRT] [I] Successfully created plugin: InstanceNormalization_TRT
+[03/24/2024-17:08:20] [TRT] [I] No importer registered for op: InstanceNormalization_TRT. Attempting to import as plugin.
+[03/24/2024-17:08:20] [TRT] [I] Searching for plugin: InstanceNormalization_TRT, plugin_version: 2, plugin_namespace: 
+[03/24/2024-17:08:20] [TRT] [I] Successfully created plugin: InstanceNormalization_TRT
+[03/24/2024-17:08:20] [TRT] [I] No importer registered for op: InstanceNormalization_TRT. Attempting to import as plugin.
+[03/24/2024-17:08:20] [TRT] [I] Searching for plugin: InstanceNormalization_TRT, plugin_version: 2, plugin_namespace: 
+[03/24/2024-17:08:20] [TRT] [I] Successfully created plugin: InstanceNormalization_TRT
+[03/24/2024-17:08:20] [TRT] [I] No importer registered for op: InstanceNormalization_TRT. Attempting to import as plugin.
+[03/24/2024-17:08:20] [TRT] [I] Searching for plugin: InstanceNormalization_TRT, plugin_version: 2, plugin_namespace: 
+[03/24/2024-17:08:20] [TRT] [I] Successfully created plugin: InstanceNormalization_TRT
+[03/24/2024-17:08:20] [TRT] [I] No importer registered for op: InstanceNormalization_TRT. Attempting to import as plugin.
+[03/24/2024-17:08:20] [TRT] [I] Searching for plugin: InstanceNormalization_TRT, plugin_version: 2, plugin_namespace: 
+[03/24/2024-17:08:20] [TRT] [I] Successfully created plugin: InstanceNormalization_TRT
+[03/24/2024-17:08:20] [TRT] [I] No importer registered for op: InstanceNormalization_TRT. Attempting to import as plugin.
+[03/24/2024-17:08:20] [TRT] [I] Searching for plugin: InstanceNormalization_TRT, plugin_version: 2, plugin_namespace: 
+[03/24/2024-17:08:20] [TRT] [I] Successfully created plugin: InstanceNormalization_TRT
+[03/24/2024-17:08:20] [TRT] [I] No importer registered for op: InstanceNormalization_TRT. Attempting to import as plugin.
+[03/24/2024-17:08:20] [TRT] [I] Searching for plugin: InstanceNormalization_TRT, plugin_version: 2, plugin_namespace: 
+[03/24/2024-17:08:20] [TRT] [I] Successfully created plugin: InstanceNormalization_TRT
+[03/24/2024-17:08:20] [TRT] [I] No importer registered for op: InstanceNormalization_TRT. Attempting to import as plugin.
+[03/24/2024-17:08:20] [TRT] [I] Searching for plugin: InstanceNormalization_TRT, plugin_version: 2, plugin_namespace: 
+[03/24/2024-17:08:20] [TRT] [I] Successfully created plugin: InstanceNormalization_TRT
+[03/24/2024-17:08:20] [TRT] [I] No importer registered for op: InstanceNormalization_TRT. Attempting to import as plugin.
+[03/24/2024-17:08:20] [TRT] [I] Searching for plugin: InstanceNormalization_TRT, plugin_version: 2, plugin_namespace: 
+[03/24/2024-17:08:20] [TRT] [I] Successfully created plugin: InstanceNormalization_TRT
+[03/24/2024-17:08:20] [TRT] [I] No importer registered for op: InstanceNormalization_TRT. Attempting to import as plugin.
+[03/24/2024-17:08:20] [TRT] [I] Searching for plugin: InstanceNormalization_TRT, plugin_version: 2, plugin_namespace: 
+[03/24/2024-17:08:20] [TRT] [I] Successfully created plugin: InstanceNormalization_TRT
+[03/24/2024-17:08:20] [TRT] [I] No importer registered for op: InstanceNormalization_TRT. Attempting to import as plugin.
+[03/24/2024-17:08:20] [TRT] [I] Searching for plugin: InstanceNormalization_TRT, plugin_version: 2, plugin_namespace: 
+[03/24/2024-17:08:20] [TRT] [I] Successfully created plugin: InstanceNormalization_TRT
+[03/24/2024-17:08:20] [TRT] [I] No importer registered for op: InstanceNormalization_TRT. Attempting to import as plugin.
+[03/24/2024-17:08:20] [TRT] [I] Searching for plugin: InstanceNormalization_TRT, plugin_version: 2, plugin_namespace: 
+[03/24/2024-17:08:20] [TRT] [I] Successfully created plugin: InstanceNormalization_TRT
+[03/24/2024-17:08:20] [TRT] [I] No importer registered for op: PIXELSHUFFLE3D_TRT. Attempting to import as plugin.
+[03/24/2024-17:08:20] [TRT] [I] Searching for plugin: PIXELSHUFFLE3D_TRT, plugin_version: 1, plugin_namespace: 
+[03/24/2024-17:08:20] [TRT] [I] Successfully created plugin: PIXELSHUFFLE3D_TRT
+[03/24/2024-17:08:20] [TRT] [I] No importer registered for op: InstanceNormalization_TRT. Attempting to import as plugin.
+[03/24/2024-17:08:20] [TRT] [I] Searching for plugin: InstanceNormalization_TRT, plugin_version: 2, plugin_namespace: 
+[03/24/2024-17:08:20] [TRT] [I] Successfully created plugin: InstanceNormalization_TRT
+[03/24/2024-17:08:20] [TRT] [I] No importer registered for op: InstanceNormalization_TRT. Attempting to import as plugin.
+[03/24/2024-17:08:20] [TRT] [I] Searching for plugin: InstanceNormalization_TRT, plugin_version: 2, plugin_namespace: 
+[03/24/2024-17:08:20] [TRT] [I] Successfully created plugin: InstanceNormalization_TRT
+[03/24/2024-17:08:20] [TRT] [I] No importer registered for op: PIXELSHUFFLE3D_TRT. Attempting to import as plugin.
+[03/24/2024-17:08:20] [TRT] [I] Searching for plugin: PIXELSHUFFLE3D_TRT, plugin_version: 1, plugin_namespace: 
+[03/24/2024-17:08:20] [TRT] [I] Successfully created plugin: PIXELSHUFFLE3D_TRT
+[03/24/2024-17:08:20] [TRT] [I] No importer registered for op: InstanceNormalization_TRT. Attempting to import as plugin.
+[03/24/2024-17:08:20] [TRT] [I] Searching for plugin: InstanceNormalization_TRT, plugin_version: 2, plugin_namespace: 
+[03/24/2024-17:08:20] [TRT] [I] Successfully created plugin: InstanceNormalization_TRT
+[03/24/2024-17:08:20] [TRT] [I] No importer registered for op: InstanceNormalization_TRT. Attempting to import as plugin.
+[03/24/2024-17:08:20] [TRT] [I] Searching for plugin: InstanceNormalization_TRT, plugin_version: 2, plugin_namespace: 
+[03/24/2024-17:08:20] [TRT] [I] Successfully created plugin: InstanceNormalization_TRT
+[03/24/2024-17:08:20] [TRT] [I] No importer registered for op: PIXELSHUFFLE3D_TRT. Attempting to import as plugin.
+[03/24/2024-17:08:20] [TRT] [I] Searching for plugin: PIXELSHUFFLE3D_TRT, plugin_version: 1, plugin_namespace: 
+[03/24/2024-17:08:20] [TRT] [I] Successfully created plugin: PIXELSHUFFLE3D_TRT
+[03/24/2024-17:08:20] [TRT] [I] No importer registered for op: InstanceNormalization_TRT. Attempting to import as plugin.
+[03/24/2024-17:08:20] [TRT] [I] Searching for plugin: InstanceNormalization_TRT, plugin_version: 2, plugin_namespace: 
+[03/24/2024-17:08:20] [TRT] [I] Successfully created plugin: InstanceNormalization_TRT
+[03/24/2024-17:08:20] [TRT] [I] No importer registered for op: InstanceNormalization_TRT. Attempting to import as plugin.
+[03/24/2024-17:08:20] [TRT] [I] Searching for plugin: InstanceNormalization_TRT, plugin_version: 2, plugin_namespace: 
+[03/24/2024-17:08:20] [TRT] [I] Successfully created plugin: InstanceNormalization_TRT
+[03/24/2024-17:08:20] [TRT] [I] No importer registered for op: PIXELSHUFFLE3D_TRT. Attempting to import as plugin.
+[03/24/2024-17:08:20] [TRT] [I] Searching for plugin: PIXELSHUFFLE3D_TRT, plugin_version: 1, plugin_namespace: 
+[03/24/2024-17:08:20] [TRT] [I] Successfully created plugin: PIXELSHUFFLE3D_TRT
+[03/24/2024-17:08:20] [TRT] [I] No importer registered for op: InstanceNormalization_TRT. Attempting to import as plugin.
+[03/24/2024-17:08:20] [TRT] [I] Searching for plugin: InstanceNormalization_TRT, plugin_version: 2, plugin_namespace: 
+[03/24/2024-17:08:20] [TRT] [I] Successfully created plugin: InstanceNormalization_TRT
+[03/24/2024-17:08:20] [TRT] [I] No importer registered for op: InstanceNormalization_TRT. Attempting to import as plugin.
+[03/24/2024-17:08:20] [TRT] [I] Searching for plugin: InstanceNormalization_TRT, plugin_version: 2, plugin_namespace: 
+[03/24/2024-17:08:20] [TRT] [I] Successfully created plugin: InstanceNormalization_TRT
+[03/24/2024-17:08:20] [TRT] [I] No importer registered for op: PIXELSHUFFLE3D_TRT. Attempting to import as plugin.
+[03/24/2024-17:08:20] [TRT] [I] Searching for plugin: PIXELSHUFFLE3D_TRT, plugin_version: 1, plugin_namespace: 
+[03/24/2024-17:08:20] [TRT] [I] Successfully created plugin: PIXELSHUFFLE3D_TRT
+[03/24/2024-17:08:20] [TRT] [I] No importer registered for op: InstanceNormalization_TRT. Attempting to import as plugin.
+[03/24/2024-17:08:20] [TRT] [I] Searching for plugin: InstanceNormalization_TRT, plugin_version: 2, plugin_namespace: 
+[03/24/2024-17:08:20] [TRT] [I] Successfully created plugin: InstanceNormalization_TRT
+[03/24/2024-17:08:20] [TRT] [I] No importer registered for op: InstanceNormalization_TRT. Attempting to import as plugin.
+[03/24/2024-17:08:20] [TRT] [I] Searching for plugin: InstanceNormalization_TRT, plugin_version: 2, plugin_namespace: 
+[03/24/2024-17:08:20] [TRT] [I] Successfully created plugin: InstanceNormalization_TRT
+[03/24/2024-17:08:20] [TRT] [I] No importer registered for op: CONV3D1X1X1K4_TRT. Attempting to import as plugin.
+[03/24/2024-17:08:20] [TRT] [I] Searching for plugin: CONV3D1X1X1K4_TRT, plugin_version: 1, plugin_namespace: 
+[03/24/2024-17:08:20] [TRT] [I] Successfully created plugin: CONV3D1X1X1K4_TRT
+[03/24/2024-17:08:21] [TRT] [I] Graph optimization time: 0.0006266 seconds.
+[03/24/2024-17:08:21] [TRT] [I] Reading Calibration Cache for calibrator: MinMaxCalibration
+[03/24/2024-17:08:21] [TRT] [I] Generated calibration scales using calibration cache. Make sure that calibration cache has latest scales.
+[03/24/2024-17:08:21] [TRT] [I] To regenerate calibration cache, please delete the existing one. TensorRT will generate a new calibration cache.
+[03/24/2024-17:08:21] [TRT] [I] Graph optimization time: 0.00163983 seconds.
+[03/24/2024-17:08:21] [TRT] [I] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +8, now: CPU 2379, GPU 1406 (MiB)
+[03/24/2024-17:08:21] [TRT] [I] [MemUsageChange] Init cuDNN: CPU +0, GPU +8, now: CPU 2379, GPU 1414 (MiB)
+[03/24/2024-17:08:21] [TRT] [I] Local timing cache in use. Profiling results in this builder pass will not be stored.
+[03/24/2024-17:16:30] [TRT] [I] Detected 1 inputs and 1 output network tensors.
+[03/24/2024-17:16:36] [TRT] [I] Total Host Persistent Memory: 137680
+[03/24/2024-17:16:36] [TRT] [I] Total Device Persistent Memory: 0
+[03/24/2024-17:16:36] [TRT] [I] Total Scratch Memory: 3202048
+[03/24/2024-17:16:36] [TRT] [I] [BlockAssignment] Started assigning block shifts. This will take 79 steps to complete.
+[03/24/2024-17:16:36] [TRT] [I] [BlockAssignment] Algorithm ShiftNTopDown took 2.85677ms to assign 8 blocks to 79 nodes requiring 2615644160 bytes.
+[03/24/2024-17:16:36] [TRT] [I] Total Activation Memory: 2615644160
+[03/24/2024-17:16:36] [TRT] [I] Total Weights Memory: 34147840
+[03/24/2024-17:16:36] [TRT] [I] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +8, now: CPU 2526, GPU 1718 (MiB)
+[03/24/2024-17:16:36] [TRT] [I] [MemUsageChange] Init cuDNN: CPU +0, GPU +8, now: CPU 2526, GPU 1726 (MiB)
+[03/24/2024-17:16:36] [TRT] [I] [MemUsageStats] Peak memory usage of TRT CPU/GPU memory allocators: CPU 42 MiB, GPU 9217 MiB
+[03/24/2024-17:16:36] [TRT] [I] [MemUsageChange] TensorRT-managed allocation in building engine: CPU +0, GPU +33, now: CPU 0, GPU 33 (MiB)
+[03/24/2024-17:16:36] [TRT] [I] The profiling verbosity was set to ProfilingVerbosity::kLAYER_NAMES_ONLY when the engine was built, so only the layer names will be returned. Rebuild the engine with ProfilingVerbosity::kDETAILED to get more verbose layer information.
+Loading TensorRT plugin from build/plugins/pixelShuffle3DPlugin/libpixelshuffle3dplugin.so
+Loading TensorRT plugin from build/plugins/conv3D1X1X1K4Plugin/libconv3D1X1X1K4Plugin.so
+Loading TensorRT plugin from build/plugins/conv3D3X3X3C1K32Plugin/libconv3D3X3X3C1K32Plugin.so
+Time taken to generate engines: 504.10848450660706 seconds
+make[1]: Leaving directory '/work'
+make[1]: Entering directory '/work'
+$ARCH is [x86_64]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+[2024-03-24 17:16:40,115 main.py:230 INFO] Detected system ID: KnownSystem.ocejon
+[2024-03-24 17:16:40,834 harness.py:236 INFO] The harness will load 3 plugins: ['build/plugins/pixelShuffle3DPlugin/libpixelshuffle3dplugin.so', 'build/plugins/conv3D1X1X1K4Plugin/libconv3D1X1X1K4Plugin.so', 'build/plugins/conv3D3X3X3C1K32Plugin/libconv3D3X3X3C1K32Plugin.so']
+[2024-03-24 17:16:40,848 generate_conf_files.py:107 INFO] Generated measurements/ entries for ocejon_TRT/3d-unet-99/Offline
+[2024-03-24 17:16:40,848 __init__.py:46 INFO] Running command: ./build/bin/harness_3dunet --plugins="build/plugins/pixelShuffle3DPlugin/libpixelshuffle3dplugin.so,build/plugins/conv3D1X1X1K4Plugin/libconv3D1X1X1K4Plugin.so,build/plugins/conv3D3X3X3C1K32Plugin/libconv3D3X3X3C1K32Plugin.so" --logfile_outdir="/work/build/logs/2024.03.24-17.08.08/ocejon_TRT/3d-unet-99/Offline" --logfile_prefix="mlperf_log_" --performance_sample_count=43 --gpu_copy_streams=1 --gpu_inference_streams=1 --gpu_batch_size=9 --map_path="data_maps/kits19/val_map.txt" --tensor_path="build/preprocessed_data/KiTS19/inference/int8" --use_graphs=false --unet3d_sw_gaussian_patch_path="/scratch/gonisla//preprocessed_data/KiTS19/etc/gaussian_patches.npy" --gpu_engines="./build/engines/ocejon/3d-unet/Offline/3d-unet-Offline-gpu-b9-int8.custom_k_99_MaxP.plan" --mlperf_conf_path="build/loadgen-configs/ocejon_TRT/3d-unet-99/Offline/mlperf.conf" --user_conf_path="build/loadgen-configs/ocejon_TRT/3d-unet-99/Offline/user.conf" --max_dlas=0 --slice_overlap_patch_kernel_cg_impl=false --scenario Offline --model 3d-unet
+[2024-03-24 17:16:40,848 __init__.py:53 INFO] Overriding Environment
+benchmark : Benchmark.UNET3D
+buffer_manager_thread_count : 0
+data_dir : /scratch/gonisla//data
+fast : True
+gpu_batch_size : 9
+gpu_copy_streams : 1
+gpu_inference_streams : 1
+input_dtype : int8
+input_format : linear
+log_dir : /work/build/logs/2024.03.24-17.08.08
+map_path : data_maps/kits19/val_map.txt
+offline_expected_qps : 7.64
+precision : int8
+preprocessed_data_dir : /scratch/gonisla//preprocessed_data
+scenario : Scenario.Offline
+slice_overlap_patch_kernel_cg_impl : False
+system : SystemConfiguration(host_cpu_conf=CPUConfiguration(layout={CPU(name='Intel(R) Xeon(R) Silver 4314 CPU @ 2.40GHz', architecture=<CPUArchitecture.x86_64: AliasedName(name='x86_64', aliases=(), patterns=())>, core_count=16, threads_per_core=1): 1}), host_mem_conf=MemoryConfiguration(host_memory_capacity=Memory(quantity=65.551536, byte_suffix=<ByteSuffix.GB: (1000, 3)>, _num_bytes=65551536000), comparison_tolerance=0.05), accelerator_conf=AcceleratorConfiguration(layout=defaultdict(<class 'int'>, {GPU(name='NVIDIA A30', accelerator_type=<AcceleratorType.Discrete: AliasedName(name='Discrete', aliases=(), patterns=())>, vram=Memory(quantity=24.0, byte_suffix=<ByteSuffix.GiB: (1024, 3)>, _num_bytes=25769803776), max_power_limit=165.0, pci_id='0x20B710DE', compute_sm=80): 1})), numa_conf=None, system_id='ocejon')
+tensor_path : build/preprocessed_data/KiTS19/inference/int8
+unet3d_sw_gaussian_patch_path : /scratch/gonisla//preprocessed_data/KiTS19/etc/gaussian_patches.npy
+use_graphs : False
+system_id : ocejon
+config_name : ocejon_3d-unet_Offline
+workload_setting : WorkloadSetting(HarnessType.Custom, AccuracyTarget.k_99, PowerSetting.MaxP)
+optimization_level : plugin-enabled
+use_cpu : False
+use_inferentia : False
+num_profiles : 1
+config_ver : custom_k_99_MaxP
+accuracy_level : 99%
+inference_server : custom
+skip_file_checks : False
+power_limit : None
+cpu_freq : None
+&&&& RUNNING MLPerf_Inference_3DUNet_Harness # ./build/bin/harness_3dunet
+[I] mlperf.conf path: build/loadgen-configs/ocejon_TRT/3d-unet-99/Offline/mlperf.conf
+[I] user.conf path: build/loadgen-configs/ocejon_TRT/3d-unet-99/Offline/user.conf
+Creating QSL.
+Finished Creating QSL.
+Setting up SUT.
+[I] [TRT] Loaded engine size: 34 MiB
+[I] [TRT] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +8, now: CPU 91, GPU 784 (MiB)
+[I] [TRT] [MemUsageChange] Init cuDNN: CPU +0, GPU +10, now: CPU 91, GPU 794 (MiB)
+[I] [TRT] [MemUsageChange] TensorRT-managed allocation in engine deserialization: CPU +0, GPU +32, now: CPU 0, GPU 32 (MiB)
+[I] Device:0: ./build/engines/ocejon/3d-unet/Offline/3d-unet-Offline-gpu-b9-int8.custom_k_99_MaxP.plan has been successfully loaded.
+[E] [TRT] 3: [runtime.cpp::~Runtime::399] Error Code 3: API Usage Error (Parameter check failed at: runtime/rt/runtime.cpp::~Runtime::399, condition: mEngineCounter.use_count() == 1. Destroying a runtime before destroying deserialized engines created by the runtime leads to undefined behavior.
+)
+[I] [TRT] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +8, now: CPU 57, GPU 1512 (MiB)
+[I] [TRT] [MemUsageChange] Init cuDNN: CPU +0, GPU +8, now: CPU 57, GPU 1520 (MiB)
+[I] [TRT] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +2495, now: CPU 0, GPU 2527 (MiB)
+[I] Creating batcher thread: 0 EnableBatcherThreadPerDevice: true
+Finished setting up SUT.
+Starting warmup. Running for a minimum of 5 seconds.
+Finished warmup. Ran for 6.2527s.
+Starting running actual test.
+*** stack smashing detected ***: terminated
+Aborted (core dumped)
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/work/code/main.py", line 232, in <module>
+    main(main_args, DETECTED_SYSTEM)
+  File "/work/code/main.py", line 145, in main
+    dispatch_action(main_args, config_dict, workload_setting)
+  File "/work/code/main.py", line 203, in dispatch_action
+    handler.run()
+  File "/work/code/actionhandler/base.py", line 82, in run
+    self.handle_failure()
+  File "/work/code/actionhandler/run_harness.py", line 193, in handle_failure
+    raise RuntimeError("Run harness failed!")
+RuntimeError: Run harness failed!
+Traceback (most recent call last):
+  File "/work/code/actionhandler/run_harness.py", line 162, in handle
+    result_data = self.harness.run_harness(flag_dict=self.harness_flag_dict, skip_generate_measurements=True)
+  File "/work/code/common/harness.py", line 339, in run_harness
+    output = run_command(self._construct_terminal_command(argstr), get_output=True, custom_env=self.env_vars)
+  File "/work/code/common/__init__.py", line 67, in run_command
+    raise subprocess.CalledProcessError(ret, cmd)
+subprocess.CalledProcessError: Command './build/bin/harness_3dunet --plugins="build/plugins/pixelShuffle3DPlugin/libpixelshuffle3dplugin.so,build/plugins/conv3D1X1X1K4Plugin/libconv3D1X1X1K4Plugin.so,build/plugins/conv3D3X3X3C1K32Plugin/libconv3D3X3X3C1K32Plugin.so" --logfile_outdir="/work/build/logs/2024.03.24-17.08.08/ocejon_TRT/3d-unet-99/Offline" --logfile_prefix="mlperf_log_" --performance_sample_count=43 --gpu_copy_streams=1 --gpu_inference_streams=1 --gpu_batch_size=9 --map_path="data_maps/kits19/val_map.txt" --tensor_path="build/preprocessed_data/KiTS19/inference/int8" --use_graphs=false --unet3d_sw_gaussian_patch_path="/scratch/gonisla//preprocessed_data/KiTS19/etc/gaussian_patches.npy" --gpu_engines="./build/engines/ocejon/3d-unet/Offline/3d-unet-Offline-gpu-b9-int8.custom_k_99_MaxP.plan" --mlperf_conf_path="build/loadgen-configs/ocejon_TRT/3d-unet-99/Offline/mlperf.conf" --user_conf_path="build/loadgen-configs/ocejon_TRT/3d-unet-99/Offline/user.conf" --max_dlas=0 --slice_overlap_patch_kernel_cg_impl=false --scenario Offline --model 3d-unet' returned non-zero exit status 134.
+make[1]: Leaving directory '/work'

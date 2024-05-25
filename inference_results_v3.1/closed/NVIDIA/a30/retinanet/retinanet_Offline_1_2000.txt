@@ -1,0 +1,309 @@
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+make[1]: Entering directory '/work'
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+[05/03/2024-19:05:17] [TRT] [I] [MemUsageChange] Init CUDA: CPU +2, GPU +0, now: CPU 126, GPU 480 (MiB)
+[05/03/2024-19:05:25] [TRT] [I] [MemUsageChange] Init builder kernel library: CPU +1958, GPU +346, now: CPU 2188, GPU 826 (MiB)
+[05/03/2024-19:05:25] [TRT] [I] No importer registered for op: NMS_OPT_TRT. Attempting to import as plugin.
+[05/03/2024-19:05:25] [TRT] [I] Searching for plugin: NMS_OPT_TRT, plugin_version: 2, plugin_namespace: 
+[05/03/2024-19:05:25] [TRT] [W] builtin_op_importers.cpp:5421: Attribute permuteBeforeReshape not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/03/2024-19:05:25] [TRT] [W] builtin_op_importers.cpp:5421: Attribute concatInputs not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/03/2024-19:05:25] [TRT] [I] Successfully created plugin: NMS_OPT_TRT
+[05/03/2024-19:05:25] [TRT] [I] Graph optimization time: 0.00504526 seconds.
+[05/03/2024-19:05:25] [TRT] [I] Reading Calibration Cache for calibrator: EntropyCalibration2
+[05/03/2024-19:05:25] [TRT] [I] Generated calibration scales using calibration cache. Make sure that calibration cache has latest scales.
+[05/03/2024-19:05:25] [TRT] [I] To regenerate calibration cache, please delete the existing one. TensorRT will generate a new calibration cache.
+[05/03/2024-19:05:25] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 163) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/03/2024-19:05:25] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 174) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/03/2024-19:05:25] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 177) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/03/2024-19:05:25] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 183) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/03/2024-19:05:25] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 190) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/03/2024-19:05:25] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 196) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/03/2024-19:05:25] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 202) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/03/2024-19:05:25] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 209) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/03/2024-19:05:25] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 215) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/03/2024-19:05:25] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 221) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/03/2024-19:05:25] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 228) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/03/2024-19:05:25] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 234) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/03/2024-19:05:25] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 240) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/03/2024-19:05:25] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 247) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/03/2024-19:05:25] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 253) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/03/2024-19:05:25] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 259) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/03/2024-19:05:25] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 266) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/03/2024-19:05:25] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 272) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/03/2024-19:05:25] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 278) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/03/2024-19:05:25] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 287) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/03/2024-19:05:25] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 293) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/03/2024-19:05:25] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 295) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/03/2024-19:05:25] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 306) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/03/2024-19:05:25] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 313) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/03/2024-19:05:25] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 315) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/03/2024-19:05:25] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 320) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/03/2024-19:05:25] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 326) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/03/2024-19:05:25] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 332) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/03/2024-19:05:25] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 334) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/03/2024-19:05:25] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 339) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/03/2024-19:05:25] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 345) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/03/2024-19:05:25] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 351) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/03/2024-19:05:25] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 353) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/03/2024-19:05:25] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 518) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/03/2024-19:05:25] [TRT] [I] Graph optimization time: 0.121527 seconds.
+[05/03/2024-19:05:25] [TRT] [I] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +6, GPU +10, now: CPU 2507, GPU 910 (MiB)
+[05/03/2024-19:05:25] [TRT] [I] [MemUsageChange] Init cuDNN: CPU +1, GPU +10, now: CPU 2508, GPU 920 (MiB)
+[05/03/2024-19:05:25] [TRT] [I] Local timing cache in use. Profiling results in this builder pass will not be stored.
+[05/03/2024-19:07:17] [TRT] [I] Detected 1 inputs and 1 output network tensors.
+[05/03/2024-19:07:32] [TRT] [I] Total Host Persistent Memory: 523328
+[05/03/2024-19:07:32] [TRT] [I] Total Device Persistent Memory: 22528
+[05/03/2024-19:07:32] [TRT] [I] Total Scratch Memory: 764907776
+[05/03/2024-19:07:32] [TRT] [I] [BlockAssignment] Started assigning block shifts. This will take 110 steps to complete.
+[05/03/2024-19:07:32] [TRT] [I] [BlockAssignment] Algorithm ShiftNTopDown took 6.63086ms to assign 15 blocks to 110 nodes requiring 800968704 bytes.
+[05/03/2024-19:07:32] [TRT] [I] Total Activation Memory: 800968704
+[05/03/2024-19:07:32] [TRT] [I] Total Weights Memory: 70968836
+[05/03/2024-19:07:32] [TRT] [I] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +8, now: CPU 2772, GPU 2240 (MiB)
+[05/03/2024-19:07:32] [TRT] [I] [MemUsageChange] Init cuDNN: CPU +0, GPU +8, now: CPU 2772, GPU 2248 (MiB)
+[05/03/2024-19:07:32] [TRT] [I] [MemUsageStats] Peak memory usage of TRT CPU/GPU memory allocators: CPU 42 MiB, GPU 855 MiB
+[05/03/2024-19:07:33] [TRT] [I] [MemUsageChange] TensorRT-managed allocation in building engine: CPU +0, GPU +68, now: CPU 0, GPU 68 (MiB)
+[05/03/2024-19:07:33] [TRT] [I] The profiling verbosity was set to ProfilingVerbosity::kLAYER_NAMES_ONLY when the engine was built, so only the layer names will be returned. Rebuild the engine with ProfilingVerbosity::kDETAILED to get more verbose layer information.
+Loading TensorRT plugin from build/plugins/NMSOptPlugin/libnmsoptplugin.so
+Loading TensorRT plugin from build/plugins/retinanetConcatPlugin/libretinanetconcatplugin.so
+Time taken to generate engines: 138.00801062583923 seconds
+make[1]: Leaving directory '/work'
+make[1]: Entering directory '/work'
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+[2024-05-03 19:07:47,770 main.py:230 INFO] Detected system ID: KnownSystem.ocejon
+[2024-05-03 19:07:47,978 harness.py:236 INFO] The harness will load 2 plugins: ['build/plugins/NMSOptPlugin/libnmsoptplugin.so', 'build/plugins/retinanetConcatPlugin/libretinanetconcatplugin.so']
+[2024-05-03 19:07:47,993 generate_conf_files.py:107 INFO] Generated measurements/ entries for ocejon_TRT/retinanet/Offline
+[2024-05-03 19:07:47,993 __init__.py:46 INFO] Running command: ./build/bin/harness_default --plugins="build/plugins/NMSOptPlugin/libnmsoptplugin.so,build/plugins/retinanetConcatPlugin/libretinanetconcatplugin.so" --logfile_outdir="/work/build/logs/2024.05.03-19.05.02/ocejon_TRT/retinanet/Offline" --logfile_prefix="mlperf_log_" --performance_sample_count=64 --gpu_batch_size=1 --map_path="data_maps/open-images-v6-mlperf/val_map.txt" --tensor_path="build/preprocessed_data/open-images-v6-mlperf/validation/Retinanet/int8_linear" --use_graphs=false --gpu_engines="./build/engines/ocejon/retinanet/Offline/retinanet-Offline-gpu-b1-int8.lwis_k_99_MaxP.plan" --mlperf_conf_path="build/loadgen-configs/ocejon_TRT/retinanet/Offline/mlperf.conf" --user_conf_path="build/loadgen-configs/ocejon_TRT/retinanet/Offline/user.conf" --max_dlas=0 --scenario Offline --model retinanet --response_postprocess openimageeffnms
+[2024-05-03 19:07:47,993 __init__.py:53 INFO] Overriding Environment
+benchmark : Benchmark.Retinanet
+buffer_manager_thread_count : 0
+data_dir : /scratch/gonisla//data
+gpu_batch_size : 1
+input_dtype : int8
+input_format : linear
+log_dir : /work/build/logs/2024.05.03-19.05.02
+map_path : data_maps/open-images-v6-mlperf/val_map.txt
+offline_expected_qps : 2000.0
+precision : int8
+preprocessed_data_dir : /scratch/gonisla//preprocessed_data
+scenario : Scenario.Offline
+system : SystemConfiguration(host_cpu_conf=CPUConfiguration(layout={CPU(name='Intel(R) Xeon(R) Silver 4314 CPU @ 2.40GHz', architecture=<CPUArchitecture.x86_64: AliasedName(name='x86_64', aliases=(), patterns=())>, core_count=16, threads_per_core=1): 1}), host_mem_conf=MemoryConfiguration(host_memory_capacity=Memory(quantity=65.55153200000001, byte_suffix=<ByteSuffix.GB: (1000, 3)>, _num_bytes=65551532000), comparison_tolerance=0.05), accelerator_conf=AcceleratorConfiguration(layout=defaultdict(<class 'int'>, {GPU(name='NVIDIA A30', accelerator_type=<AcceleratorType.Discrete: AliasedName(name='Discrete', aliases=(), patterns=())>, vram=Memory(quantity=24.0, byte_suffix=<ByteSuffix.GiB: (1024, 3)>, _num_bytes=25769803776), max_power_limit=165.0, pci_id='0x20B710DE', compute_sm=80): 1})), numa_conf=None, system_id='ocejon')
+tensor_path : build/preprocessed_data/open-images-v6-mlperf/validation/Retinanet/int8_linear
+use_graphs : False
+system_id : ocejon
+config_name : ocejon_retinanet_Offline
+workload_setting : WorkloadSetting(HarnessType.LWIS, AccuracyTarget.k_99, PowerSetting.MaxP)
+optimization_level : plugin-enabled
+use_cpu : False
+use_inferentia : False
+num_profiles : 1
+config_ver : lwis_k_99_MaxP
+accuracy_level : 99%
+inference_server : lwis
+skip_file_checks : False
+power_limit : None
+cpu_freq : None
+&&&& RUNNING Default_Harness # ./build/bin/harness_default
+[I] mlperf.conf path: build/loadgen-configs/ocejon_TRT/retinanet/Offline/mlperf.conf
+[I] user.conf path: build/loadgen-configs/ocejon_TRT/retinanet/Offline/user.conf
+Creating QSL.
+Finished Creating QSL.
+Setting up SUT.
+[I] [TRT] Loaded engine size: 72 MiB
+[I] [TRT] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +6, GPU +10, now: CPU 129, GPU 560 (MiB)
+[I] [TRT] [MemUsageChange] Init cuDNN: CPU +2, GPU +10, now: CPU 131, GPU 570 (MiB)
+[I] [TRT] [MemUsageChange] TensorRT-managed allocation in engine deserialization: CPU +0, GPU +67, now: CPU 0, GPU 67 (MiB)
+[I] Device:0.GPU: [0] ./build/engines/ocejon/retinanet/Offline/retinanet-Offline-gpu-b1-int8.lwis_k_99_MaxP.plan has been successfully loaded.
+[E] [TRT] 3: [runtime.cpp::~Runtime::399] Error Code 3: API Usage Error (Parameter check failed at: runtime/rt/runtime.cpp::~Runtime::399, condition: mEngineCounter.use_count() == 1. Destroying a runtime before destroying deserialized engines created by the runtime leads to undefined behavior.
+)
+[I] [TRT] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +8, now: CPU 58, GPU 572 (MiB)
+[I] [TRT] [MemUsageChange] Init cuDNN: CPU +0, GPU +8, now: CPU 58, GPU 580 (MiB)
+[I] [TRT] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +764, now: CPU 0, GPU 831 (MiB)
+[I] [TRT] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +8, now: CPU 59, GPU 1352 (MiB)
+[I] [TRT] [MemUsageChange] Init cuDNN: CPU +0, GPU +10, now: CPU 59, GPU 1362 (MiB)
+[I] [TRT] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +1, GPU +764, now: CPU 1, GPU 1595 (MiB)
+[I] [TRT] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +8, now: CPU 60, GPU 2134 (MiB)
+[I] [TRT] [MemUsageChange] Init cuDNN: CPU +1, GPU +12, now: CPU 61, GPU 2146 (MiB)
+[I] [TRT] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +764, now: CPU 1, GPU 2359 (MiB)
+[I] [TRT] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +8, now: CPU 61, GPU 2918 (MiB)
+[I] [TRT] [MemUsageChange] Init cuDNN: CPU +1, GPU +10, now: CPU 62, GPU 2928 (MiB)
+[I] [TRT] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +1, GPU +764, now: CPU 2, GPU 3123 (MiB)
+[I] Creating batcher thread: 0 EnableBatcherThreadPerDevice: false
+Finished setting up SUT.
+Starting warmup. Running for a minimum of 5 seconds.
+Finished warmup. Ran for 5.03853s.
+Starting running actual test.
+================================================
+MLPerf Results Summary
+================================================
+SUT name : LWIS_Server
+Scenario : Offline
+Mode     : PerformanceOnly
+Samples per second: 239.989
+Result is : VALID
+  Min duration satisfied : Yes
+  Min queries satisfied : Yes
+  Early stopping satisfied: Yes
+
+================================================
+Additional Stats
+================================================
+Min latency (ns)                : 12765916
+Max latency (ns)                : 5500259472369
+Mean latency (ns)               : 2743987572052
+50.00 percentile latency (ns)   : 2744826044211
+90.00 percentile latency (ns)   : 4947926237144
+95.00 percentile latency (ns)   : 5224764165344
+97.00 percentile latency (ns)   : 5334960712014
+99.00 percentile latency (ns)   : 5445011485738
+99.90 percentile latency (ns)   : 5494750114756
+
+================================================
+Test Parameters Used
+================================================
+samples_per_query : 1320000
+target_qps : 2000
+target_latency (ns): 0
+max_async_queries : 1
+min_duration (ms): 600000
+max_duration (ms): 0
+min_query_count : 1
+max_query_count : 0
+qsl_rng_seed : 148687905518835231
+sample_index_rng_seed : 520418551913322573
+schedule_rng_seed : 811580660758947900
+accuracy_log_rng_seed : 0
+accuracy_log_probability : 0
+accuracy_log_sampling_target : 0
+print_timestamps : 0
+performance_issue_unique : 0
+performance_issue_same : 0
+performance_issue_same_index : 0
+performance_sample_count : 64
+
+No warnings encountered during test.
+
+No errors encountered during test.
+Finished running actual test.
+Device Device:0.GPU processed:
+  1320000 batches of size 1
+  Memcpy Calls: 0
+  PerSampleCudaMemcpy Calls: 0
+  BatchedCudaMemcpy Calls: 1320000
+&&&& PASSED Default_Harness # ./build/bin/harness_default
+[2024-05-03 20:39:35,118 run_harness.py:167 INFO] Result: result_samples_per_second: 239.989, Result is VALID
+[2024-05-03 20:39:35,118 run_harness.py:168 INFO] {'verbose': None, 'verbose_nvtx': None, 'v': None, 'plugins': 'build/plugins/NMSOptPlugin/libnmsoptplugin.so,build/plugins/retinanetConcatPlugin/libretinanetconcatplugin.so', 'logfile_outdir': '/work/build/logs/2024.05.03-19.05.02/ocejon_TRT/retinanet/Offline', 'logfile_prefix': 'mlperf_log_', 'performance_sample_count': 64, 'gpu_batch_size': 1, 'map_path': 'data_maps/open-images-v6-mlperf/val_map.txt', 'tensor_path': 'build/preprocessed_data/open-images-v6-mlperf/validation/Retinanet/int8_linear', 'use_graphs': False, 'offline_expected_qps': None, 'gpu_engines': './build/engines/ocejon/retinanet/Offline/retinanet-Offline-gpu-b1-int8.lwis_k_99_MaxP.plan', 'performance_sample_count_override': None, 'mlperf_conf_path': 'build/loadgen-configs/ocejon_TRT/retinanet/Offline/mlperf.conf', 'user_conf_path': 'build/loadgen-configs/ocejon_TRT/retinanet/Offline/user.conf', 'server_target_qps_adj_factor': None, 'max_dlas': 0}
+ 
+======================== Result summaries: ========================
+
+ ocejon_TRT-lwis_k_99_MaxP-Offline:
+   retinanet:
+     performance: result_samples_per_second: 239.989, Result is VALID
+ 
+
+======================== Extra Perf Stats: ========================
+
+ ocejon_TRT-lwis_k_99_MaxP-Offline:
+    FileNotFoundError: Cannot find perf logs for ocejon_TRT/retinanet/Offline at build/artifacts/closed/NVIDIA/results/ocejon_TRT/retinanet/Offline/performance/run_1. Non-NVIDIA users ignore this. NVIDIA users run `make pull_artifacts_repo`.
+make[1]: Leaving directory '/work'

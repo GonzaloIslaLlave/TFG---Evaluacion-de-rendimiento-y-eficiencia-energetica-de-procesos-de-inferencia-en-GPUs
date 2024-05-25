@@ -1,0 +1,490 @@
+$ARCH is [aarch64]
+$SYSTEM_NAME is [KnownSystem.Orin]
+$IS_SOC is [1]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [aarch64]
+$SYSTEM_NAME is [KnownSystem.Orin]
+$IS_SOC is [1]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [aarch64]
+$SYSTEM_NAME is [KnownSystem.Orin]
+$IS_SOC is [1]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [aarch64]
+$SYSTEM_NAME is [KnownSystem.Orin]
+$IS_SOC is [1]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [aarch64]
+$SYSTEM_NAME is [KnownSystem.Orin]
+$IS_SOC is [1]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [aarch64]
+$SYSTEM_NAME is [KnownSystem.Orin]
+$IS_SOC is [1]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [aarch64]
+$SYSTEM_NAME is [KnownSystem.Orin]
+$IS_SOC is [1]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+make[1]: Entering directory '/work'
+$ARCH is [aarch64]
+$SYSTEM_NAME is [KnownSystem.Orin]
+$IS_SOC is [1]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [aarch64]
+$SYSTEM_NAME is [KnownSystem.Orin]
+$IS_SOC is [1]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [aarch64]
+$SYSTEM_NAME is [KnownSystem.Orin]
+$IS_SOC is [1]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [aarch64]
+$SYSTEM_NAME is [KnownSystem.Orin]
+$IS_SOC is [1]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [aarch64]
+$SYSTEM_NAME is [KnownSystem.Orin]
+$IS_SOC is [1]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [aarch64]
+$SYSTEM_NAME is [KnownSystem.Orin]
+$IS_SOC is [1]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [aarch64]
+$SYSTEM_NAME is [KnownSystem.Orin]
+$IS_SOC is [1]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+[05/20/2024-15:43:29] [TRT] [I] [MemUsageChange] Init CUDA: CPU +215, GPU +0, now: CPU 348, GPU 14840 (MiB)
+[05/20/2024-15:43:33] [TRT] [I] [MemUsageChange] Init builder kernel library: CPU +302, GPU +417, now: CPU 673, GPU 15278 (MiB)
+[05/20/2024-15:43:33] [TRT] [W] onnx2trt_utils.cpp:375: Your ONNX model has been generated with INT64 weights, while TensorRT does not natively support INT64. Attempting to cast down to INT32.
+[05/20/2024-15:43:34] [TRT] [I] No importer registered for op: NMS_OPT_TRT. Attempting to import as plugin.
+[05/20/2024-15:43:34] [TRT] [I] Searching for plugin: NMS_OPT_TRT, plugin_version: 2, plugin_namespace: 
+[05/20/2024-15:43:34] [TRT] [W] builtin_op_importers.cpp:5243: Attribute permuteBeforeReshape not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/20/2024-15:43:34] [TRT] [W] builtin_op_importers.cpp:5243: Attribute concatInputs not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/20/2024-15:43:34] [TRT] [I] Successfully created plugin: NMS_OPT_TRT
+[05/20/2024-15:43:34] [TRT] [I] Reading Calibration Cache for calibrator: EntropyCalibration2
+[05/20/2024-15:43:34] [TRT] [I] Generated calibration scales using calibration cache. Make sure that calibration cache has latest scales.
+[05/20/2024-15:43:34] [TRT] [I] To regenerate calibration cache, please delete the existing one. TensorRT will generate a new calibration cache.
+[05/20/2024-15:43:34] [TRT] [I] ---------- Layers Running on DLA ----------
+[05/20/2024-15:43:34] [TRT] [I] ---------- Layers Running on GPU ----------
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONV_ACT_POOL: res1_conv + res1_scale_value + res1_scale + res1_bias_value + res1_bias + res1_relu + res1_maxpool
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONVOLUTION: res2a_branch2a_conv + res2a_branch2a_scale_value + res2a_branch2a_scale + res2a_branch2a_bias_value + res2a_branch2a_bias + res2a_branch2a_relu
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONVOLUTION: res2a_branch2b_conv + res2a_branch2b_scale_value + res2a_branch2b_scale + res2a_branch2b_bias_value + res2a_branch2b_bias + res2a_branch2b_relu
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONVOLUTION: res2a_branch2c_conv + res2a_branch2c_scale_value + res2a_branch2c_scale + res2a_branch2c_bias_value + res2a_branch2c_bias
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONVOLUTION: res2a_branch1_conv + res2a_branch1_scale_value + res2a_branch1_scale + res2a_branch1_bias_value + res2a_branch1_bias + res2a_residual_add + res2a_relu
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONVOLUTION: res2b_branch2a_conv + res2b_branch2a_scale_value + res2b_branch2a_scale + res2b_branch2a_bias_value + res2b_branch2a_bias + res2b_branch2a_relu
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONVOLUTION: res2b_branch2b_conv + res2b_branch2b_scale_value + res2b_branch2b_scale + res2b_branch2b_bias_value + res2b_branch2b_bias + res2b_branch2b_relu
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONVOLUTION: res2b_branch2c_conv + res2b_branch2c_scale_value + res2b_branch2c_scale + res2b_branch2c_bias_value + res2b_branch2c_bias + res2b_residual_add + res2b_relu
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONVOLUTION: res2c_branch2a_conv + res2c_branch2a_scale_value + res2c_branch2a_scale + res2c_branch2a_bias_value + res2c_branch2a_bias + res2c_branch2a_relu
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONVOLUTION: res2c_branch2b_conv + res2c_branch2b_scale_value + res2c_branch2b_scale + res2c_branch2b_bias_value + res2c_branch2b_bias + res2c_branch2b_relu
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONVOLUTION: res2c_branch2c_conv + res2c_branch2c_scale_value + res2c_branch2c_scale + res2c_branch2c_bias_value + res2c_branch2c_bias + res2c_residual_add + res2c_relu
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONVOLUTION: res3a_branch2a_conv + res3a_branch2a_scale_value + res3a_branch2a_scale + res3a_branch2a_bias_value + res3a_branch2a_bias + res3a_branch2a_relu
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONVOLUTION: res3a_branch2b_conv + res3a_branch2b_scale_value + res3a_branch2b_scale + res3a_branch2b_bias_value + res3a_branch2b_bias + res3a_branch2b_relu
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONVOLUTION: res3a_branch2c_conv + res3a_branch2c_scale_value + res3a_branch2c_scale + res3a_branch2c_bias_value + res3a_branch2c_bias
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONVOLUTION: res3a_branch1_conv + res3a_branch1_scale_value + res3a_branch1_scale + res3a_branch1_bias_value + res3a_branch1_bias + res3a_residual_add + res3a_relu
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONVOLUTION: res3b_branch2a_conv + res3b_branch2a_scale_value + res3b_branch2a_scale + res3b_branch2a_bias_value + res3b_branch2a_bias + res3b_branch2a_relu
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONVOLUTION: res3b_branch2b_conv + res3b_branch2b_scale_value + res3b_branch2b_scale + res3b_branch2b_bias_value + res3b_branch2b_bias + res3b_branch2b_relu
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONVOLUTION: res3b_branch2c_conv + res3b_branch2c_scale_value + res3b_branch2c_scale + res3b_branch2c_bias_value + res3b_branch2c_bias + res3b_residual_add + res3b_relu
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONVOLUTION: res3c_branch2a_conv + res3c_branch2a_scale_value + res3c_branch2a_scale + res3c_branch2a_bias_value + res3c_branch2a_bias + res3c_branch2a_relu
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONVOLUTION: res3c_branch2b_conv + res3c_branch2b_scale_value + res3c_branch2b_scale + res3c_branch2b_bias_value + res3c_branch2b_bias + res3c_branch2b_relu
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONVOLUTION: res3c_branch2c_conv + res3c_branch2c_scale_value + res3c_branch2c_scale + res3c_branch2c_bias_value + res3c_branch2c_bias + res3c_residual_add + res3c_relu
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONVOLUTION: res3d_branch2a_conv + res3d_branch2a_scale_value + res3d_branch2a_scale + res3d_branch2a_bias_value + res3d_branch2a_bias + res3d_branch2a_relu
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONVOLUTION: res3d_branch2b_conv + res3d_branch2b_scale_value + res3d_branch2b_scale + res3d_branch2b_bias_value + res3d_branch2b_bias + res3d_branch2b_relu
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONVOLUTION: res3d_branch2c_conv + res3d_branch2c_scale_value + res3d_branch2c_scale + res3d_branch2c_bias_value + res3d_branch2c_bias + res3d_residual_add + res3d_relu
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONVOLUTION: res4a_branch2a_conv + res4a_branch2a_scale_value + res4a_branch2a_scale + res4a_branch2a_bias_value + res4a_branch2a_bias + res4a_branch2a_relu
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONVOLUTION: res4a_branch2b_conv + res4a_branch2b_scale_value + res4a_branch2b_scale + res4a_branch2b_bias_value + res4a_branch2b_bias + res4a_branch2b_relu
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONVOLUTION: res4a_branch2c_conv + res4a_branch2c_scale_value + res4a_branch2c_scale + res4a_branch2c_bias_value + res4a_branch2c_bias
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONVOLUTION: res4a_branch1_conv + res4a_branch1_scale_value + res4a_branch1_scale + res4a_branch1_bias_value + res4a_branch1_bias + res4a_residual_add + res4a_relu
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONVOLUTION: res4b_branch2a_conv + res4b_branch2a_scale_value + res4b_branch2a_scale + res4b_branch2a_bias_value + res4b_branch2a_bias + res4b_branch2a_relu
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONVOLUTION: res4b_branch2b_conv + res4b_branch2b_scale_value + res4b_branch2b_scale + res4b_branch2b_bias_value + res4b_branch2b_bias + res4b_branch2b_relu
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONVOLUTION: res4b_branch2c_conv + res4b_branch2c_scale_value + res4b_branch2c_scale + res4b_branch2c_bias_value + res4b_branch2c_bias + res4b_residual_add + res4b_relu
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONVOLUTION: res4c_branch2a_conv + res4c_branch2a_scale_value + res4c_branch2a_scale + res4c_branch2a_bias_value + res4c_branch2a_bias + res4c_branch2a_relu
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONVOLUTION: res4c_branch2b_conv + res4c_branch2b_scale_value + res4c_branch2b_scale + res4c_branch2b_bias_value + res4c_branch2b_bias + res4c_branch2b_relu
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONVOLUTION: res4c_branch2c_conv + res4c_branch2c_scale_value + res4c_branch2c_scale + res4c_branch2c_bias_value + res4c_branch2c_bias + res4c_residual_add + res4c_relu
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONVOLUTION: res4d_branch2a_conv + res4d_branch2a_scale_value + res4d_branch2a_scale + res4d_branch2a_bias_value + res4d_branch2a_bias + res4d_branch2a_relu
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONVOLUTION: res4d_branch2b_conv + res4d_branch2b_scale_value + res4d_branch2b_scale + res4d_branch2b_bias_value + res4d_branch2b_bias + res4d_branch2b_relu
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONVOLUTION: res4d_branch2c_conv + res4d_branch2c_scale_value + res4d_branch2c_scale + res4d_branch2c_bias_value + res4d_branch2c_bias + res4d_residual_add + res4d_relu
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONVOLUTION: res4e_branch2a_conv + res4e_branch2a_scale_value + res4e_branch2a_scale + res4e_branch2a_bias_value + res4e_branch2a_bias + res4e_branch2a_relu
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONVOLUTION: res4e_branch2b_conv + res4e_branch2b_scale_value + res4e_branch2b_scale + res4e_branch2b_bias_value + res4e_branch2b_bias + res4e_branch2b_relu
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONVOLUTION: res4e_branch2c_conv + res4e_branch2c_scale_value + res4e_branch2c_scale + res4e_branch2c_bias_value + res4e_branch2c_bias + res4e_residual_add + res4e_relu
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONVOLUTION: res4f_branch2a_conv + res4f_branch2a_scale_value + res4f_branch2a_scale + res4f_branch2a_bias_value + res4f_branch2a_bias + res4f_branch2a_relu
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONVOLUTION: res4f_branch2b_conv + res4f_branch2b_scale_value + res4f_branch2b_scale + res4f_branch2b_bias_value + res4f_branch2b_bias + res4f_branch2b_relu
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONVOLUTION: res4f_branch2c_conv + res4f_branch2c_scale_value + res4f_branch2c_scale + res4f_branch2c_bias_value + res4f_branch2c_bias + res4f_residual_add + res4f_relu
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONVOLUTION: res5a_branch2a_conv + res5a_branch2a_scale_value + res5a_branch2a_scale + res5a_branch2a_bias_value + res5a_branch2a_bias + res5a_branch2a_relu
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONVOLUTION: res5a_branch2b_conv + res5a_branch2b_scale_value + res5a_branch2b_scale + res5a_branch2b_bias_value + res5a_branch2b_bias + res5a_branch2b_relu
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONVOLUTION: res5a_branch2c_conv + res5a_branch2c_scale_value + res5a_branch2c_scale + res5a_branch2c_bias_value + res5a_branch2c_bias
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONVOLUTION: res5a_branch1_conv + res5a_branch1_scale_value + res5a_branch1_scale + res5a_branch1_bias_value + res5a_branch1_bias + res5a_residual_add + res5a_relu
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONVOLUTION: res5b_branch2a_conv + res5b_branch2a_scale_value + res5b_branch2a_scale + res5b_branch2a_bias_value + res5b_branch2a_bias + res5b_branch2a_relu
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONVOLUTION: res5b_branch2b_conv + res5b_branch2b_scale_value + res5b_branch2b_scale + res5b_branch2b_bias_value + res5b_branch2b_bias + res5b_branch2b_relu
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONVOLUTION: res5b_branch2c_conv + res5b_branch2c_scale_value + res5b_branch2c_scale + res5b_branch2c_bias_value + res5b_branch2c_bias + res5b_residual_add + res5b_relu
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONVOLUTION: res5c_branch2a_conv + res5c_branch2a_scale_value + res5c_branch2a_scale + res5c_branch2a_bias_value + res5c_branch2a_bias + res5c_branch2a_relu
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONVOLUTION: res5c_branch2b_conv + res5c_branch2b_scale_value + res5c_branch2b_scale + res5c_branch2b_bias_value + res5c_branch2b_bias + res5c_branch2b_relu
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONVOLUTION: res5c_branch2c_conv + res5c_branch2c_scale_value + res5c_branch2c_scale + res5c_branch2c_bias_value + res5c_branch2c_bias + res5c_residual_add + res5c_relu
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONVOLUTION: /backbone/fpn/inner_blocks.2/Conv
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONVOLUTION: /backbone/fpn/layer_blocks.2/Conv
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONVOLUTION: /backbone/fpn/extra_blocks/p6/Conv
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONVOLUTION: /head/classification_head/conv/conv.0_2/Conv + /head/classification_head/conv/conv.1_2/Relu || /head/regression_head/conv/conv.0_2/Conv + /head/regression_head/conv/conv.1_2/Relu
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] POINTWISE: PWN(/backbone/fpn/extra_blocks/Relu)
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONVOLUTION: /head/classification_head/conv/conv.0_3/Conv + /head/classification_head/conv/conv.1_3/Relu || /head/regression_head/conv/conv.0_3/Conv + /head/regression_head/conv/conv.1_3/Relu
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONVOLUTION: /backbone/fpn/extra_blocks/p7/Conv
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONVOLUTION: /head/classification_head/conv/conv.2_2/Conv + /head/classification_head/conv/conv.3_2/Relu
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONVOLUTION: /head/regression_head/conv/conv.2_2/Conv + /head/regression_head/conv/conv.3_2/Relu
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] RESIZE: /backbone/fpn/Resize
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONVOLUTION: /head/classification_head/conv/conv.0_4/Conv + /head/classification_head/conv/conv.1_4/Relu || /head/regression_head/conv/conv.0_4/Conv + /head/regression_head/conv/conv.1_4/Relu
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONVOLUTION: /head/classification_head/conv/conv.2_3/Conv + /head/classification_head/conv/conv.3_3/Relu
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONVOLUTION: /head/regression_head/conv/conv.2_3/Conv + /head/regression_head/conv/conv.3_3/Relu
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONVOLUTION: /backbone/fpn/inner_blocks.1/Conv + /backbone/fpn/Add
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONVOLUTION: /head/classification_head/conv/conv.4_2/Conv + /head/classification_head/conv/conv.5_2/Relu
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONVOLUTION: /head/regression_head/conv/conv.4_2/Conv + /head/regression_head/conv/conv.5_2/Relu
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONVOLUTION: /backbone/fpn/layer_blocks.1/Conv
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONVOLUTION: /head/classification_head/conv/conv.2_4/Conv + /head/classification_head/conv/conv.3_4/Relu
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONVOLUTION: /head/regression_head/conv/conv.2_4/Conv + /head/regression_head/conv/conv.3_4/Relu
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONVOLUTION: /head/classification_head/conv/conv.4_3/Conv + /head/classification_head/conv/conv.5_3/Relu
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONVOLUTION: /head/regression_head/conv/conv.4_3/Conv + /head/regression_head/conv/conv.5_3/Relu
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONVOLUTION: /head/classification_head/conv/conv.0_1/Conv + /head/classification_head/conv/conv.1_1/Relu || /head/regression_head/conv/conv.0_1/Conv + /head/regression_head/conv/conv.1_1/Relu
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONVOLUTION: /head/classification_head/conv/conv.6_2/Conv + /head/classification_head/conv/conv.7_2/Relu
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONVOLUTION: /head/regression_head/conv/conv.6_2/Conv + /head/regression_head/conv/conv.7_2/Relu
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] RESIZE: /backbone/fpn/Resize_1
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONVOLUTION: /head/classification_head/conv/conv.2_1/Conv + /head/classification_head/conv/conv.3_1/Relu
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONVOLUTION: /head/classification_head/conv/conv.6_3/Conv + /head/classification_head/conv/conv.7_3/Relu
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONVOLUTION: /head/classification_head/conv/conv.4_4/Conv + /head/classification_head/conv/conv.5_4/Relu
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONVOLUTION: /head/regression_head/conv/conv.2_1/Conv + /head/regression_head/conv/conv.3_1/Relu
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONVOLUTION: /head/regression_head/conv/conv.6_3/Conv + /head/regression_head/conv/conv.7_3/Relu
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONVOLUTION: /head/regression_head/conv/conv.4_4/Conv + /head/regression_head/conv/conv.5_4/Relu
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONVOLUTION: /backbone/fpn/inner_blocks.0/Conv + /backbone/fpn/Add_1
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONVOLUTION: /head/classification_head/cls_logits_2/Conv
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONVOLUTION: /head/regression_head/bbox_reg_2/Conv
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONVOLUTION: /backbone/fpn/layer_blocks.0/Conv
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONVOLUTION: /head/classification_head/conv/conv.4_1/Conv + /head/classification_head/conv/conv.5_1/Relu
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONVOLUTION: /head/classification_head/cls_logits_3/Conv
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONVOLUTION: /head/classification_head/conv/conv.6_4/Conv + /head/classification_head/conv/conv.7_4/Relu
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONVOLUTION: /head/regression_head/conv/conv.4_1/Conv + /head/regression_head/conv/conv.5_1/Relu
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONVOLUTION: /head/regression_head/bbox_reg_3/Conv
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONVOLUTION: /head/regression_head/conv/conv.6_4/Conv + /head/regression_head/conv/conv.7_4/Relu
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONVOLUTION: /head/classification_head/conv/conv.0/Conv + /head/classification_head/conv/conv.1/Relu || /head/regression_head/conv/conv.0/Conv + /head/regression_head/conv/conv.1/Relu
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONVOLUTION: /head/classification_head/conv/conv.6_1/Conv + /head/classification_head/conv/conv.7_1/Relu
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONVOLUTION: /head/classification_head/cls_logits_4/Conv
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONVOLUTION: /head/regression_head/conv/conv.6_1/Conv + /head/regression_head/conv/conv.7_1/Relu
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONVOLUTION: /head/regression_head/bbox_reg_4/Conv
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONVOLUTION: /head/classification_head/conv/conv.2/Conv + /head/classification_head/conv/conv.3/Relu
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONVOLUTION: /head/regression_head/conv/conv.2/Conv + /head/regression_head/conv/conv.3/Relu
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONVOLUTION: /head/classification_head/cls_logits_1/Conv
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONVOLUTION: /head/regression_head/bbox_reg_1/Conv
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONVOLUTION: /head/classification_head/conv/conv.4/Conv + /head/classification_head/conv/conv.5/Relu
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONVOLUTION: /head/regression_head/conv/conv.4/Conv + /head/regression_head/conv/conv.5/Relu
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONVOLUTION: /head/classification_head/conv/conv.6/Conv + /head/classification_head/conv/conv.7/Relu
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONVOLUTION: /head/regression_head/conv/conv.6/Conv + /head/regression_head/conv/conv.7/Relu
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONVOLUTION: /head/classification_head/cls_logits/Conv
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONVOLUTION: /head/regression_head/bbox_reg/Conv
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] CONSTANT: anchor
+[05/20/2024-15:43:34] [TRT] [I] [GpuLayer] PLUGIN_V2: nmsopt
+[05/20/2024-15:43:35] [TRT] [I] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +534, GPU +837, now: CPU 1608, GPU 16566 (MiB)
+[05/20/2024-15:43:35] [TRT] [I] [MemUsageChange] Init cuDNN: CPU +83, GPU +119, now: CPU 1691, GPU 16685 (MiB)
+[05/20/2024-15:43:35] [TRT] [I] Local timing cache in use. Profiling results in this builder pass will not be stored.
+[05/20/2024-15:43:35] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:36] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:37] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:37] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:37] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:37] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:37] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:37] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:37] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:37] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:37] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:37] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:37] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:37] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:37] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:37] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:37] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:37] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:37] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:37] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:37] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:37] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:37] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:37] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:37] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:37] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:37] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:37] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:37] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:37] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:37] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:37] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:37] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:37] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:37] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:37] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:37] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:37] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:37] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:37] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:37] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:37] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:37] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:37] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:37] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:37] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:37] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:37] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:37] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:37] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:37] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:37] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:37] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:37] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:37] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:37] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:37] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:37] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:37] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:37] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:37] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:37] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:37] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:37] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:37] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:37] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:37] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:37] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:37] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:37] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:37] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:37] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:37] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:37] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:37] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:37] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:37] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:37] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:37] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:37] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:37] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:37] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:37] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:37] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:37] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:37] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:37] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:37] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:37] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:38] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:38] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:38] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:38] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:38] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:38] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:38] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:38] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:38] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:38] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:38] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:38] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:38] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:38] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:38] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:38] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:38] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:38] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:38] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:38] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:38] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:38] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:38] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:38] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:38] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:38] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:38] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:38] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:38] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:38] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:39] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:39] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:39] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:39] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:39] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:39] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:39] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:39] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:39] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:39] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:39] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:39] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:39] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:39] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:39] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:39] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:39] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:39] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:39] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:39] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:39] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:39] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:39] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:39] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:40] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:40] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:40] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:40] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:40] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:40] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:40] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:40] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:40] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:40] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:40] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:40] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:40] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:40] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:40] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:40] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:40] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:40] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:40] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:40] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:40] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/20/2024-15:43:40] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.

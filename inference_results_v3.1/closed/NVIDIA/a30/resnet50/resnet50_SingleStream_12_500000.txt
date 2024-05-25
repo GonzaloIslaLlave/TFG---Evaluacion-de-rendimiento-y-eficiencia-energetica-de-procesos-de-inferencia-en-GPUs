@@ -1,0 +1,397 @@
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+make[1]: Entering directory '/work'
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+[05/13/2024-23:00:40] [TRT] [I] [MemUsageChange] Init CUDA: CPU +2, GPU +0, now: CPU 44, GPU 480 (MiB)
+[05/13/2024-23:00:48] [TRT] [I] [MemUsageChange] Init builder kernel library: CPU +1957, GPU +346, now: CPU 2106, GPU 826 (MiB)
+[05/13/2024-23:00:48] [TRT] [I] No importer registered for op: RnRes2FullFusion_TRT. Attempting to import as plugin.
+[05/13/2024-23:00:48] [TRT] [I] Searching for plugin: RnRes2FullFusion_TRT, plugin_version: 1, plugin_namespace: 
+[05/13/2024-23:00:48] [TRT] [I] Successfully created plugin: RnRes2FullFusion_TRT
+[05/13/2024-23:00:48] [TRT] [I] No importer registered for op: SmallTileGEMM_TRT. Attempting to import as plugin.
+[05/13/2024-23:00:48] [TRT] [I] Searching for plugin: SmallTileGEMM_TRT, plugin_version: 1, plugin_namespace: 
+[05/13/2024-23:00:48] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBias not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/13/2024-23:00:48] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasRelu not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/13/2024-23:00:48] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasGelu not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/13/2024-23:00:48] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasBeta not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/13/2024-23:00:48] [TRT] [I] Successfully created plugin: SmallTileGEMM_TRT
+[05/13/2024-23:00:48] [TRT] [I] No importer registered for op: SmallTileGEMM_TRT. Attempting to import as plugin.
+[05/13/2024-23:00:48] [TRT] [I] Searching for plugin: SmallTileGEMM_TRT, plugin_version: 1, plugin_namespace: 
+[05/13/2024-23:00:48] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBias not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/13/2024-23:00:48] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasRelu not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/13/2024-23:00:48] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasGelu not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/13/2024-23:00:48] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasBeta not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/13/2024-23:00:48] [TRT] [I] Successfully created plugin: SmallTileGEMM_TRT
+[05/13/2024-23:00:48] [TRT] [I] No importer registered for op: SmallTileGEMM_TRT. Attempting to import as plugin.
+[05/13/2024-23:00:48] [TRT] [I] Searching for plugin: SmallTileGEMM_TRT, plugin_version: 1, plugin_namespace: 
+[05/13/2024-23:00:48] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBias not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/13/2024-23:00:48] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasRelu not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/13/2024-23:00:48] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasGelu not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/13/2024-23:00:48] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasBeta not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/13/2024-23:00:48] [TRT] [I] Successfully created plugin: SmallTileGEMM_TRT
+[05/13/2024-23:00:48] [TRT] [I] No importer registered for op: SmallTileGEMM_TRT. Attempting to import as plugin.
+[05/13/2024-23:00:48] [TRT] [I] Searching for plugin: SmallTileGEMM_TRT, plugin_version: 1, plugin_namespace: 
+[05/13/2024-23:00:48] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBias not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/13/2024-23:00:48] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasRelu not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/13/2024-23:00:48] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasGelu not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/13/2024-23:00:48] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasBeta not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/13/2024-23:00:48] [TRT] [I] Successfully created plugin: SmallTileGEMM_TRT
+[05/13/2024-23:00:48] [TRT] [I] No importer registered for op: SmallTileGEMM_TRT. Attempting to import as plugin.
+[05/13/2024-23:00:48] [TRT] [I] Searching for plugin: SmallTileGEMM_TRT, plugin_version: 1, plugin_namespace: 
+[05/13/2024-23:00:48] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBias not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/13/2024-23:00:48] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasRelu not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/13/2024-23:00:48] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasGelu not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/13/2024-23:00:48] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasBeta not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/13/2024-23:00:48] [TRT] [I] Successfully created plugin: SmallTileGEMM_TRT
+[05/13/2024-23:00:48] [TRT] [I] No importer registered for op: SmallTileGEMM_TRT. Attempting to import as plugin.
+[05/13/2024-23:00:48] [TRT] [I] Searching for plugin: SmallTileGEMM_TRT, plugin_version: 1, plugin_namespace: 
+[05/13/2024-23:00:48] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBias not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/13/2024-23:00:48] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasRelu not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/13/2024-23:00:48] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasGelu not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/13/2024-23:00:48] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasBeta not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/13/2024-23:00:48] [TRT] [I] Successfully created plugin: SmallTileGEMM_TRT
+[05/13/2024-23:00:48] [TRT] [I] No importer registered for op: SmallTileGEMM_TRT. Attempting to import as plugin.
+[05/13/2024-23:00:48] [TRT] [I] Searching for plugin: SmallTileGEMM_TRT, plugin_version: 1, plugin_namespace: 
+[05/13/2024-23:00:48] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBias not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/13/2024-23:00:48] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasRelu not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/13/2024-23:00:48] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasGelu not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/13/2024-23:00:48] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasBeta not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/13/2024-23:00:48] [TRT] [I] Successfully created plugin: SmallTileGEMM_TRT
+[05/13/2024-23:00:48] [TRT] [I] No importer registered for op: SmallTileGEMM_TRT. Attempting to import as plugin.
+[05/13/2024-23:00:48] [TRT] [I] Searching for plugin: SmallTileGEMM_TRT, plugin_version: 1, plugin_namespace: 
+[05/13/2024-23:00:48] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBias not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/13/2024-23:00:48] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasRelu not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/13/2024-23:00:48] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasGelu not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/13/2024-23:00:48] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasBeta not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/13/2024-23:00:48] [TRT] [I] Successfully created plugin: SmallTileGEMM_TRT
+[05/13/2024-23:00:48] [TRT] [I] No importer registered for op: SmallTileGEMM_TRT. Attempting to import as plugin.
+[05/13/2024-23:00:48] [TRT] [I] Searching for plugin: SmallTileGEMM_TRT, plugin_version: 1, plugin_namespace: 
+[05/13/2024-23:00:48] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBias not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/13/2024-23:00:48] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasRelu not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/13/2024-23:00:48] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasGelu not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/13/2024-23:00:48] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasBeta not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/13/2024-23:00:48] [TRT] [I] Successfully created plugin: SmallTileGEMM_TRT
+[05/13/2024-23:00:48] [TRT] [I] No importer registered for op: SmallTileGEMM_TRT. Attempting to import as plugin.
+[05/13/2024-23:00:48] [TRT] [I] Searching for plugin: SmallTileGEMM_TRT, plugin_version: 1, plugin_namespace: 
+[05/13/2024-23:00:48] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBias not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/13/2024-23:00:48] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasRelu not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/13/2024-23:00:48] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasGelu not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/13/2024-23:00:48] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasBeta not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/13/2024-23:00:48] [TRT] [I] Successfully created plugin: SmallTileGEMM_TRT
+[05/13/2024-23:00:48] [TRT] [I] No importer registered for op: SmallTileGEMM_TRT. Attempting to import as plugin.
+[05/13/2024-23:00:48] [TRT] [I] Searching for plugin: SmallTileGEMM_TRT, plugin_version: 1, plugin_namespace: 
+[05/13/2024-23:00:48] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBias not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/13/2024-23:00:48] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasRelu not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/13/2024-23:00:48] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasGelu not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/13/2024-23:00:48] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasBeta not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/13/2024-23:00:48] [TRT] [I] Successfully created plugin: SmallTileGEMM_TRT
+[05/13/2024-23:00:48] [TRT] [I] No importer registered for op: SmallTileGEMM_TRT. Attempting to import as plugin.
+[05/13/2024-23:00:48] [TRT] [I] Searching for plugin: SmallTileGEMM_TRT, plugin_version: 1, plugin_namespace: 
+[05/13/2024-23:00:48] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBias not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/13/2024-23:00:48] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasRelu not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/13/2024-23:00:48] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasGelu not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/13/2024-23:00:48] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasBeta not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/13/2024-23:00:48] [TRT] [I] Successfully created plugin: SmallTileGEMM_TRT
+[05/13/2024-23:00:48] [TRT] [I] No importer registered for op: SmallTileGEMM_TRT. Attempting to import as plugin.
+[05/13/2024-23:00:48] [TRT] [I] Searching for plugin: SmallTileGEMM_TRT, plugin_version: 1, plugin_namespace: 
+[05/13/2024-23:00:48] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBias not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/13/2024-23:00:48] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasRelu not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/13/2024-23:00:48] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasGelu not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/13/2024-23:00:48] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasBeta not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/13/2024-23:00:48] [TRT] [I] Successfully created plugin: SmallTileGEMM_TRT
+[05/13/2024-23:00:49] [TRT] [I] Graph optimization time: 0.0011776 seconds.
+[05/13/2024-23:00:49] [TRT] [I] Reading Calibration Cache for calibrator: EntropyCalibration2
+[05/13/2024-23:00:49] [TRT] [I] Generated calibration scales using calibration cache. Make sure that calibration cache has latest scales.
+[05/13/2024-23:00:49] [TRT] [I] To regenerate calibration cache, please delete the existing one. TensorRT will generate a new calibration cache.
+[05/13/2024-23:00:49] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 75) [TopK]_output_1, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/13/2024-23:00:49] [TRT] [W] Missing scale and zero-point for tensor topk_layer_output_index_i64, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/13/2024-23:00:49] [TRT] [W] Missing scale and zero-point for tensor topk_layer_output_index, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/13/2024-23:00:49] [TRT] [I] Graph optimization time: 0.00343323 seconds.
+[05/13/2024-23:00:49] [TRT] [I] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +7, GPU +8, now: CPU 2616, GPU 836 (MiB)
+[05/13/2024-23:00:49] [TRT] [I] [MemUsageChange] Init cuDNN: CPU +1, GPU +10, now: CPU 2617, GPU 846 (MiB)
+[05/13/2024-23:00:49] [TRT] [I] Local timing cache in use. Profiling results in this builder pass will not be stored.
+[05/13/2024-23:01:11] [TRT] [I] Detected 1 inputs and 1 output network tensors.
+[05/13/2024-23:01:16] [TRT] [I] Total Host Persistent Memory: 159312
+[05/13/2024-23:01:16] [TRT] [I] Total Device Persistent Memory: 22528
+[05/13/2024-23:01:16] [TRT] [I] Total Scratch Memory: 3620864
+[05/13/2024-23:01:16] [TRT] [I] [BlockAssignment] Started assigning block shifts. This will take 50 steps to complete.
+[05/13/2024-23:01:16] [TRT] [I] [BlockAssignment] Algorithm ShiftNTopDown took 0.48737ms to assign 4 blocks to 50 nodes requiring 19568640 bytes.
+[05/13/2024-23:01:16] [TRT] [I] Total Activation Memory: 19568640
+[05/13/2024-23:01:16] [TRT] [I] Total Weights Memory: 20560648
+[05/13/2024-23:01:16] [TRT] [I] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +8, now: CPU 2851, GPU 2114 (MiB)
+[05/13/2024-23:01:16] [TRT] [I] [MemUsageChange] Init cuDNN: CPU +0, GPU +8, now: CPU 2851, GPU 2122 (MiB)
+[05/13/2024-23:01:16] [TRT] [I] [MemUsageStats] Peak memory usage of TRT CPU/GPU memory allocators: CPU 18 MiB, GPU 112 MiB
+[05/13/2024-23:01:16] [TRT] [I] [MemUsageChange] TensorRT-managed allocation in building engine: CPU +0, GPU +20, now: CPU 0, GPU 20 (MiB)
+[05/13/2024-23:01:16] [TRT] [I] The profiling verbosity was set to ProfilingVerbosity::kLAYER_NAMES_ONLY when the engine was built, so only the layer names will be returned. Rebuild the engine with ProfilingVerbosity::kDETAILED to get more verbose layer information.
+Time taken to generate engines: 36.133763790130615 seconds
+make[1]: Leaving directory '/work'
+make[1]: Entering directory '/work'
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+[2024-05-13 23:01:30,062 main.py:230 INFO] Detected system ID: KnownSystem.ocejon
+[2024-05-13 23:01:30,347 generate_conf_files.py:107 INFO] Generated measurements/ entries for ocejon_TRT/resnet50/SingleStream
+[2024-05-13 23:01:30,349 __init__.py:46 INFO] Running command: ./build/bin/harness_default --logfile_outdir="/work/build/logs/2024.05.13-23.00.26/ocejon_TRT/resnet50/SingleStream" --logfile_prefix="mlperf_log_" --performance_sample_count=2048 --gpu_copy_streams=1 --gpu_inference_streams=1 --gpu_batch_size=12 --map_path="data_maps/imagenet/val_map.txt" --tensor_path="build/preprocessed_data/imagenet/ResNet50/int8_linear" --use_graphs=true --gpu_engines="./build/engines/ocejon/resnet50/SingleStream/resnet50-SingleStream-gpu-b12-int8.lwis_k_99_MaxP.plan" --mlperf_conf_path="build/loadgen-configs/ocejon_TRT/resnet50/SingleStream/mlperf.conf" --user_conf_path="build/loadgen-configs/ocejon_TRT/resnet50/SingleStream/user.conf" --max_dlas=0 --scenario SingleStream --model resnet50
+[2024-05-13 23:01:30,349 __init__.py:53 INFO] Overriding Environment
+benchmark : Benchmark.ResNet50
+buffer_manager_thread_count : 0
+data_dir : /scratch/gonisla//data
+fast : True
+gpu_batch_size : 12
+gpu_copy_streams : 1
+gpu_inference_streams : 1
+input_dtype : int8
+input_format : linear
+log_dir : /work/build/logs/2024.05.13-23.00.26
+map_path : data_maps/imagenet/val_map.txt
+precision : int8
+preprocessed_data_dir : /scratch/gonisla//preprocessed_data
+scenario : Scenario.SingleStream
+single_stream_expected_latency_ns : 500000
+system : SystemConfiguration(host_cpu_conf=CPUConfiguration(layout={CPU(name='Intel(R) Xeon(R) Silver 4314 CPU @ 2.40GHz', architecture=<CPUArchitecture.x86_64: AliasedName(name='x86_64', aliases=(), patterns=())>, core_count=16, threads_per_core=1): 1}), host_mem_conf=MemoryConfiguration(host_memory_capacity=Memory(quantity=65.551536, byte_suffix=<ByteSuffix.GB: (1000, 3)>, _num_bytes=65551536000), comparison_tolerance=0.05), accelerator_conf=AcceleratorConfiguration(layout=defaultdict(<class 'int'>, {GPU(name='NVIDIA A30', accelerator_type=<AcceleratorType.Discrete: AliasedName(name='Discrete', aliases=(), patterns=())>, vram=Memory(quantity=24.0, byte_suffix=<ByteSuffix.GiB: (1024, 3)>, _num_bytes=25769803776), max_power_limit=165.0, pci_id='0x20B710DE', compute_sm=80): 1})), numa_conf=None, system_id='ocejon')
+tensor_path : build/preprocessed_data/imagenet/ResNet50/int8_linear
+use_graphs : True
+system_id : ocejon
+config_name : ocejon_resnet50_SingleStream
+workload_setting : WorkloadSetting(HarnessType.LWIS, AccuracyTarget.k_99, PowerSetting.MaxP)
+optimization_level : plugin-enabled
+use_cpu : False
+use_inferentia : False
+num_profiles : 1
+config_ver : lwis_k_99_MaxP
+accuracy_level : 99%
+inference_server : lwis
+skip_file_checks : False
+power_limit : None
+cpu_freq : None
+<class 'ctypes.CDLL'>
+<_FuncPtr object at 0x7f953db47880>
+server_ip b''
+port 0
+server_ip b'127.0.0.1'
+port 6526
+&&&& RUNNING Default_Harness # ./build/bin/harness_default
+[I] mlperf.conf path: build/loadgen-configs/ocejon_TRT/resnet50/SingleStream/mlperf.conf
+[I] user.conf path: build/loadgen-configs/ocejon_TRT/resnet50/SingleStream/user.conf
+Creating QSL.
+Finished Creating QSL.
+Setting up SUT.
+[I] [TRT] Loaded engine size: 26 MiB
+[I] [TRT] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +7, GPU +10, now: CPU 85, GPU 514 (MiB)
+[I] [TRT] [MemUsageChange] Init cuDNN: CPU +1, GPU +10, now: CPU 86, GPU 524 (MiB)
+[I] [TRT] [MemUsageChange] TensorRT-managed allocation in engine deserialization: CPU +0, GPU +19, now: CPU 0, GPU 19 (MiB)
+[I] Device:0.GPU: [0] ./build/engines/ocejon/resnet50/SingleStream/resnet50-SingleStream-gpu-b12-int8.lwis_k_99_MaxP.plan has been successfully loaded.
+[E] [TRT] 3: [runtime.cpp::~Runtime::399] Error Code 3: API Usage Error (Parameter check failed at: runtime/rt/runtime.cpp::~Runtime::399, condition: mEngineCounter.use_count() == 1. Destroying a runtime before destroying deserialized engines created by the runtime leads to undefined behavior.
+)
+[I] [TRT] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +10, now: CPU 59, GPU 516 (MiB)
+[I] [TRT] [MemUsageChange] Init cuDNN: CPU +1, GPU +8, now: CPU 60, GPU 524 (MiB)
+[I] [TRT] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +19, now: CPU 0, GPU 38 (MiB)
+[I] Start creating CUDA graphs
+[I] Capture 12 CUDA graphs
+[I] Finish creating CUDA graphs
+[I] Creating batcher thread: 0 EnableBatcherThreadPerDevice: false
+Finished setting up SUT.
+Starting warmup. Running for a minimum of 5 seconds.
+Finished warmup. Ran for 5.06101s.
+Starting running actual test.
+================================================
+MLPerf Results Summary
+================================================
+SUT name : LWIS_Server
+Scenario : SingleStream
+Mode     : PerformanceOnly
+90th percentile latency (ns) : 11613591
+Result is : VALID
+  Min duration satisfied : Yes
+  Min queries satisfied : Yes
+  Early stopping satisfied: Yes
+Early Stopping Result:
+ * Processed at least 64 queries (5180).
+ * Would discard 466 highest latency queries.
+ * Early stopping 90th percentile estimate: 11618427
+ * Early stopping 99th percentile estimate: 11697687
+
+================================================
+Additional Stats
+================================================
+QPS w/ loadgen overhead         : 86.30
+QPS w/o loadgen overhead        : 86.74
+
+Min latency (ns)                : 4531039
+Max latency (ns)                : 12343143
+Mean latency (ns)               : 11528590
+50.00 percentile latency (ns)   : 11536414
+90.00 percentile latency (ns)   : 11613591
+95.00 percentile latency (ns)   : 11629018
+97.00 percentile latency (ns)   : 11638769
+99.00 percentile latency (ns)   : 11684570
+99.90 percentile latency (ns)   : 11788643
+
+================================================
+Test Parameters Used
+================================================
+samples_per_query : 1
+target_qps : 2000
+target_latency (ns): 0
+max_async_queries : 1
+min_duration (ms): 60000
+max_duration (ms): 0
+min_query_count : 1
+max_query_count : 0
+qsl_rng_seed : 148687905518835231
+sample_index_rng_seed : 520418551913322573
+schedule_rng_seed : 811580660758947900
+accuracy_log_rng_seed : 0
+accuracy_log_probability : 0
+accuracy_log_sampling_target : 0
+print_timestamps : 0
+performance_issue_unique : 0
+performance_issue_same : 0
+performance_issue_same_index : 0
+performance_sample_count : 2048
+
+No warnings encountered during test.
+
+No errors encountered during test.
+Finished running actual test.
+Device Device:0.GPU processed:
+  5180 batches of size 1
+  Memcpy Calls: 0
+  PerSampleCudaMemcpy Calls: 0
+  BatchedCudaMemcpy Calls: 5180
+&&&& PASSED Default_Harness # ./build/bin/harness_default
+[2024-05-13 23:02:38,155 run_harness.py:345 INFO] Result: result_90.00_percentile_latency_ns: 11613591, Result is VALID
+127.0.0.1, 127.0.0.1, 9
+6526
+- > NVMLDevice
+Agg. - > 0
+Int. - > 0
+Lines - > @
+Lines - >  
+Lines - >  
+Lines - >  
+Lines - >  
+Lines - >  
+Lines - >  
+Lines - >  
+Lines - >  
+Lines - >  
+Lines - >  
+Lines - >  
+Lines - >  
+Lines - >  
+Lines - >  
+Lines - >  
+- > 127.0.0.1
+- > 6526
+ 
+======================== Result summaries: ========================
+
+ ocejon_TRT-lwis_k_99_MaxP-SingleStream:
+   resnet50:
+     performance: result_90.00_percentile_latency_ns: 11613591, Result is VALID
+ 
+
+======================== Extra Perf Stats: ========================
+
+ ocejon_TRT-lwis_k_99_MaxP-SingleStream:
+    FileNotFoundError: Cannot find perf logs for ocejon_TRT/resnet50/SingleStream at build/artifacts/closed/NVIDIA/results/ocejon_TRT/resnet50/SingleStream/performance/run_1. Non-NVIDIA users ignore this. NVIDIA users run `make pull_artifacts_repo`.
+make[1]: Leaving directory '/work'

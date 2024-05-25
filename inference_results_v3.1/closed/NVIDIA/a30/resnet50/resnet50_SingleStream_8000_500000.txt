@@ -1,0 +1,362 @@
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+make[1]: Entering directory '/work'
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+[05/19/2024-13:02:42] [TRT] [I] [MemUsageChange] Init CUDA: CPU +2, GPU +0, now: CPU 44, GPU 480 (MiB)
+[05/19/2024-13:02:50] [TRT] [I] [MemUsageChange] Init builder kernel library: CPU +1957, GPU +346, now: CPU 2106, GPU 826 (MiB)
+[05/19/2024-13:02:51] [TRT] [I] No importer registered for op: RnRes2FullFusion_TRT. Attempting to import as plugin.
+[05/19/2024-13:02:51] [TRT] [I] Searching for plugin: RnRes2FullFusion_TRT, plugin_version: 1, plugin_namespace: 
+[05/19/2024-13:02:51] [TRT] [I] Successfully created plugin: RnRes2FullFusion_TRT
+[05/19/2024-13:02:51] [TRT] [I] No importer registered for op: SmallTileGEMM_TRT. Attempting to import as plugin.
+[05/19/2024-13:02:51] [TRT] [I] Searching for plugin: SmallTileGEMM_TRT, plugin_version: 1, plugin_namespace: 
+[05/19/2024-13:02:51] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBias not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/19/2024-13:02:51] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasRelu not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/19/2024-13:02:51] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasGelu not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/19/2024-13:02:51] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasBeta not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/19/2024-13:02:51] [TRT] [I] Successfully created plugin: SmallTileGEMM_TRT
+[05/19/2024-13:02:51] [TRT] [I] No importer registered for op: SmallTileGEMM_TRT. Attempting to import as plugin.
+[05/19/2024-13:02:51] [TRT] [I] Searching for plugin: SmallTileGEMM_TRT, plugin_version: 1, plugin_namespace: 
+[05/19/2024-13:02:51] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBias not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/19/2024-13:02:51] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasRelu not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/19/2024-13:02:51] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasGelu not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/19/2024-13:02:51] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasBeta not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/19/2024-13:02:51] [TRT] [I] Successfully created plugin: SmallTileGEMM_TRT
+[05/19/2024-13:02:51] [TRT] [I] No importer registered for op: SmallTileGEMM_TRT. Attempting to import as plugin.
+[05/19/2024-13:02:51] [TRT] [I] Searching for plugin: SmallTileGEMM_TRT, plugin_version: 1, plugin_namespace: 
+[05/19/2024-13:02:51] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBias not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/19/2024-13:02:51] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasRelu not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/19/2024-13:02:51] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasGelu not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/19/2024-13:02:51] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasBeta not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/19/2024-13:02:51] [TRT] [I] Successfully created plugin: SmallTileGEMM_TRT
+[05/19/2024-13:02:51] [TRT] [I] No importer registered for op: SmallTileGEMM_TRT. Attempting to import as plugin.
+[05/19/2024-13:02:51] [TRT] [I] Searching for plugin: SmallTileGEMM_TRT, plugin_version: 1, plugin_namespace: 
+[05/19/2024-13:02:51] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBias not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/19/2024-13:02:51] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasRelu not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/19/2024-13:02:51] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasGelu not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/19/2024-13:02:51] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasBeta not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/19/2024-13:02:51] [TRT] [I] Successfully created plugin: SmallTileGEMM_TRT
+[05/19/2024-13:02:51] [TRT] [I] No importer registered for op: SmallTileGEMM_TRT. Attempting to import as plugin.
+[05/19/2024-13:02:51] [TRT] [I] Searching for plugin: SmallTileGEMM_TRT, plugin_version: 1, plugin_namespace: 
+[05/19/2024-13:02:51] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBias not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/19/2024-13:02:51] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasRelu not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/19/2024-13:02:51] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasGelu not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/19/2024-13:02:51] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasBeta not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/19/2024-13:02:51] [TRT] [I] Successfully created plugin: SmallTileGEMM_TRT
+[05/19/2024-13:02:51] [TRT] [I] No importer registered for op: SmallTileGEMM_TRT. Attempting to import as plugin.
+[05/19/2024-13:02:51] [TRT] [I] Searching for plugin: SmallTileGEMM_TRT, plugin_version: 1, plugin_namespace: 
+[05/19/2024-13:02:51] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBias not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/19/2024-13:02:51] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasRelu not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/19/2024-13:02:51] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasGelu not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/19/2024-13:02:51] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasBeta not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/19/2024-13:02:51] [TRT] [I] Successfully created plugin: SmallTileGEMM_TRT
+[05/19/2024-13:02:51] [TRT] [I] No importer registered for op: SmallTileGEMM_TRT. Attempting to import as plugin.
+[05/19/2024-13:02:51] [TRT] [I] Searching for plugin: SmallTileGEMM_TRT, plugin_version: 1, plugin_namespace: 
+[05/19/2024-13:02:51] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBias not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/19/2024-13:02:51] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasRelu not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/19/2024-13:02:51] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasGelu not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/19/2024-13:02:51] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasBeta not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/19/2024-13:02:51] [TRT] [I] Successfully created plugin: SmallTileGEMM_TRT
+[05/19/2024-13:02:51] [TRT] [I] No importer registered for op: SmallTileGEMM_TRT. Attempting to import as plugin.
+[05/19/2024-13:02:51] [TRT] [I] Searching for plugin: SmallTileGEMM_TRT, plugin_version: 1, plugin_namespace: 
+[05/19/2024-13:02:51] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBias not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/19/2024-13:02:51] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasRelu not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/19/2024-13:02:51] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasGelu not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/19/2024-13:02:51] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasBeta not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/19/2024-13:02:51] [TRT] [I] Successfully created plugin: SmallTileGEMM_TRT
+[05/19/2024-13:02:51] [TRT] [I] No importer registered for op: SmallTileGEMM_TRT. Attempting to import as plugin.
+[05/19/2024-13:02:51] [TRT] [I] Searching for plugin: SmallTileGEMM_TRT, plugin_version: 1, plugin_namespace: 
+[05/19/2024-13:02:51] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBias not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/19/2024-13:02:51] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasRelu not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/19/2024-13:02:51] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasGelu not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/19/2024-13:02:51] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasBeta not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/19/2024-13:02:51] [TRT] [I] Successfully created plugin: SmallTileGEMM_TRT
+[05/19/2024-13:02:51] [TRT] [I] No importer registered for op: SmallTileGEMM_TRT. Attempting to import as plugin.
+[05/19/2024-13:02:51] [TRT] [I] Searching for plugin: SmallTileGEMM_TRT, plugin_version: 1, plugin_namespace: 
+[05/19/2024-13:02:51] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBias not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/19/2024-13:02:51] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasRelu not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/19/2024-13:02:51] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasGelu not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/19/2024-13:02:51] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasBeta not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/19/2024-13:02:51] [TRT] [I] Successfully created plugin: SmallTileGEMM_TRT
+[05/19/2024-13:02:51] [TRT] [I] No importer registered for op: SmallTileGEMM_TRT. Attempting to import as plugin.
+[05/19/2024-13:02:51] [TRT] [I] Searching for plugin: SmallTileGEMM_TRT, plugin_version: 1, plugin_namespace: 
+[05/19/2024-13:02:51] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBias not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/19/2024-13:02:51] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasRelu not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/19/2024-13:02:51] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasGelu not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/19/2024-13:02:51] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasBeta not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/19/2024-13:02:51] [TRT] [I] Successfully created plugin: SmallTileGEMM_TRT
+[05/19/2024-13:02:51] [TRT] [I] No importer registered for op: SmallTileGEMM_TRT. Attempting to import as plugin.
+[05/19/2024-13:02:51] [TRT] [I] Searching for plugin: SmallTileGEMM_TRT, plugin_version: 1, plugin_namespace: 
+[05/19/2024-13:02:51] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBias not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/19/2024-13:02:51] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasRelu not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/19/2024-13:02:51] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasGelu not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/19/2024-13:02:51] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasBeta not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/19/2024-13:02:51] [TRT] [I] Successfully created plugin: SmallTileGEMM_TRT
+[05/19/2024-13:02:51] [TRT] [I] No importer registered for op: SmallTileGEMM_TRT. Attempting to import as plugin.
+[05/19/2024-13:02:51] [TRT] [I] Searching for plugin: SmallTileGEMM_TRT, plugin_version: 1, plugin_namespace: 
+[05/19/2024-13:02:51] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBias not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/19/2024-13:02:51] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasRelu not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/19/2024-13:02:51] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasGelu not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/19/2024-13:02:51] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasBeta not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/19/2024-13:02:51] [TRT] [I] Successfully created plugin: SmallTileGEMM_TRT
+[05/19/2024-13:02:51] [TRT] [I] Graph optimization time: 0.0012002 seconds.
+[05/19/2024-13:02:51] [TRT] [I] Reading Calibration Cache for calibrator: EntropyCalibration2
+[05/19/2024-13:02:51] [TRT] [I] Generated calibration scales using calibration cache. Make sure that calibration cache has latest scales.
+[05/19/2024-13:02:51] [TRT] [I] To regenerate calibration cache, please delete the existing one. TensorRT will generate a new calibration cache.
+[05/19/2024-13:02:51] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 75) [TopK]_output_1, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/19/2024-13:02:51] [TRT] [W] Missing scale and zero-point for tensor topk_layer_output_index_i64, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/19/2024-13:02:51] [TRT] [W] Missing scale and zero-point for tensor topk_layer_output_index, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/19/2024-13:02:51] [TRT] [I] Graph optimization time: 0.00346809 seconds.
+[05/19/2024-13:02:51] [TRT] [I] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +7, GPU +8, now: CPU 2616, GPU 836 (MiB)
+[05/19/2024-13:02:51] [TRT] [I] [MemUsageChange] Init cuDNN: CPU +1, GPU +10, now: CPU 2617, GPU 846 (MiB)
+[05/19/2024-13:02:51] [TRT] [I] Local timing cache in use. Profiling results in this builder pass will not be stored.
+[05/19/2024-13:02:57] [TRT] [W] Tactic Device request: 36750MB Available: 24061MB. Device memory is insufficient to use tactic.
+[05/19/2024-13:02:57] [TRT] [I] Skipping tactic 0 due to insufficient memory on requested size of 36750 detected for tactic 0xc9f2c7cbb5759197.
+[05/19/2024-13:03:01] [TRT] [I] Skipping tactic 0x2468d082d0ff7c9a due to exception an illegal memory access was encountered
+[05/19/2024-13:03:01] [TRT] [I] Skipping tactic 0x271b998fe31732ef due to exception an illegal memory access was encountered
+[05/19/2024-13:03:01] [TRT] [I] Skipping tactic 0xcd229658c16b33cd due to exception an illegal memory access was encountered
+[05/19/2024-13:03:01] [TRT] [I] Skipping tactic 0xa2f15b0a75b7dcec due to exception an illegal memory access was encountered
+[05/19/2024-13:03:01] [TRT] [I] Skipping tactic 0x445983715412fbda due to exception an illegal memory access was encountered
+[05/19/2024-13:03:01] [TRT] [I] Skipping tactic 0x991db9fd58152c33 due to exception an illegal memory access was encountered
+[05/19/2024-13:03:01] [TRT] [I] Skipping tactic 0x84942841d92b0552 due to exception an illegal memory access was encountered
+[05/19/2024-13:03:01] [TRT] [I] Skipping tactic 0x844ea9c00f711f19 due to exception an illegal memory access was encountered
+[05/19/2024-13:03:01] [TRT] [I] Skipping tactic 0xdc1f355deb032b87 due to exception an illegal memory access was encountered
+[05/19/2024-13:03:01] [TRT] [I] Skipping tactic 0x5f1a472d416ff35e due to exception an illegal memory access was encountered
+[05/19/2024-13:03:01] [TRT] [I] Skipping tactic 0xb5f710b331ba8377 due to exception an illegal memory access was encountered
+[05/19/2024-13:03:01] [TRT] [I] Skipping tactic 0x748f926574b7bdc4 due to exception an illegal memory access was encountered
+[05/19/2024-13:03:01] [TRT] [I] Skipping tactic 0xb86b920539eb9c79 due to exception an illegal memory access was encountered
+[05/19/2024-13:03:01] [TRT] [I] Skipping tactic 0xdf7e1bd6a496d667 due to exception an illegal memory access was encountered
+[05/19/2024-13:03:01] [TRT] [I] Skipping tactic 0x5bd8221bd57baf93 due to exception an illegal memory access was encountered
+[05/19/2024-13:03:01] [TRT] [I] Skipping tactic 0x8141573686849b61 due to exception an illegal memory access was encountered
+[05/19/2024-13:03:01] [TRT] [I] Skipping tactic 0x33a5c6dd086942c1 due to exception an illegal memory access was encountered
+[05/19/2024-13:03:01] [TRT] [I] Skipping tactic 0x60b880e28fee7a0c due to exception an illegal memory access was encountered
+[05/19/2024-13:03:01] [TRT] [I] Skipping tactic 0x6986b0c6a136276e due to exception an illegal memory access was encountered
+[05/19/2024-13:03:01] [TRT] [I] Skipping tactic 0xcf64a2ae51bf6b36 due to exception an illegal memory access was encountered
+[05/19/2024-13:03:01] [TRT] [I] Skipping tactic 0xe742f4598442d2f1 due to exception an illegal memory access was encountered
+[05/19/2024-13:03:01] [TRT] [I] Skipping tactic 0xa71946688cad8664 due to exception an illegal memory access was encountered
+[05/19/2024-13:03:01] [TRT] [I] Skipping tactic 0x3f2b14dec582741e due to exception an illegal memory access was encountered
+[05/19/2024-13:03:01] [TRT] [W] GPU error during getBestTactic: res3a_branch1 : an illegal memory access was encountered
+[05/19/2024-13:03:01] [TRT] [W] GPU error during getBestTactic: res3a_branch2a + res3a_branch2a_relu : an illegal memory access was encountered
+[05/19/2024-13:03:01] [TRT] [W] GPU error during getBestTactic: res3a_branch2a + res3a_branch2a_relu : an illegal memory access was encountered
+[05/19/2024-13:03:01] [TRT] [W] GPU error during getBestTactic: res3a_branch2a + res3a_branch2a_relu : an illegal memory access was encountered
+[05/19/2024-13:03:01] [TRT] [W] GPU error during getBestTactic: res3a_branch2a + res3a_branch2a_relu : an illegal memory access was encountered
+[05/19/2024-13:03:01] [TRT] [W] GPU error during getBestTactic: res3a_branch2a + res3a_branch2a_relu : an illegal memory access was encountered
+[05/19/2024-13:03:01] [TRT] [W] GPU error during getBestTactic: res3a_branch2a + res3a_branch2a_relu : an illegal memory access was encountered
+[05/19/2024-13:03:01] [TRT] [W] GPU error during getBestTactic: res3a_branch2a + res3a_branch2a_relu : an illegal memory access was encountered
+[05/19/2024-13:03:01] [TRT] [W] GPU error during getBestTactic: res3a_branch2a + res3a_branch2a_relu : an illegal memory access was encountered
+[05/19/2024-13:03:01] [TRT] [W] GPU error during getBestTactic: res3a_branch2a + res3a_branch2a_relu : an illegal memory access was encountered
+[05/19/2024-13:03:01] [TRT] [E] 10: Could not find any implementation for node res3a_branch2a + res3a_branch2a_relu.
+[05/19/2024-13:03:01] [TRT] [E] 1: [cudaResources.cpp::~ScopedCudaStream::47] Error Code 1: Cuda Runtime (an illegal memory access was encountered)
+[05/19/2024-13:03:01] [TRT] [E] 10: [optimizer.cpp::computeCosts::4014] Error Code 10: Internal Error (Could not find any implementation for node res3a_branch2a + res3a_branch2a_relu.)
+[05/19/2024-13:03:03] [TRT] [I] [MemUsageChange] Init CUDA: CPU +2, GPU +0, now: CPU 44, GPU 480 (MiB)
+[05/19/2024-13:03:11] [TRT] [I] [MemUsageChange] Init builder kernel library: CPU +1957, GPU +346, now: CPU 2106, GPU 826 (MiB)
+[05/19/2024-13:03:11] [TRT] [I] No importer registered for op: RnRes2FullFusion_TRT. Attempting to import as plugin.
+[05/19/2024-13:03:11] [TRT] [I] Searching for plugin: RnRes2FullFusion_TRT, plugin_version: 1, plugin_namespace: 
+[05/19/2024-13:03:11] [TRT] [I] Successfully created plugin: RnRes2FullFusion_TRT
+[05/19/2024-13:03:11] [TRT] [I] No importer registered for op: SmallTileGEMM_TRT. Attempting to import as plugin.
+[05/19/2024-13:03:11] [TRT] [I] Searching for plugin: SmallTileGEMM_TRT, plugin_version: 1, plugin_namespace: 
+[05/19/2024-13:03:11] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBias not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/19/2024-13:03:11] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasRelu not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/19/2024-13:03:11] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasGelu not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/19/2024-13:03:11] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasBeta not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/19/2024-13:03:11] [TRT] [I] Successfully created plugin: SmallTileGEMM_TRT
+[05/19/2024-13:03:11] [TRT] [I] No importer registered for op: SmallTileGEMM_TRT. Attempting to import as plugin.
+[05/19/2024-13:03:11] [TRT] [I] Searching for plugin: SmallTileGEMM_TRT, plugin_version: 1, plugin_namespace: 
+[05/19/2024-13:03:11] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBias not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/19/2024-13:03:11] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasRelu not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/19/2024-13:03:11] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasGelu not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/19/2024-13:03:11] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasBeta not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/19/2024-13:03:11] [TRT] [I] Successfully created plugin: SmallTileGEMM_TRT
+[05/19/2024-13:03:11] [TRT] [I] No importer registered for op: SmallTileGEMM_TRT. Attempting to import as plugin.
+[05/19/2024-13:03:11] [TRT] [I] Searching for plugin: SmallTileGEMM_TRT, plugin_version: 1, plugin_namespace: 
+[05/19/2024-13:03:11] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBias not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/19/2024-13:03:11] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasRelu not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/19/2024-13:03:11] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasGelu not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/19/2024-13:03:11] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasBeta not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/19/2024-13:03:11] [TRT] [I] Successfully created plugin: SmallTileGEMM_TRT
+[05/19/2024-13:03:11] [TRT] [I] No importer registered for op: SmallTileGEMM_TRT. Attempting to import as plugin.
+[05/19/2024-13:03:11] [TRT] [I] Searching for plugin: SmallTileGEMM_TRT, plugin_version: 1, plugin_namespace: 
+[05/19/2024-13:03:11] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBias not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/19/2024-13:03:11] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasRelu not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/19/2024-13:03:11] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasGelu not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/19/2024-13:03:11] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasBeta not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/19/2024-13:03:11] [TRT] [I] Successfully created plugin: SmallTileGEMM_TRT
+[05/19/2024-13:03:11] [TRT] [I] No importer registered for op: SmallTileGEMM_TRT. Attempting to import as plugin.
+[05/19/2024-13:03:11] [TRT] [I] Searching for plugin: SmallTileGEMM_TRT, plugin_version: 1, plugin_namespace: 
+[05/19/2024-13:03:11] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBias not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/19/2024-13:03:11] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasRelu not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/19/2024-13:03:11] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasGelu not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/19/2024-13:03:11] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasBeta not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/19/2024-13:03:11] [TRT] [I] Successfully created plugin: SmallTileGEMM_TRT
+[05/19/2024-13:03:11] [TRT] [I] No importer registered for op: SmallTileGEMM_TRT. Attempting to import as plugin.
+[05/19/2024-13:03:11] [TRT] [I] Searching for plugin: SmallTileGEMM_TRT, plugin_version: 1, plugin_namespace: 
+[05/19/2024-13:03:11] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBias not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/19/2024-13:03:11] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasRelu not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/19/2024-13:03:11] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasGelu not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/19/2024-13:03:11] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasBeta not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/19/2024-13:03:11] [TRT] [I] Successfully created plugin: SmallTileGEMM_TRT
+[05/19/2024-13:03:11] [TRT] [I] No importer registered for op: SmallTileGEMM_TRT. Attempting to import as plugin.
+[05/19/2024-13:03:11] [TRT] [I] Searching for plugin: SmallTileGEMM_TRT, plugin_version: 1, plugin_namespace: 
+[05/19/2024-13:03:11] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBias not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/19/2024-13:03:11] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasRelu not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/19/2024-13:03:11] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasGelu not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/19/2024-13:03:11] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasBeta not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/19/2024-13:03:11] [TRT] [I] Successfully created plugin: SmallTileGEMM_TRT
+[05/19/2024-13:03:11] [TRT] [I] No importer registered for op: SmallTileGEMM_TRT. Attempting to import as plugin.
+[05/19/2024-13:03:11] [TRT] [I] Searching for plugin: SmallTileGEMM_TRT, plugin_version: 1, plugin_namespace: 
+[05/19/2024-13:03:11] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBias not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/19/2024-13:03:11] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasRelu not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/19/2024-13:03:11] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasGelu not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/19/2024-13:03:11] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasBeta not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/19/2024-13:03:11] [TRT] [I] Successfully created plugin: SmallTileGEMM_TRT
+[05/19/2024-13:03:11] [TRT] [I] No importer registered for op: SmallTileGEMM_TRT. Attempting to import as plugin.
+[05/19/2024-13:03:11] [TRT] [I] Searching for plugin: SmallTileGEMM_TRT, plugin_version: 1, plugin_namespace: 
+[05/19/2024-13:03:11] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBias not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/19/2024-13:03:11] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasRelu not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/19/2024-13:03:11] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasGelu not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/19/2024-13:03:11] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasBeta not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/19/2024-13:03:12] [TRT] [I] Successfully created plugin: SmallTileGEMM_TRT
+[05/19/2024-13:03:12] [TRT] [I] No importer registered for op: SmallTileGEMM_TRT. Attempting to import as plugin.
+[05/19/2024-13:03:12] [TRT] [I] Searching for plugin: SmallTileGEMM_TRT, plugin_version: 1, plugin_namespace: 
+[05/19/2024-13:03:12] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBias not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/19/2024-13:03:12] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasRelu not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/19/2024-13:03:12] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasGelu not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/19/2024-13:03:12] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasBeta not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/19/2024-13:03:12] [TRT] [I] Successfully created plugin: SmallTileGEMM_TRT
+[05/19/2024-13:03:12] [TRT] [I] No importer registered for op: SmallTileGEMM_TRT. Attempting to import as plugin.
+[05/19/2024-13:03:12] [TRT] [I] Searching for plugin: SmallTileGEMM_TRT, plugin_version: 1, plugin_namespace: 
+[05/19/2024-13:03:12] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBias not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/19/2024-13:03:12] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasRelu not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/19/2024-13:03:12] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasGelu not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/19/2024-13:03:12] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasBeta not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/19/2024-13:03:12] [TRT] [I] Successfully created plugin: SmallTileGEMM_TRT
+[05/19/2024-13:03:12] [TRT] [I] No importer registered for op: SmallTileGEMM_TRT. Attempting to import as plugin.
+[05/19/2024-13:03:12] [TRT] [I] Searching for plugin: SmallTileGEMM_TRT, plugin_version: 1, plugin_namespace: 
+[05/19/2024-13:03:12] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBias not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/19/2024-13:03:12] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasRelu not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/19/2024-13:03:12] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasGelu not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/19/2024-13:03:12] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasBeta not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/19/2024-13:03:12] [TRT] [I] Successfully created plugin: SmallTileGEMM_TRT
+[05/19/2024-13:03:12] [TRT] [I] No importer registered for op: SmallTileGEMM_TRT. Attempting to import as plugin.
+[05/19/2024-13:03:12] [TRT] [I] Searching for plugin: SmallTileGEMM_TRT, plugin_version: 1, plugin_namespace: 
+[05/19/2024-13:03:12] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBias not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/19/2024-13:03:12] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasRelu not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/19/2024-13:03:12] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasGelu not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/19/2024-13:03:12] [TRT] [W] builtin_op_importers.cpp:5421: Attribute epilogueScaleBiasBeta not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/19/2024-13:03:12] [TRT] [I] Successfully created plugin: SmallTileGEMM_TRT
+[05/19/2024-13:03:12] [TRT] [I] Graph optimization time: 0.00118982 seconds.
+[05/19/2024-13:03:12] [TRT] [I] Reading Calibration Cache for calibrator: EntropyCalibration2
+[05/19/2024-13:03:12] [TRT] [I] Generated calibration scales using calibration cache. Make sure that calibration cache has latest scales.
+[05/19/2024-13:03:12] [TRT] [I] To regenerate calibration cache, please delete the existing one. TensorRT will generate a new calibration cache.
+[05/19/2024-13:03:12] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 75) [TopK]_output_1, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/19/2024-13:03:12] [TRT] [W] Missing scale and zero-point for tensor topk_layer_output_index_i64, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/19/2024-13:03:12] [TRT] [W] Missing scale and zero-point for tensor topk_layer_output_index, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/19/2024-13:03:12] [TRT] [I] Graph optimization time: 0.00345552 seconds.
+[05/19/2024-13:03:12] [TRT] [I] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +7, GPU +8, now: CPU 2616, GPU 836 (MiB)
+[05/19/2024-13:03:12] [TRT] [I] [MemUsageChange] Init cuDNN: CPU +1, GPU +10, now: CPU 2617, GPU 846 (MiB)
+[05/19/2024-13:03:12] [TRT] [I] Local timing cache in use. Profiling results in this builder pass will not be stored.
+[05/19/2024-13:03:18] [TRT] [W] Tactic Device request: 36750MB Available: 24061MB. Device memory is insufficient to use tactic.
+[05/19/2024-13:03:18] [TRT] [I] Skipping tactic 0 due to insufficient memory on requested size of 36750 detected for tactic 0xc9f2c7cbb5759197.
+[05/19/2024-13:03:21] [TRT] [I] Skipping tactic 0x2468d082d0ff7c9a due to exception an illegal memory access was encountered
+[05/19/2024-13:03:21] [TRT] [I] Skipping tactic 0x271b998fe31732ef due to exception an illegal memory access was encountered
+[05/19/2024-13:03:21] [TRT] [I] Skipping tactic 0xcd229658c16b33cd due to exception an illegal memory access was encountered
+[05/19/2024-13:03:21] [TRT] [I] Skipping tactic 0xa2f15b0a75b7dcec due to exception an illegal memory access was encountered
+[05/19/2024-13:03:21] [TRT] [I] Skipping tactic 0x445983715412fbda due to exception an illegal memory access was encountered
+[05/19/2024-13:03:21] [TRT] [I] Skipping tactic 0x991db9fd58152c33 due to exception an illegal memory access was encountered
+[05/19/2024-13:03:21] [TRT] [I] Skipping tactic 0x84942841d92b0552 due to exception an illegal memory access was encountered
+[05/19/2024-13:03:21] [TRT] [I] Skipping tactic 0x844ea9c00f711f19 due to exception an illegal memory access was encountered
+[05/19/2024-13:03:21] [TRT] [I] Skipping tactic 0xdc1f355deb032b87 due to exception an illegal memory access was encountered
+[05/19/2024-13:03:21] [TRT] [I] Skipping tactic 0x5f1a472d416ff35e due to exception an illegal memory access was encountered
+[05/19/2024-13:03:21] [TRT] [I] Skipping tactic 0xb5f710b331ba8377 due to exception an illegal memory access was encountered
+[05/19/2024-13:03:22] [TRT] [I] Skipping tactic 0x748f926574b7bdc4 due to exception an illegal memory access was encountered
+[05/19/2024-13:03:22] [TRT] [I] Skipping tactic 0xb86b920539eb9c79 due to exception an illegal memory access was encountered
+[05/19/2024-13:03:22] [TRT] [I] Skipping tactic 0xdf7e1bd6a496d667 due to exception an illegal memory access was encountered
+[05/19/2024-13:03:22] [TRT] [I] Skipping tactic 0x5bd8221bd57baf93 due to exception an illegal memory access was encountered
+[05/19/2024-13:03:22] [TRT] [I] Skipping tactic 0x8141573686849b61 due to exception an illegal memory access was encountered
+[05/19/2024-13:03:22] [TRT] [I] Skipping tactic 0x33a5c6dd086942c1 due to exception an illegal memory access was encountered
+[05/19/2024-13:03:22] [TRT] [I] Skipping tactic 0x60b880e28fee7a0c due to exception an illegal memory access was encountered
+[05/19/2024-13:03:22] [TRT] [I] Skipping tactic 0x6986b0c6a136276e due to exception an illegal memory access was encountered
+[05/19/2024-13:03:22] [TRT] [I] Skipping tactic 0xcf64a2ae51bf6b36 due to exception an illegal memory access was encountered
+[05/19/2024-13:03:22] [TRT] [I] Skipping tactic 0xe742f4598442d2f1 due to exception an illegal memory access was encountered
+[05/19/2024-13:03:22] [TRT] [I] Skipping tactic 0xa71946688cad8664 due to exception an illegal memory access was encountered
+[05/19/2024-13:03:22] [TRT] [I] Skipping tactic 0x3f2b14dec582741e due to exception an illegal memory access was encountered
+[05/19/2024-13:03:22] [TRT] [W] GPU error during getBestTactic: res3a_branch1 : an illegal memory access was encountered
+[05/19/2024-13:03:22] [TRT] [W] GPU error during getBestTactic: res3a_branch2a + res3a_branch2a_relu : an illegal memory access was encountered
+[05/19/2024-13:03:22] [TRT] [W] GPU error during getBestTactic: res3a_branch2a + res3a_branch2a_relu : an illegal memory access was encountered
+[05/19/2024-13:03:22] [TRT] [W] GPU error during getBestTactic: res3a_branch2a + res3a_branch2a_relu : an illegal memory access was encountered
+[05/19/2024-13:03:22] [TRT] [W] GPU error during getBestTactic: res3a_branch2a + res3a_branch2a_relu : an illegal memory access was encountered
+[05/19/2024-13:03:22] [TRT] [W] GPU error during getBestTactic: res3a_branch2a + res3a_branch2a_relu : an illegal memory access was encountered
+[05/19/2024-13:03:22] [TRT] [W] GPU error during getBestTactic: res3a_branch2a + res3a_branch2a_relu : an illegal memory access was encountered
+[05/19/2024-13:03:22] [TRT] [W] GPU error during getBestTactic: res3a_branch2a + res3a_branch2a_relu : an illegal memory access was encountered
+[05/19/2024-13:03:22] [TRT] [W] GPU error during getBestTactic: res3a_branch2a + res3a_branch2a_relu : an illegal memory access was encountered
+[05/19/2024-13:03:22] [TRT] [W] GPU error during getBestTactic: res3a_branch2a + res3a_branch2a_relu : an illegal memory access was encountered
+[05/19/2024-13:03:22] [TRT] [E] 10: Could not find any implementation for node res3a_branch2a + res3a_branch2a_relu.
+[05/19/2024-13:03:22] [TRT] [E] 1: [cudaResources.cpp::~ScopedCudaStream::47] Error Code 1: Cuda Runtime (an illegal memory access was encountered)
+[05/19/2024-13:03:22] [TRT] [E] 10: [optimizer.cpp::computeCosts::4014] Error Code 10: Internal Error (Could not find any implementation for node res3a_branch2a + res3a_branch2a_relu.)
+make[1]: Leaving directory '/work'

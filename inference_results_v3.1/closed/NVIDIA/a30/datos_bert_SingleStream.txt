@@ -1,0 +1,82 @@
+Modelo    SingleStream   Batch     Exp. ns stream Valido         Percentil 90   Target         qps_w          qps_w_o                       
+bert      SingleStream   1         500000         VALID          2290147        2000           497.00         497.85                   
+bert      SingleStream   1         1000000                                                                                             
+bert      SingleStream   1         1500000        VALID          2328540        666.667        485.60         486.42                   
+bert      SingleStream   1         2000000        VALID          2319963        500            486.93         487.74                   
+bert      SingleStream   1         2500000        VALID          2325278        400            486.15         486.97                   
+bert      SingleStream   1         3000000        VALID          2332442        333.333        485.47         486.29                   
+bert      SingleStream   1         3500000        VALID          2336972        285.714        483.85         484.65                   
+bert      SingleStream   1         4000000        VALID          2328387        250            485.48         486.30                   
+bert      SingleStream   4         2000000                                                                                             
+bert      SingleStream   11        1000000        VALID          3891583        1000           293.05         293.35                   
+bert      SingleStream   20        1000000                                                                                             
+bert      SingleStream   21        1000000        VALID          3661581        1000           314.89         315.24                   
+bert      SingleStream   31        1000000        VALID          3949189        1000           289.05         289.34                   
+bert      SingleStream   41        1000000        VALID          3695970        1000           310.51         310.85                   
+bert      SingleStream   61        1000000        VALID          3962143        1000           285.90         286.19                   
+bert      SingleStream   71        1000000        VALID          3995376        1000           282.88         283.16                   
+bert      SingleStream   81        1000000        VALID          4008907        1000           284.40         284.69                   
+bert      SingleStream   91        1000000        VALID          4104125        1000           281.95         282.23                   
+bert      SingleStream   101       1000000        VALID          4008075        1000           280.25         280.53                   
+bert      SingleStream   111       1000000        VALID          4066322        1000           278.76         279.04                   
+bert      SingleStream   121       1000000        VALID          4151238        1000           278.60         278.87                   
+bert      SingleStream   131       1000000        VALID          4223361        1000           275.21         275.47                   
+bert      SingleStream   141       1000000        VALID          4057582        1000           275.34         275.62                   
+bert      SingleStream   151       1000000        VALID          4041720        1000           275.94         276.21                   
+bert      SingleStream   161       1000000        VALID          4084308        1000           274.93         275.19                   
+bert      SingleStream   171       1000000        VALID          4139673        1000           273.27         273.54                   
+bert      SingleStream   181       1000000        VALID          4178020        1000           274.05         274.31                   
+bert      SingleStream   191       1000000        VALID          4242581        1000           271.99         272.25                   
+bert      SingleStream   201       1000000        VALID          4275822        1000           270.87         271.13                   
+bert      SingleStream   211       1000000        VALID          4295396        1000           270.45         270.71                   
+bert      SingleStream   221       1000000        VALID          4350252        1000           269.60         269.86                   
+bert      SingleStream   231       1000000        VALID          4416073        1000           269.49         269.75                   
+bert      SingleStream   241       1000000        VALID          4398550        1000           270.40         270.65                   
+bert      SingleStream   251       1000000        VALID          4471402        1000           267.85         268.11                   
+bert      SingleStream   261       1000000        VALID          4503684        1000           264.83         265.09                   
+bert      SingleStream   271       1000000        VALID          4512068        1000           265.85         266.10                   
+bert      SingleStream   281       1000000        VALID          4116124        1000           263.73         263.97                   
+bert      SingleStream   291       1000000        VALID          4131903        1000           262.57         262.82                   
+bert      SingleStream   301       1000000        VALID          4189421        1000           259.75         259.99                   
+bert      SingleStream   311       1000000        VALID          4217435        1000           258.17         258.40                   
+bert      SingleStream   321       1000000        VALID          4231728        1000           256.66         256.89                   
+bert      SingleStream   331       1000000        VALID          4247779        1000           255.11         255.34                   
+bert      SingleStream   341       1000000        VALID          4302844        1000           251.71         251.94                   
+bert      SingleStream   351       1000000        VALID          4323927        1000           250.11         250.33                   
+bert      SingleStream   361       1000000        VALID          4338874        1000           248.75         248.96                   
+bert      SingleStream   371       1000000        VALID          4374278        1000           246.93         247.15                   
+bert      SingleStream   381       1000000        VALID          4376782        1000           247.00         247.22                   
+bert      SingleStream   391       1000000        VALID          4401887        1000           245.68         245.90                   
+bert      SingleStream   401       1000000        VALID          4467605        1000           242.87         243.08                   
+bert      SingleStream   411       1000000        VALID          4484002        1000           241.01         241.22                   
+bert      SingleStream   421       1000000        VALID          4477288        1000           239.79         239.99                   
+bert      SingleStream   431       1000000        VALID          4514896        1000           237.84         238.04                   
+bert      SingleStream   441       1000000        VALID          4494778        1000           237.82         238.02                   
+bert      SingleStream   451       1000000        VALID          4593361        1000           233.47         233.66                   
+bert      SingleStream   461       1000000        VALID          4573812        1000           232.28         232.48                   
+bert      SingleStream   471       1000000        VALID          4636241        1000           228.86         229.05                   
+bert      SingleStream   481       1000000        VALID          4662682        1000           227.35         227.54                   
+bert      SingleStream   491       1000000        VALID          4662709        1000           226.41         226.59                   
+bert      SingleStream   500       1000000        VALID          4676589        1000           226.09         226.28                   
+bert      SingleStream   550       1000000        VALID          4833942        1000           215.20         215.36                   
+bert      SingleStream   600       1000000        VALID          4965021        1000           206.73         206.88                   
+bert      SingleStream   601       1000000        VALID          28923204       1000           36.61          37.28                    
+bert      SingleStream   611       1000000                                                                                             
+bert      SingleStream   650       1000000        VALID          5063110        1000           199.23         199.37                   
+bert      SingleStream   700       1000000        VALID          5228382        1000           192.10         192.23                   
+bert      SingleStream   750       1000000        VALID          5438498        1000           185.12         185.24                   
+bert      SingleStream   800       1000000        VALID          5710848        1000           176.36         176.47                   
+bert      SingleStream   850       1000000        VALID          5892049        1000           170.81         170.91                   
+bert      SingleStream   900       1000000        VALID          6105738        1000           165.02         165.12                   
+bert      SingleStream   950       1000000        VALID          6325052        1000           159.34         159.43                   
+bert      SingleStream   1000      500000         VALID          6538496        2000           154.62         154.71                   
+bert      SingleStream   1000      1000000                                                                                             
+bert      SingleStream   1000      1500000        VALID          6561210        666.667        154.29         154.37                   
+bert      SingleStream   1000      2000000                                                                                             
+bert      SingleStream   1000      2500000        VALID          6557830        400            154.37         154.45                   
+bert      SingleStream   1000      3000000                                                                                             
+bert      SingleStream   2000      1000000                                                                                             
+bert      SingleStream   2000      2000000                                                                                             
+bert      SingleStream   3000      1000000                                                                                             
+bert      SingleStream   3000      2000000                                                                                             
+bert      SingleStream   4000      1000000                                                                                             

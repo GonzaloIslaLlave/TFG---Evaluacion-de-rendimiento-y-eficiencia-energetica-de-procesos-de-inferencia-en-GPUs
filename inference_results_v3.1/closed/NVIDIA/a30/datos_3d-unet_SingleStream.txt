@@ -1,0 +1,45 @@
+Modelo    SingleStream   Batch     Exp. ns stream Valido         Percentil 90   Target         qps_w          qps_w_o                       
+3d-unet   SingleStream   1         50000000                                                                                            
+3d-unet   SingleStream   1         100000000      VALID          1240105855     10             1.57           1.57                     
+3d-unet   SingleStream   1         150000000      VALID          1241007498     6.66667        1.57           1.56                     
+3d-unet   SingleStream   1         200000000      VALID          1228501792     5              1.58           1.58                     
+3d-unet   SingleStream   1         250000000      VALID          1223762707     4              1.59           1.59                     
+3d-unet   SingleStream   1         300000000      VALID          1227063635     3.33333        1.59           1.58                     
+3d-unet   SingleStream   1         350000000      VALID          1218384630     2.85714        1.60           1.59                     
+3d-unet   SingleStream   1         400000000      VALID          1219322715     2.5            1.59           1.59                     
+3d-unet   SingleStream   1         450000000      VALID          1222694321     2.22222        1.59           1.59                     
+3d-unet   SingleStream   1         500000000                                                                                           
+3d-unet   SingleStream   1         5256000000                                                                                          
+3d-unet   SingleStream   2         50000000                                                                                            
+3d-unet   SingleStream   2         500000000                                                                                           
+3d-unet   SingleStream   3         50000000                                                                                            
+3d-unet   SingleStream   3         100000000      VALID          1198255464     10             1.62           1.62                     
+3d-unet   SingleStream   3         150000000      VALID          1188523353     6.66667        1.64           1.64                     
+3d-unet   SingleStream   3         200000000      VALID          1190069772     5              1.63           1.64                     
+3d-unet   SingleStream   3         250000000      VALID          1183778545     4              1.64           1.64                     
+3d-unet   SingleStream   3         300000000      VALID          1195051259     3.33333        1.63           1.63                     
+3d-unet   SingleStream   3         350000000      VALID          1200284536     2.85714        1.63           1.62                     
+3d-unet   SingleStream   3         400000000      VALID          1185512168     2.5            1.64           1.64                     
+3d-unet   SingleStream   3         450000000      VALID          1182157497     2.22222        1.64           1.64                     
+3d-unet   SingleStream   3         500000000                                                                                           
+3d-unet   SingleStream   3         5256000000                                                                                          
+3d-unet   SingleStream   4         50000000                                                                                            
+3d-unet   SingleStream   4         500000000                                                                                           
+3d-unet   SingleStream   5         50000000                                                                                            
+3d-unet   SingleStream   5         100000000      VALID          1174899102     10             1.65           1.65                     
+3d-unet   SingleStream   5         150000000      VALID          1168328791     6.66667        1.66           1.66                     
+3d-unet   SingleStream   5         200000000      VALID          1180673864     5              1.64           1.65                     
+3d-unet   SingleStream   5         250000000      VALID          1185598985     4              1.64           1.64                     
+3d-unet   SingleStream   5         300000000      VALID          1181159924     3.33333        1.65           1.64                     
+3d-unet   SingleStream   5         350000000      VALID          1183530699     2.85714        1.65           1.64                     
+3d-unet   SingleStream   5         400000000      VALID          1190315193     2.5            1.63           1.63                     
+3d-unet   SingleStream   5         450000000      VALID          1182310252     2.22222        1.64           1.64                     
+3d-unet   SingleStream   5         500000000                                                                                           
+3d-unet   SingleStream   5         5256000000                                                                                          
+3d-unet   SingleStream   6         50000000                                                                                            
+3d-unet   SingleStream   6         500000000                                                                                           
+3d-unet   SingleStream   7         50000000                                                                                            
+3d-unet   SingleStream   7         5256000000                                                                                          
+3d-unet   SingleStream   9         5256000000                                                                                          
+3d-unet   SingleStream   11        5256000000                                                                                          
+3d-unet   SingleStream   13        5256000000                                                                                          

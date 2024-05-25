@@ -1,0 +1,1083 @@
+$ARCH is [aarch64]
+$SYSTEM_NAME is [KnownSystem.Orin]
+$IS_SOC is [1]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [aarch64]
+$SYSTEM_NAME is [KnownSystem.Orin]
+$IS_SOC is [1]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [aarch64]
+$SYSTEM_NAME is [KnownSystem.Orin]
+$IS_SOC is [1]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [aarch64]
+$SYSTEM_NAME is [KnownSystem.Orin]
+$IS_SOC is [1]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [aarch64]
+$SYSTEM_NAME is [KnownSystem.Orin]
+$IS_SOC is [1]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [aarch64]
+$SYSTEM_NAME is [KnownSystem.Orin]
+$IS_SOC is [1]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [aarch64]
+$SYSTEM_NAME is [KnownSystem.Orin]
+$IS_SOC is [1]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+make[1]: Entering directory '/work'
+$ARCH is [aarch64]
+$SYSTEM_NAME is [KnownSystem.Orin]
+$IS_SOC is [1]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [aarch64]
+$SYSTEM_NAME is [KnownSystem.Orin]
+$IS_SOC is [1]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [aarch64]
+$SYSTEM_NAME is [KnownSystem.Orin]
+$IS_SOC is [1]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [aarch64]
+$SYSTEM_NAME is [KnownSystem.Orin]
+$IS_SOC is [1]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [aarch64]
+$SYSTEM_NAME is [KnownSystem.Orin]
+$IS_SOC is [1]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [aarch64]
+$SYSTEM_NAME is [KnownSystem.Orin]
+$IS_SOC is [1]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [aarch64]
+$SYSTEM_NAME is [KnownSystem.Orin]
+$IS_SOC is [1]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+[05/23/2024-00:05:08] [TRT] [I] [MemUsageChange] Init CUDA: CPU +215, GPU +0, now: CPU 346, GPU 14711 (MiB)
+[05/23/2024-00:05:11] [TRT] [I] [MemUsageChange] Init builder kernel library: CPU +302, GPU +413, now: CPU 671, GPU 15144 (MiB)
+[05/23/2024-00:05:11] [TRT] [W] DLA requests all profiles have same min, max, and opt value. All dla layers are falling back to GPU
+[05/23/2024-00:05:11] [TRT] [I] ---------- Layers Running on DLA ----------
+[05/23/2024-00:05:11] [TRT] [I] ---------- Layers Running on GPU ----------
+[05/23/2024-00:05:11] [TRT] [I] [GpuLayer] COPY: Reformatting CopyNode for Network Input length
+[05/23/2024-00:05:11] [TRT] [I] [GpuLayer] CONSTANT: (Unnamed Layer* 0) [Constant]
+[05/23/2024-00:05:11] [TRT] [I] [GpuLayer] CONSTANT: (Unnamed Layer* 2) [Constant]
+[05/23/2024-00:05:11] [TRT] [I] [GpuLayer] RNN_V2: encoder_pre_rnn
+[05/23/2024-00:05:11] [TRT] [I] [GpuLayer] ELEMENTWISE: (Unnamed Layer* 1) [ElementWise]
+[05/23/2024-00:05:11] [TRT] [I] [GpuLayer] SHUFFLE: encoder_reshape
+[05/23/2024-00:05:11] [TRT] [I] [GpuLayer] ELEMENTWISE: (Unnamed Layer* 3) [ElementWise]
+[05/23/2024-00:05:11] [TRT] [I] [GpuLayer] RNN_V2: encoder_post_rnn
+[05/23/2024-00:05:13] [TRT] [I] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +534, GPU +829, now: CPU 1542, GPU 16292 (MiB)
+[05/23/2024-00:05:13] [TRT] [I] [MemUsageChange] Init cuDNN: CPU +83, GPU +125, now: CPU 1625, GPU 16417 (MiB)
+[05/23/2024-00:05:13] [TRT] [I] Local timing cache in use. Profiling results in this builder pass will not be stored.
+[05/23/2024-00:05:13] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:13] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:13] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:13] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:13] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:13] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:13] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:13] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:13] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:13] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:13] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:13] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:13] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:13] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:13] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:13] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:13] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:13] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:13] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:13] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:13] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:13] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:13] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:13] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:13] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:13] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:13] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:13] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:13] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:13] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:13] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:13] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:13] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:13] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:13] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:13] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:13] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:13] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:13] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:13] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:13] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:13] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:13] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:13] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:13] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:13] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:13] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:13] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:13] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:13] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:13] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:13] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:13] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:13] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:13] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:13] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:13] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:13] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:13] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:13] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:13] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:13] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:13] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:13] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:13] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:13] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:13] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:13] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:13] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:13] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:13] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:13] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:13] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:13] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:13] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:13] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:13] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:13] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:13] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:13] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:13] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:13] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:13] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:13] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:13] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:13] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:13] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:13] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:13] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:13] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:13] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:13] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:13] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:13] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:13] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:13] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:13] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:13] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:13] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:13] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:13] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:13] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:13] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:14] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:15] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:15] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:15] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:15] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:15] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:15] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:15] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:15] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:15] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:15] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:15] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:15] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:15] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:15] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:15] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:15] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:15] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:15] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:15] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:15] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:15] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:15] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:15] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:15] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:15] [TRT] [I] Total Activation Memory: 4296017920
+[05/23/2024-00:05:15] [TRT] [I] Detected 6 inputs and 5 output network tensors.
+[05/23/2024-00:05:16] [TRT] [I] Total Host Persistent Memory: 3680
+[05/23/2024-00:05:16] [TRT] [I] Total Device Persistent Memory: 4096
+[05/23/2024-00:05:16] [TRT] [I] Total Scratch Memory: 62637360
+[05/23/2024-00:05:16] [TRT] [I] [MemUsageStats] Peak memory usage of TRT CPU/GPU memory allocators: CPU 138 MiB, GPU 250 MiB
+[05/23/2024-00:05:16] [TRT] [I] [BlockAssignment] Started assigning block shifts. This will take 7 steps to complete.
+[05/23/2024-00:05:16] [TRT] [I] [BlockAssignment] Algorithm ShiftNTopDown took 0.046656ms to assign 4 blocks to 7 nodes requiring 63687168 bytes.
+[05/23/2024-00:05:16] [TRT] [I] Total Activation Memory: 63687168
+[05/23/2024-00:05:16] [TRT] [I] [MemUsageChange] Init cuDNN: CPU +0, GPU +0, now: CPU 1779, GPU 16776 (MiB)
+[05/23/2024-00:05:16] [TRT] [W] TensorRT encountered issues when converting weights between types and that could affect accuracy.
+[05/23/2024-00:05:16] [TRT] [W] If this is not the desired behavior, please modify the weights or retrain with regularization to adjust the magnitude of the weights.
+[05/23/2024-00:05:16] [TRT] [W] Check verbose logs for the list of affected weights.
+[05/23/2024-00:05:16] [TRT] [W] - 9 weights are affected by this issue: Detected subnormal FP16 values.
+[05/23/2024-00:05:16] [TRT] [W] - 5 weights are affected by this issue: Detected values less than smallest positive FP16 subnormal value and converted them to the FP16 minimum subnormalized value.
+[05/23/2024-00:05:16] [TRT] [I] [MemUsageChange] TensorRT-managed allocation in building engine: CPU +81, GPU +128, now: CPU 81, GPU 128 (MiB)
+[05/23/2024-00:05:16] [TRT] [I] The profiling verbosity was set to ProfilingVerbosity::kLAYER_NAMES_ONLY when the engine was built, so only the layer names will be returned. Rebuild the engine with ProfilingVerbosity::kDETAILED to get more verbose layer information.
+[05/23/2024-00:05:17] [TRT] [I] [MemUsageChange] Init CUDA: CPU +0, GPU +0, now: CPU 1697, GPU 16622 (MiB)
+[05/23/2024-00:05:17] [TRT] [W] DLA requests all profiles have same min, max, and opt value. All dla layers are falling back to GPU
+[05/23/2024-00:05:17] [TRT] [I] ---------- Layers Running on DLA ----------
+[05/23/2024-00:05:17] [TRT] [I] ---------- Layers Running on GPU ----------
+[05/23/2024-00:05:17] [TRT] [I] [GpuLayer] MYELIN: {ForeignNode[(Unnamed Layer* 0) [Constant]...decoder_embedding]}
+[05/23/2024-00:05:17] [TRT] [I] [GpuLayer] PLUGIN_V2: decoder_rnn
+[05/23/2024-00:05:17] [TRT] [I] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +0, now: CPU 1703, GPU 16622 (MiB)
+[05/23/2024-00:05:17] [TRT] [I] [MemUsageChange] Init cuDNN: CPU +0, GPU +0, now: CPU 1703, GPU 16622 (MiB)
+[05/23/2024-00:05:17] [TRT] [I] Local timing cache in use. Profiling results in this builder pass will not be stored.
+[05/23/2024-00:05:19] [TRT] [I] Total Activation Memory: 4294970368
+[05/23/2024-00:05:19] [TRT] [I] Detected 3 inputs and 3 output network tensors.
+[05/23/2024-00:05:19] [TRT] [I] Total Host Persistent Memory: 448
+[05/23/2024-00:05:19] [TRT] [I] Total Device Persistent Memory: 0
+[05/23/2024-00:05:19] [TRT] [I] Total Scratch Memory: 35840
+[05/23/2024-00:05:19] [TRT] [I] [MemUsageStats] Peak memory usage of TRT CPU/GPU memory allocators: CPU 138 MiB, GPU 250 MiB
+[05/23/2024-00:05:19] [TRT] [I] [BlockAssignment] Started assigning block shifts. This will take 4 steps to complete.
+[05/23/2024-00:05:19] [TRT] [I] [BlockAssignment] Algorithm ShiftNTopDown took 0.023552ms to assign 3 blocks to 4 nodes requiring 38912 bytes.
+[05/23/2024-00:05:19] [TRT] [I] Total Activation Memory: 38912
+[05/23/2024-00:05:19] [TRT] [I] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +0, now: CPU 1710, GPU 16622 (MiB)
+[05/23/2024-00:05:19] [TRT] [I] [MemUsageChange] Init cuDNN: CPU +0, GPU +0, now: CPU 1710, GPU 16622 (MiB)
+[05/23/2024-00:05:19] [TRT] [W] TensorRT encountered issues when converting weights between types and that could affect accuracy.
+[05/23/2024-00:05:19] [TRT] [W] If this is not the desired behavior, please modify the weights or retrain with regularization to adjust the magnitude of the weights.
+[05/23/2024-00:05:19] [TRT] [W] Check verbose logs for the list of affected weights.
+[05/23/2024-00:05:19] [TRT] [W] - 1 weights are affected by this issue: Detected subnormal FP16 values.
+[05/23/2024-00:05:19] [TRT] [I] [MemUsageChange] TensorRT-managed allocation in building engine: CPU +0, GPU +4, now: CPU 0, GPU 4 (MiB)
+[05/23/2024-00:05:19] [TRT] [I] The profiling verbosity was set to ProfilingVerbosity::kLAYER_NAMES_ONLY when the engine was built, so only the layer names will be returned. Rebuild the engine with ProfilingVerbosity::kDETAILED to get more verbose layer information.
+[05/23/2024-00:05:20] [TRT] [I] [MemUsageChange] Init CUDA: CPU +0, GPU +0, now: CPU 1710, GPU 16622 (MiB)
+[05/23/2024-00:05:20] [TRT] [W] DLA requests all profiles have same min, max, and opt value. All dla layers are falling back to GPU
+[05/23/2024-00:05:20] [TRT] [I] ---------- Layers Running on DLA ----------
+[05/23/2024-00:05:20] [TRT] [I] ---------- Layers Running on GPU ----------
+[05/23/2024-00:05:20] [TRT] [I] [GpuLayer] PLUGIN_V2: Select3
+[05/23/2024-00:05:20] [TRT] [I] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +0, now: CPU 1710, GPU 16622 (MiB)
+[05/23/2024-00:05:20] [TRT] [I] [MemUsageChange] Init cuDNN: CPU +0, GPU +0, now: CPU 1710, GPU 16622 (MiB)
+[05/23/2024-00:05:20] [TRT] [I] Local timing cache in use. Profiling results in this builder pass will not be stored.
+[05/23/2024-00:05:20] [TRT] [I] Total Activation Memory: 4294967296
+[05/23/2024-00:05:20] [TRT] [I] Detected 7 inputs and 3 output network tensors.
+[05/23/2024-00:05:20] [TRT] [I] Total Host Persistent Memory: 560
+[05/23/2024-00:05:20] [TRT] [I] Total Device Persistent Memory: 0
+[05/23/2024-00:05:20] [TRT] [I] Total Scratch Memory: 0
+[05/23/2024-00:05:20] [TRT] [I] [MemUsageStats] Peak memory usage of TRT CPU/GPU memory allocators: CPU 138 MiB, GPU 250 MiB
+[05/23/2024-00:05:20] [TRT] [I] Total Activation Memory: 0
+[05/23/2024-00:05:20] [TRT] [I] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +0, now: CPU 1710, GPU 16622 (MiB)
+[05/23/2024-00:05:20] [TRT] [I] [MemUsageChange] Init cuDNN: CPU +0, GPU +0, now: CPU 1710, GPU 16622 (MiB)
+[05/23/2024-00:05:20] [TRT] [I] [MemUsageChange] TensorRT-managed allocation in building engine: CPU +0, GPU +0, now: CPU 0, GPU 0 (MiB)
+[05/23/2024-00:05:20] [TRT] [I] The profiling verbosity was set to ProfilingVerbosity::kLAYER_NAMES_ONLY when the engine was built, so only the layer names will be returned. Rebuild the engine with ProfilingVerbosity::kDETAILED to get more verbose layer information.
+[05/23/2024-00:05:20] [TRT] [I] [MemUsageChange] Init CUDA: CPU +0, GPU +0, now: CPU 1710, GPU 16622 (MiB)
+[05/23/2024-00:05:20] [TRT] [W] DLA requests all profiles have same min, max, and opt value. All dla layers are falling back to GPU
+[05/23/2024-00:05:20] [TRT] [I] ---------- Layers Running on DLA ----------
+[05/23/2024-00:05:20] [TRT] [I] ---------- Layers Running on GPU ----------
+[05/23/2024-00:05:20] [TRT] [I] [GpuLayer] MYELIN: {ForeignNode[Igather joint cell]}
+[05/23/2024-00:05:20] [TRT] [I] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +0, now: CPU 1710, GPU 16622 (MiB)
+[05/23/2024-00:05:20] [TRT] [I] [MemUsageChange] Init cuDNN: CPU +0, GPU +0, now: CPU 1710, GPU 16622 (MiB)
+[05/23/2024-00:05:20] [TRT] [I] Local timing cache in use. Profiling results in this builder pass will not be stored.
+[05/23/2024-00:05:20] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:20] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:20] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:20] [TRT] [W] Myelin graph with multiple dynamic values may have poor performance if they differ. Dynamic values are: 
+[05/23/2024-00:05:20] [TRT] [W]  (# 0 (SHAPE t_coordinate))
+[05/23/2024-00:05:20] [TRT] [W]  (# 0 (SHAPE encoder_input))
+[05/23/2024-00:05:21] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:21] [TRT] [W] Myelin graph with multiple dynamic values may have poor performance if they differ. Dynamic values are: 
+[05/23/2024-00:05:21] [TRT] [W]  (# 0 (SHAPE t_coordinate))
+[05/23/2024-00:05:21] [TRT] [W]  (# 0 (SHAPE encoder_input))
+[05/23/2024-00:05:22] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:22] [TRT] [I] Total Activation Memory: 4294968320
+[05/23/2024-00:05:22] [TRT] [I] Detected 2 inputs and 1 output network tensors.
+[05/23/2024-00:05:22] [TRT] [W] Myelin graph with multiple dynamic values may have poor performance if they differ. Dynamic values are: 
+[05/23/2024-00:05:22] [TRT] [W]  (# 0 (SHAPE t_coordinate))
+[05/23/2024-00:05:22] [TRT] [W]  (# 0 (SHAPE encoder_input))
+[05/23/2024-00:05:22] [TRT] [I] Total Host Persistent Memory: 112
+[05/23/2024-00:05:22] [TRT] [I] Total Device Persistent Memory: 0
+[05/23/2024-00:05:22] [TRT] [I] Total Scratch Memory: 532992
+[05/23/2024-00:05:22] [TRT] [I] [MemUsageStats] Peak memory usage of TRT CPU/GPU memory allocators: CPU 138 MiB, GPU 250 MiB
+[05/23/2024-00:05:22] [TRT] [I] [BlockAssignment] Started assigning block shifts. This will take 3 steps to complete.
+[05/23/2024-00:05:22] [TRT] [I] [BlockAssignment] Algorithm ShiftNTopDown took 0.019936ms to assign 3 blocks to 3 nodes requiring 534016 bytes.
+[05/23/2024-00:05:22] [TRT] [I] Total Activation Memory: 534016
+[05/23/2024-00:05:22] [TRT] [I] [MemUsageChange] TensorRT-managed allocation in building engine: CPU +0, GPU +4, now: CPU 0, GPU 4 (MiB)
+[05/23/2024-00:05:22] [TRT] [I] The profiling verbosity was set to ProfilingVerbosity::kLAYER_NAMES_ONLY when the engine was built, so only the layer names will be returned. Rebuild the engine with ProfilingVerbosity::kDETAILED to get more verbose layer information.
+[05/23/2024-00:05:22] [TRT] [I] [MemUsageChange] Init CUDA: CPU +0, GPU +0, now: CPU 1710, GPU 16624 (MiB)
+[05/23/2024-00:05:25] [TRT] [W] DLA requests all profiles have same min, max, and opt value. All dla layers are falling back to GPU
+[05/23/2024-00:05:25] [TRT] [I] ---------- Layers Running on DLA ----------
+[05/23/2024-00:05:25] [TRT] [I] ---------- Layers Running on GPU ----------
+[05/23/2024-00:05:25] [TRT] [I] [GpuLayer] CONVOLUTION: joint_fc1_a
+[05/23/2024-00:05:25] [TRT] [I] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +0, now: CPU 1712, GPU 16624 (MiB)
+[05/23/2024-00:05:25] [TRT] [I] [MemUsageChange] Init cuDNN: CPU +0, GPU +0, now: CPU 1712, GPU 16624 (MiB)
+[05/23/2024-00:05:25] [TRT] [I] Local timing cache in use. Profiling results in this builder pass will not be stored.
+[05/23/2024-00:05:25] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:26] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:26] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:26] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:26] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:26] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:26] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:27] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:27] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:27] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:27] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:27] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:27] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:27] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:27] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:27] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:27] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:27] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:27] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:27] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:27] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:27] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:27] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:27] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:27] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:27] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:27] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:27] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:27] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:27] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:27] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:27] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:27] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:27] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:27] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:27] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:27] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:27] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:27] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:27] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:27] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:27] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:27] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:27] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:27] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:27] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:27] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:27] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:27] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:27] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:27] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:27] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:27] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:27] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:27] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:27] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:27] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:27] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:27] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:27] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:27] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:27] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:27] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:27] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:27] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:27] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:27] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:27] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:27] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:27] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:27] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:27] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:27] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:27] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:27] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:27] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:27] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:27] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:27] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:27] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:27] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:27] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:27] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:27] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:27] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:27] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:27] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:27] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:27] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:28] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:28] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:28] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:28] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:28] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:28] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:28] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:28] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:28] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:28] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:28] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:28] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:28] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:28] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:28] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:29] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:30] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:30] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:30] [TRT] [I] Total Activation Memory: 4294967296
+[05/23/2024-00:05:30] [TRT] [I] Detected 1 inputs and 1 output network tensors.
+[05/23/2024-00:05:30] [TRT] [I] Total Host Persistent Memory: 6304
+[05/23/2024-00:05:30] [TRT] [I] Total Device Persistent Memory: 0
+[05/23/2024-00:05:30] [TRT] [I] Total Scratch Memory: 0
+[05/23/2024-00:05:30] [TRT] [I] [MemUsageStats] Peak memory usage of TRT CPU/GPU memory allocators: CPU 138 MiB, GPU 1167 MiB
+[05/23/2024-00:05:30] [TRT] [I] Total Activation Memory: 0
+[05/23/2024-00:05:30] [TRT] [W] TensorRT encountered issues when converting weights between types and that could affect accuracy.
+[05/23/2024-00:05:30] [TRT] [W] If this is not the desired behavior, please modify the weights or retrain with regularization to adjust the magnitude of the weights.
+[05/23/2024-00:05:30] [TRT] [W] Check verbose logs for the list of affected weights.
+[05/23/2024-00:05:30] [TRT] [W] - 1 weights are affected by this issue: Detected subnormal FP16 values.
+[05/23/2024-00:05:30] [TRT] [I] [MemUsageChange] TensorRT-managed allocation in building engine: CPU +1, GPU +4, now: CPU 1, GPU 4 (MiB)
+[05/23/2024-00:05:30] [TRT] [I] The profiling verbosity was set to ProfilingVerbosity::kLAYER_NAMES_ONLY when the engine was built, so only the layer names will be returned. Rebuild the engine with ProfilingVerbosity::kDETAILED to get more verbose layer information.
+[05/23/2024-00:05:30] [TRT] [I] [MemUsageChange] Init CUDA: CPU +0, GPU +0, now: CPU 2032, GPU 17146 (MiB)
+[05/23/2024-00:05:31] [TRT] [W] DLA requests all profiles have same min, max, and opt value. All dla layers are falling back to GPU
+[05/23/2024-00:05:31] [TRT] [I] ---------- Layers Running on DLA ----------
+[05/23/2024-00:05:31] [TRT] [I] ---------- Layers Running on GPU ----------
+[05/23/2024-00:05:31] [TRT] [I] [GpuLayer] CONVOLUTION: joint_fc1_b
+[05/23/2024-00:05:31] [TRT] [I] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +0, now: CPU 2033, GPU 17146 (MiB)
+[05/23/2024-00:05:31] [TRT] [I] [MemUsageChange] Init cuDNN: CPU +0, GPU +0, now: CPU 2033, GPU 17146 (MiB)
+[05/23/2024-00:05:31] [TRT] [I] Local timing cache in use. Profiling results in this builder pass will not be stored.
+[05/23/2024-00:05:31] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:31] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:32] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:32] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:32] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:32] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:33] [TRT] [I] Total Activation Memory: 4294967296
+[05/23/2024-00:05:33] [TRT] [I] Detected 1 inputs and 1 output network tensors.
+[05/23/2024-00:05:33] [TRT] [I] Total Host Persistent Memory: 6304
+[05/23/2024-00:05:33] [TRT] [I] Total Device Persistent Memory: 0
+[05/23/2024-00:05:33] [TRT] [I] Total Scratch Memory: 0
+[05/23/2024-00:05:33] [TRT] [I] [MemUsageStats] Peak memory usage of TRT CPU/GPU memory allocators: CPU 138 MiB, GPU 1167 MiB
+[05/23/2024-00:05:33] [TRT] [I] Total Activation Memory: 0
+[05/23/2024-00:05:33] [TRT] [W] TensorRT encountered issues when converting weights between types and that could affect accuracy.
+[05/23/2024-00:05:33] [TRT] [W] If this is not the desired behavior, please modify the weights or retrain with regularization to adjust the magnitude of the weights.
+[05/23/2024-00:05:33] [TRT] [W] Check verbose logs for the list of affected weights.
+[05/23/2024-00:05:33] [TRT] [W] - 1 weights are affected by this issue: Detected subnormal FP16 values.
+[05/23/2024-00:05:33] [TRT] [I] [MemUsageChange] TensorRT-managed allocation in building engine: CPU +0, GPU +4, now: CPU 0, GPU 4 (MiB)
+[05/23/2024-00:05:33] [TRT] [I] The profiling verbosity was set to ProfilingVerbosity::kLAYER_NAMES_ONLY when the engine was built, so only the layer names will be returned. Rebuild the engine with ProfilingVerbosity::kDETAILED to get more verbose layer information.
+[05/23/2024-00:05:33] [TRT] [I] [MemUsageChange] Init CUDA: CPU +0, GPU +0, now: CPU 2033, GPU 17146 (MiB)
+[05/23/2024-00:05:33] [TRT] [W] DLA requests all profiles have same min, max, and opt value. All dla layers are falling back to GPU
+[05/23/2024-00:05:33] [TRT] [I] ---------- Layers Running on DLA ----------
+[05/23/2024-00:05:33] [TRT] [I] ---------- Layers Running on GPU ----------
+[05/23/2024-00:05:33] [TRT] [I] [GpuLayer] ELEMENTWISE: joint_fc1_sum + joint_relu
+[05/23/2024-00:05:33] [TRT] [I] [GpuLayer] SHUFFLE: joint_fc2_shuffle
+[05/23/2024-00:05:33] [TRT] [I] [GpuLayer] CONVOLUTION: joint_fc2
+[05/23/2024-00:05:33] [TRT] [I] [GpuLayer] TOPK: joint_top1
+[05/23/2024-00:05:33] [TRT] [I] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +0, now: CPU 2033, GPU 17146 (MiB)
+[05/23/2024-00:05:33] [TRT] [I] [MemUsageChange] Init cuDNN: CPU +0, GPU +0, now: CPU 2033, GPU 17146 (MiB)
+[05/23/2024-00:05:33] [TRT] [I] Local timing cache in use. Profiling results in this builder pass will not be stored.
+[05/23/2024-00:05:35] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:35] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:35] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:35] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:35] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:35] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[05/23/2024-00:05:37] [TRT] [I] Total Activation Memory: 4294973952
+[05/23/2024-00:05:37] [TRT] [I] Detected 2 inputs and 1 output network tensors.
+[05/23/2024-00:05:37] [TRT] [I] Total Host Persistent Memory: 6304
+[05/23/2024-00:05:37] [TRT] [I] Total Device Persistent Memory: 0
+[05/23/2024-00:05:37] [TRT] [I] Total Scratch Memory: 128
+[05/23/2024-00:05:37] [TRT] [I] [MemUsageStats] Peak memory usage of TRT CPU/GPU memory allocators: CPU 138 MiB, GPU 1167 MiB
+[05/23/2024-00:05:37] [TRT] [I] [BlockAssignment] Started assigning block shifts. This will take 7 steps to complete.
+[05/23/2024-00:05:37] [TRT] [I] [BlockAssignment] Algorithm ShiftNTopDown took 0.038016ms to assign 3 blocks to 7 nodes requiring 5120 bytes.
+[05/23/2024-00:05:37] [TRT] [I] Total Activation Memory: 5120
+[05/23/2024-00:05:37] [TRT] [W] TensorRT encountered issues when converting weights between types and that could affect accuracy.
+[05/23/2024-00:05:37] [TRT] [W] If this is not the desired behavior, please modify the weights or retrain with regularization to adjust the magnitude of the weights.
+[05/23/2024-00:05:37] [TRT] [W] Check verbose logs for the list of affected weights.
+[05/23/2024-00:05:37] [TRT] [W] - 1 weights are affected by this issue: Detected subnormal FP16 values.
+[05/23/2024-00:05:37] [TRT] [I] [MemUsageChange] TensorRT-managed allocation in building engine: CPU +0, GPU +4, now: CPU 0, GPU 4 (MiB)
+[05/23/2024-00:05:37] [TRT] [I] The profiling verbosity was set to ProfilingVerbosity::kLAYER_NAMES_ONLY when the engine was built, so only the layer names will be returned. Rebuild the engine with ProfilingVerbosity::kDETAILED to get more verbose layer information.
+Loading TensorRT plugin from build/plugins/RNNTOptPlugin/librnntoptplugin.so
+self.n_fft = 512
+self.hop_length = 160
+self.win_length = 320
+self.window_tensor = tensor([0.0000e+00, 9.6977e-05, 3.8791e-04, 8.7264e-04, 1.5510e-03, 2.4227e-03,
+        3.4875e-03, 4.7449e-03, 6.1944e-03, 7.8355e-03, 9.6675e-03, 1.1690e-02,
+        1.3901e-02, 1.6302e-02, 1.8890e-02, 2.1664e-02, 2.4624e-02, 2.7769e-02,
+        3.1096e-02, 3.4606e-02, 3.8296e-02, 4.2165e-02, 4.6212e-02, 5.0435e-02,
+        5.4833e-02, 5.9403e-02, 6.4144e-02, 6.9054e-02, 7.4131e-02, 7.9373e-02,
+        8.4779e-02, 9.0346e-02, 9.6071e-02, 1.0195e-01, 1.0799e-01, 1.1418e-01,
+        1.2052e-01, 1.2700e-01, 1.3363e-01, 1.4041e-01, 1.4732e-01, 1.5437e-01,
+        1.6155e-01, 1.6886e-01, 1.7631e-01, 1.8388e-01, 1.9157e-01, 1.9938e-01,
+        2.0730e-01, 2.1534e-01, 2.2350e-01, 2.3175e-01, 2.4012e-01, 2.4858e-01,
+        2.5714e-01, 2.6580e-01, 2.7454e-01, 2.8338e-01, 2.9229e-01, 3.0129e-01,
+        3.1037e-01, 3.1951e-01, 3.2873e-01, 3.3802e-01, 3.4737e-01, 3.5677e-01,
+        3.6624e-01, 3.7575e-01, 3.8531e-01, 3.9492e-01, 4.0457e-01, 4.1425e-01,
+        4.2397e-01, 4.3372e-01, 4.4349e-01, 4.5329e-01, 4.6310e-01, 4.7293e-01,
+        4.8277e-01, 4.9261e-01, 5.0246e-01, 5.1231e-01, 5.2215e-01, 5.3198e-01,
+        5.4181e-01, 5.5161e-01, 5.6140e-01, 5.7116e-01, 5.8089e-01, 5.9059e-01,
+        6.0026e-01, 6.0989e-01, 6.1947e-01, 6.2901e-01, 6.3850e-01, 6.4794e-01,
+        6.5732e-01, 6.6663e-01, 6.7588e-01, 6.8507e-01, 6.9418e-01, 7.0322e-01,
+        7.1218e-01, 7.2105e-01, 7.2984e-01, 7.3854e-01, 7.4715e-01, 7.5566e-01,
+        7.6408e-01, 7.7239e-01, 7.8059e-01, 7.8869e-01, 7.9667e-01, 8.0454e-01,
+        8.1229e-01, 8.1992e-01, 8.2743e-01, 8.3481e-01, 8.4206e-01, 8.4917e-01,
+        8.5616e-01, 8.6300e-01, 8.6970e-01, 8.7626e-01, 8.8267e-01, 8.8893e-01,
+        8.9505e-01, 9.0101e-01, 9.0681e-01, 9.1246e-01, 9.1794e-01, 9.2327e-01,
+        9.2843e-01, 9.3342e-01, 9.3825e-01, 9.4290e-01, 9.4739e-01, 9.5170e-01,
+        9.5583e-01, 9.5979e-01, 9.6357e-01, 9.6717e-01, 9.7059e-01, 9.7383e-01,
+        9.7688e-01, 9.7975e-01, 9.8243e-01, 9.8492e-01, 9.8723e-01, 9.8935e-01,
+        9.9127e-01, 9.9301e-01, 9.9455e-01, 9.9591e-01, 9.9707e-01, 9.9804e-01,
+        9.9881e-01, 9.9939e-01, 9.9978e-01, 9.9998e-01, 9.9998e-01, 9.9978e-01,
+        9.9939e-01, 9.9881e-01, 9.9804e-01, 9.9707e-01, 9.9591e-01, 9.9455e-01,
+        9.9301e-01, 9.9127e-01, 9.8935e-01, 9.8723e-01, 9.8492e-01, 9.8243e-01,
+        9.7975e-01, 9.7688e-01, 9.7383e-01, 9.7059e-01, 9.6717e-01, 9.6357e-01,
+        9.5979e-01, 9.5583e-01, 9.5170e-01, 9.4739e-01, 9.4290e-01, 9.3825e-01,
+        9.3342e-01, 9.2843e-01, 9.2327e-01, 9.1794e-01, 9.1246e-01, 9.0681e-01,
+        9.0101e-01, 8.9505e-01, 8.8893e-01, 8.8267e-01, 8.7626e-01, 8.6970e-01,
+        8.6300e-01, 8.5616e-01, 8.4917e-01, 8.4206e-01, 8.3481e-01, 8.2743e-01,
+        8.1992e-01, 8.1229e-01, 8.0454e-01, 7.9667e-01, 7.8869e-01, 7.8059e-01,
+        7.7239e-01, 7.6408e-01, 7.5566e-01, 7.4715e-01, 7.3854e-01, 7.2984e-01,
+        7.2105e-01, 7.1218e-01, 7.0322e-01, 6.9418e-01, 6.8507e-01, 6.7589e-01,
+        6.6663e-01, 6.5732e-01, 6.4794e-01, 6.3850e-01, 6.2901e-01, 6.1947e-01,
+        6.0989e-01, 6.0026e-01, 5.9059e-01, 5.8089e-01, 5.7116e-01, 5.6140e-01,
+        5.5161e-01, 5.4181e-01, 5.3198e-01, 5.2215e-01, 5.1231e-01, 5.0246e-01,
+        4.9261e-01, 4.8277e-01, 4.7293e-01, 4.6310e-01, 4.5329e-01, 4.4349e-01,
+        4.3372e-01, 4.2397e-01, 4.1425e-01, 4.0457e-01, 3.9492e-01, 3.8531e-01,
+        3.7575e-01, 3.6624e-01, 3.5677e-01, 3.4737e-01, 3.3802e-01, 3.2873e-01,
+        3.1951e-01, 3.1037e-01, 3.0129e-01, 2.9229e-01, 2.8338e-01, 2.7454e-01,
+        2.6580e-01, 2.5714e-01, 2.4858e-01, 2.4012e-01, 2.3175e-01, 2.2350e-01,
+        2.1534e-01, 2.0730e-01, 1.9938e-01, 1.9157e-01, 1.8388e-01, 1.7631e-01,
+        1.6886e-01, 1.6155e-01, 1.5437e-01, 1.4732e-01, 1.4041e-01, 1.3363e-01,
+        1.2700e-01, 1.2052e-01, 1.1418e-01, 1.0799e-01, 1.0195e-01, 9.6071e-02,
+        9.0346e-02, 8.4779e-02, 7.9373e-02, 7.4131e-02, 6.9054e-02, 6.4144e-02,
+        5.9403e-02, 5.4833e-02, 5.0435e-02, 4.6212e-02, 4.2165e-02, 3.8296e-02,
+        3.4606e-02, 3.1096e-02, 2.7769e-02, 2.4624e-02, 2.1664e-02, 1.8889e-02,
+        1.6302e-02, 1.3901e-02, 1.1690e-02, 9.6675e-03, 7.8355e-03, 6.1944e-03,
+        4.7449e-03, 3.4875e-03, 2.4227e-03, 1.5510e-03, 8.7264e-04, 3.8791e-04,
+        9.6977e-05, 0.0000e+00])
+self.sample_rate = 16000
+self.window_size = 0.02
+self.window_stride = 0.01
+self.lowfreq = 0
+self.device = gpu
+Time taken to generate engines: 32.09708023071289 seconds
+make[1]: Leaving directory '/work'
+make[1]: Entering directory '/work'
+$ARCH is [aarch64]
+$SYSTEM_NAME is [KnownSystem.Orin]
+$IS_SOC is [1]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [aarch64]
+$SYSTEM_NAME is [KnownSystem.Orin]
+$IS_SOC is [1]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [aarch64]
+$SYSTEM_NAME is [KnownSystem.Orin]
+$IS_SOC is [1]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [aarch64]
+$SYSTEM_NAME is [KnownSystem.Orin]
+$IS_SOC is [1]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [aarch64]
+$SYSTEM_NAME is [KnownSystem.Orin]
+$IS_SOC is [1]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [aarch64]
+$SYSTEM_NAME is [KnownSystem.Orin]
+$IS_SOC is [1]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [aarch64]
+$SYSTEM_NAME is [KnownSystem.Orin]
+$IS_SOC is [1]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+[2024-05-23 00:06:21,125 main.py:230 INFO] Detected system ID: KnownSystem.Orin
+[2024-05-23 00:06:22,724 harness.py:236 INFO] The harness will load 1 plugins: ['build/plugins/RNNTOptPlugin/librnntoptplugin.so']
+[2024-05-23 00:06:23,424 generate_conf_files.py:107 INFO] Generated measurements/ entries for Orin_TRT/rnnt/Offline
+[2024-05-23 00:06:23,447 __init__.py:46 INFO] Running command: ./build/bin/harness_rnnt --plugins="build/plugins/RNNTOptPlugin/librnntoptplugin.so" --logfile_outdir="/work/build/logs/2024.05.23-00.04.12/Orin_TRT/rnnt/Offline" --logfile_prefix="mlperf_log_" --performance_sample_count=2513 --audio_batch_size=64 --audio_buffer_num_lines=1024 --dali_batches_issue_ahead=4 --dali_pipeline_depth=4 --disable_encoder_plugin=true --num_warmups=2048 --mlperf_conf_path="build/loadgen-configs/Orin_TRT/rnnt/Offline/mlperf.conf" --user_conf_path="build/loadgen-configs/Orin_TRT/rnnt/Offline/user.conf" --batch_size=4 --cuda_graph=true --pipelined_execution=true --batch_sorting=true --enable_audio_processing=true --use_copy_kernel=true --streams_per_gpu=1 --audio_fp16_input=true --start_from_device=false --audio_serialized_pipeline_file="build/bin/dali/dali_pipeline_gpu_fp16.pth" --scenario Offline --model rnnt --engine_dir="./build/engines/Orin/rnnt/Offline"
+[2024-05-23 00:06:23,447 __init__.py:53 INFO] Overriding Environment
+audio_batch_size : 64
+audio_buffer_num_lines : 1024
+benchmark : Benchmark.RNNT
+buffer_manager_thread_count : 0
+dali_batches_issue_ahead : 4
+dali_pipeline_depth : 4
+data_dir : /scratch/gonisla//data
+disable_encoder_plugin : True
+fast : True
+gpu_batch_size : 4
+gpu_copy_streams : 4
+gpu_inference_streams : 1
+input_dtype : fp16
+input_format : linear
+log_dir : /work/build/logs/2024.05.23-00.04.12
+map_path : data_maps/rnnt_dev_clean_512/val_map.txt
+num_warmups : 2048
+offline_expected_qps : 62
+precision : fp16
+preprocessed_data_dir : /scratch/gonisla//preprocessed_data
+scenario : Scenario.Offline
+system : SystemConfiguration(host_cpu_conf=CPUConfiguration(layout={CPU(name='ARMv8 Processor rev 1 (v8l)', architecture=<CPUArchitecture.aarch64: AliasedName(name='aarch64', aliases=(), patterns=())>, core_count=4, threads_per_core=1): 3}), host_mem_conf=MemoryConfiguration(host_memory_capacity=Memory(quantity=64.303804, byte_suffix=<ByteSuffix.GB: (1000, 3)>, _num_bytes=64303804000), comparison_tolerance=0.05), accelerator_conf=AcceleratorConfiguration(layout=defaultdict(<class 'int'>, {GPU(name='Jetson AGX Orin', accelerator_type=<AcceleratorType.Integrated: AliasedName(name='Integrated', aliases=(), patterns=())>, vram=None, max_power_limit=None, pci_id=None, compute_sm=87): 1})), numa_conf=None, system_id='Orin')
+tensor_path : build/preprocessed_data/rnnt_dev_clean_512/fp16
+use_graphs : True
+system_id : Orin
+config_name : Orin_rnnt_Offline
+workload_setting : WorkloadSetting(HarnessType.Custom, AccuracyTarget.k_99, PowerSetting.MaxP)
+optimization_level : plugin-enabled
+use_cpu : False
+use_inferentia : False
+num_profiles : 4
+config_ver : custom_k_99_MaxP
+accuracy_level : 99%
+inference_server : custom
+skip_file_checks : False
+soc_gpu_freq : None
+soc_dla_freq : None
+soc_cpu_freq : None
+soc_emc_freq : None
+soc_pva_freq : None
+orin_num_cores : None
+orin_skip_maxq_reset : None
+<class 'ctypes.CDLL'>
+<_FuncPtr object at 0xffff48f3fb80>
+server_ip b''
+port 0
+server_ip b'127.0.0.1'
+port 6526
+&&&& RUNNING RNN-T_Harness # ./build/bin/harness_rnnt
+I0523 00:06:23.793255 93756 main_rnnt.cc:2903] Found 1 GPUs
+[I] Starting creating QSL.
+[I] Finished creating QSL.
+[I] Starting creating SUT.
+[I] Set to device 0
+Dali pipeline creating..
+Dali pipeline created
+[I] Creating stream 0/1
+[I] [TRT] Loaded engine size: 81 MiB
+[I] [TRT] [MemUsageChange] Init cuDNN: CPU +617, GPU +944, now: CPU 977, GPU 17077 (MiB)
+[I] [TRT] [MemUsageChange] TensorRT-managed allocation in engine deserialization: CPU +0, GPU +81, now: CPU 0, GPU 81 (MiB)
+[I] [TRT] [MemUsageChange] Init cuDNN: CPU +0, GPU +6, now: CPU 977, GPU 17083 (MiB)
+[I] [TRT] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +61, now: CPU 0, GPU 142 (MiB)
+[I] Created RnntEncoder runner: encoder
+[I] [TRT] Loaded engine size: 3 MiB
+[I] [TRT] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +7, now: CPU 902, GPU 17073 (MiB)
+[I] [TRT] [MemUsageChange] Init cuDNN: CPU +0, GPU +10, now: CPU 902, GPU 17083 (MiB)
+[I] [TRT] [MemUsageChange] TensorRT-managed allocation in engine deserialization: CPU +0, GPU +0, now: CPU 0, GPU 142 (MiB)
+[I] [TRT] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +6, now: CPU 902, GPU 17102 (MiB)
+[I] [TRT] [MemUsageChange] Init cuDNN: CPU +0, GPU +0, now: CPU 902, GPU 17102 (MiB)
+[I] [TRT] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +0, now: CPU 0, GPU 142 (MiB)
+[I] Created RnntDecoder runner: decoder
+[I] [TRT] Loaded engine size: 1 MiB
+[I] [TRT] [MemUsageChange] TensorRT-managed allocation in engine deserialization: CPU +0, GPU +1, now: CPU 0, GPU 143 (MiB)
+[I] [TRT] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +0, now: CPU 0, GPU 143 (MiB)
+[I] Created RnntJointFc1 runner: fc1_a
+[I] [TRT] Loaded engine size: 0 MiB
+[I] [TRT] [MemUsageChange] TensorRT-managed allocation in engine deserialization: CPU +0, GPU +1, now: CPU 0, GPU 144 (MiB)
+[I] [TRT] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +0, now: CPU 0, GPU 144 (MiB)
+[I] Created RnntJointFc1 runner: fc1_b
+[I] [TRT] Loaded engine size: 0 MiB
+[I] [TRT] [MemUsageChange] TensorRT-managed allocation in engine deserialization: CPU +0, GPU +0, now: CPU 0, GPU 144 (MiB)
+[I] [TRT] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +0, now: CPU 0, GPU 144 (MiB)
+[I] Created RnntJointBackend runner: joint_backend
+[I] [TRT] Loaded engine size: 0 MiB
+[I] [TRT] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +1, now: CPU 903, GPU 17106 (MiB)
+[I] [TRT] [MemUsageChange] Init cuDNN: CPU +0, GPU +10, now: CPU 903, GPU 17116 (MiB)
+[I] [TRT] [MemUsageChange] TensorRT-managed allocation in engine deserialization: CPU +0, GPU +0, now: CPU 0, GPU 144 (MiB)
+[I] [TRT] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +6, now: CPU 903, GPU 17122 (MiB)
+[I] [TRT] [MemUsageChange] Init cuDNN: CPU +0, GPU +2, now: CPU 903, GPU 17124 (MiB)
+[I] [TRT] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +0, now: CPU 0, GPU 144 (MiB)
+[I] Created RnntIsel runner: isel
+[I] [TRT] Loaded engine size: 0 MiB
+[I] [TRT] [MemUsageChange] TensorRT-managed allocation in engine deserialization: CPU +0, GPU +0, now: CPU 0, GPU 144 (MiB)
+[I] [TRT] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +0, now: CPU 0, GPU 144 (MiB)
+[I] Created RnntIgather runner: igather
+[I] Instantiated RnntEngineContainer runner
+cudaMemcpy blocking 
+cudaMemcpy blocking 
+[I] Instantiated RnntTensorContainer host memory
+Stream::Stream sampleSize: 61440
+Stream::Stream singleSampleSize: 480
+Stream::Stream fullseqSampleSize: 61440
+Stream::Stream mBatchSize: 4
+[I] Finished creating SUT.
+[I] Starting warming up SUT.
+[I] Finished warming up SUT.
+[I] Starting running actual test.
+================================================
+MLPerf Results Summary
+================================================
+SUT name : RNNT SERVER
+Scenario : Offline
+Mode     : PerformanceOnly
+Samples per second: 71.755
+Result is : INVALID
+  Min duration satisfied : NO
+  Min queries satisfied : Yes
+  Early stopping satisfied: Yes
+Recommendations:
+ * Increase expected QPS so the loadgen pre-generates a larger (coalesced) query.
+
+================================================
+Additional Stats
+================================================
+Min latency (ns)                : 1007940233
+Max latency (ns)                : 57027393355
+Mean latency (ns)               : 36537366751
+50.00 percentile latency (ns)   : 39565783293
+90.00 percentile latency (ns)   : 55094553492
+95.00 percentile latency (ns)   : 56159575761
+97.00 percentile latency (ns)   : 56548804351
+99.00 percentile latency (ns)   : 56892342568
+99.90 percentile latency (ns)   : 57024483802
+
+================================================
+Test Parameters Used
+================================================
+samples_per_query : 4092
+target_qps : 62
+target_latency (ns): 0
+max_async_queries : 1
+min_duration (ms): 60000
+max_duration (ms): 0
+min_query_count : 1
+max_query_count : 0
+qsl_rng_seed : 148687905518835231
+sample_index_rng_seed : 520418551913322573
+schedule_rng_seed : 811580660758947900
+accuracy_log_rng_seed : 0
+accuracy_log_probability : 0
+accuracy_log_sampling_target : 0
+print_timestamps : 0
+performance_issue_unique : 0
+performance_issue_same : 0
+performance_issue_same_index : 0
+performance_sample_count : 2513
+
+No warnings encountered during test.
+
+No errors encountered during test.
+[I] Finished running actual test.
+&&&& PASSED RNN-T_Harness # ./build/bin/harness_rnnt
+[2024-05-23 00:07:34,555 run_harness.py:301 INFO] Result: result_samples_per_second: 71.755, Result is INVALID
+[2024-05-23 00:07:34,555 run_harness.py:302 INFO] {'verbose': None, 'verbose_nvtx': None, 'v': None, 'plugins': 'build/plugins/RNNTOptPlugin/librnntoptplugin.so', 'logfile_outdir': '/work/build/logs/2024.05.23-00.04.12/Orin_TRT/rnnt/Offline', 'logfile_prefix': 'mlperf_log_', 'performance_sample_count': 2513, 'fast': None, 'audio_batch_size': 64, 'audio_buffer_num_lines': 1024, 'dali_batches_issue_ahead': 4, 'dali_pipeline_depth': 4, 'disable_encoder_plugin': True, 'gpu_batch_size': None, 'num_warmups': 2048, 'use_graphs': None, 'offline_expected_qps': None, 'gpu_engines': None, 'min_duration': None, 'min_query_count': None, 'performance_sample_count_override': None, 'mlperf_conf_path': 'build/loadgen-configs/Orin_TRT/rnnt/Offline/mlperf.conf', 'user_conf_path': 'build/loadgen-configs/Orin_TRT/rnnt/Offline/user.conf', 'server_target_qps_adj_factor': None, 'batch_size': 4, 'cuda_graph': True, 'hp_max_seq_length': None, 'max_seq_length': None, 'pipelined_execution': True, 'nopipelined_execution': None, 'batch_sorting': True, 'nobatch_sorting': None, 'enable_audio_processing': True, 'noenable_audio_processing': None, 'use_copy_kernel': True, 'nouse_copy_kernel': None, 'streams_per_gpu': 1, 'gpu_inference_streams': None, 'audio_fp16_input': True, 'start_from_device': False, 'audio_serialized_pipeline_file': 'build/bin/dali/dali_pipeline_gpu_fp16.pth'}
+[2024-05-23 00:07:34,555 run_harness.py:303 INFO] Orin_rnnt_Offline
+127.0.0.1, 127.0.0.1, 9
+6526
+- > ORINAGXDevice
+Agg. - > 0
+Int. - > 0
+Lines - >  
+Lines - > 
+Lines - >  
+Lines - >  
+Lines - >  
+Lines - >  
+Lines - >  
+Lines - >  
+Lines - >  
+Lines - >  
+Lines - >  
+Lines - >  
+Lines - >  
+Lines - >  
+Lines - >  
+Lines - >  
+- > 127.0.0.1
+- > 6526
+ 
+======================== Result summaries: ========================
+
+ Orin_TRT-custom_k_99_MaxP-Offline:
+   rnnt:
+     performance: result_samples_per_second: 71.755, Result is INVALID
+ 
+
+======================== Extra Perf Stats: ========================
+
+ Orin_TRT-custom_k_99_MaxP-Offline:
+    FileNotFoundError: Cannot find perf logs for Orin_TRT/rnnt/Offline at build/artifacts/closed/NVIDIA/results/Orin_TRT/rnnt/Offline/performance/run_1. Non-NVIDIA users ignore this. NVIDIA users run `make pull_artifacts_repo`.
+make[1]: Leaving directory '/work'

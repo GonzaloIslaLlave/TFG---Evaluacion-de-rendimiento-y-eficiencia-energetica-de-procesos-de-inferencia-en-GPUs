@@ -1,0 +1,504 @@
+$ARCH is [x86_64]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+make[1]: Entering directory '/work'
+$ARCH is [x86_64]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+[03/23/2024-10:03:46] [TRT] [I] [MemUsageChange] Init CUDA: CPU +1, GPU +0, now: CPU 43, GPU 480 (MiB)
+[03/23/2024-10:03:53] [TRT] [I] [MemUsageChange] Init builder kernel library: CPU +1958, GPU +346, now: CPU 2106, GPU 826 (MiB)
+[03/23/2024-10:03:55] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 0) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:55] [TRT] [I] Using default for use_int8_scale_max: true
+[03/23/2024-10:03:55] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 3) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:55] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l0_attention_fc_aout. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:55] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 4) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:55] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l0_gelu_out. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:55] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 6) [Convolution]_output. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:55] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 4) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:55] [TRT] [I] Using default for use_int8_scale_max: true
+[03/23/2024-10:03:55] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 10) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:55] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l1_attention_fc_aout. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:55] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 11) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:55] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l1_gelu_out. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:55] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 13) [Convolution]_output. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:55] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 11) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:55] [TRT] [I] Using default for use_int8_scale_max: true
+[03/23/2024-10:03:55] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 17) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:55] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l2_attention_fc_aout. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:55] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 18) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:55] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l2_gelu_out. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:55] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 20) [Convolution]_output. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:55] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 18) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:55] [TRT] [I] Using default for use_int8_scale_max: true
+[03/23/2024-10:03:55] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 24) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:55] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l3_attention_fc_aout. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:55] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 25) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:55] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l3_gelu_out. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:55] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 27) [Convolution]_output. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:55] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 25) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:55] [TRT] [I] Using default for use_int8_scale_max: true
+[03/23/2024-10:03:55] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 31) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:55] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l4_attention_fc_aout. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:55] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 32) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:55] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l4_gelu_out. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:55] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 34) [Convolution]_output. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:55] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 32) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:56] [TRT] [I] Using default for use_int8_scale_max: true
+[03/23/2024-10:03:56] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 38) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:56] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l5_attention_fc_aout. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:56] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 39) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:56] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l5_gelu_out. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:56] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 41) [Convolution]_output. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:56] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 39) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:56] [TRT] [I] Using default for use_int8_scale_max: true
+[03/23/2024-10:03:56] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 45) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:56] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l6_attention_fc_aout. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:56] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 46) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:56] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l6_gelu_out. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:56] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 48) [Convolution]_output. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:56] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 46) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:56] [TRT] [I] Using default for use_int8_scale_max: true
+[03/23/2024-10:03:56] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 52) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:56] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l7_attention_fc_aout. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:56] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 53) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:56] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l7_gelu_out. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:56] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 55) [Convolution]_output. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:56] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 53) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:56] [TRT] [I] Using default for use_int8_scale_max: true
+[03/23/2024-10:03:56] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 59) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:56] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l8_attention_fc_aout. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:56] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 60) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:56] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l8_gelu_out. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:56] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 62) [Convolution]_output. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:56] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 60) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:56] [TRT] [I] Using default for use_int8_scale_max: true
+[03/23/2024-10:03:56] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 66) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:56] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l9_attention_fc_aout. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:56] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 67) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:56] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l9_gelu_out. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:56] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 69) [Convolution]_output. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:56] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 67) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:56] [TRT] [I] Using default for use_int8_scale_max: true
+[03/23/2024-10:03:56] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 73) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:56] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l10_attention_fc_aout. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:56] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 74) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:56] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l10_gelu_out. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:56] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 76) [Convolution]_output. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:56] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 74) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:56] [TRT] [I] Using default for use_int8_scale_max: true
+[03/23/2024-10:03:56] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 80) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:56] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l11_attention_fc_aout. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:56] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 81) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:57] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l11_gelu_out. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:57] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 83) [Convolution]_output. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:57] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 81) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:57] [TRT] [I] Using default for use_int8_scale_max: true
+[03/23/2024-10:03:57] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 87) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:57] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l12_attention_fc_aout. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:57] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 88) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:57] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l12_gelu_out. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:57] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 90) [Convolution]_output. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:57] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 88) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:57] [TRT] [I] Using default for use_int8_scale_max: true
+[03/23/2024-10:03:57] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 94) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:57] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l13_attention_fc_aout. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:57] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 95) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:57] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l13_gelu_out. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:57] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 97) [Convolution]_output. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:57] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 95) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:57] [TRT] [I] Using default for use_int8_scale_max: true
+[03/23/2024-10:03:57] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 101) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:57] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l14_attention_fc_aout. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:57] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 102) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:57] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l14_gelu_out. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:57] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 104) [Convolution]_output. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:57] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 102) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:57] [TRT] [I] Using default for use_int8_scale_max: true
+[03/23/2024-10:03:57] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 108) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:57] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l15_attention_fc_aout. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:57] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 109) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:57] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l15_gelu_out. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:57] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 111) [Convolution]_output. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:57] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 109) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:57] [TRT] [I] Using default for use_int8_scale_max: true
+[03/23/2024-10:03:57] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 115) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:57] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l16_attention_fc_aout. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:57] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 116) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:57] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l16_gelu_out. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:57] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 118) [Convolution]_output. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:57] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 116) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:57] [TRT] [I] Using default for use_int8_scale_max: true
+[03/23/2024-10:03:57] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 122) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:57] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l17_attention_fc_aout. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:57] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 123) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:57] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l17_gelu_out. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:57] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 125) [Convolution]_output. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:57] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 123) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:57] [TRT] [I] Using default for use_int8_scale_max: true
+[03/23/2024-10:03:58] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 129) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:58] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l18_attention_fc_aout. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:58] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 130) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:58] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l18_gelu_out. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:58] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 132) [Convolution]_output. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:58] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 130) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:58] [TRT] [I] Using default for use_int8_scale_max: true
+[03/23/2024-10:03:58] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 136) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:58] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l19_attention_fc_aout. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:58] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 137) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:58] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l19_gelu_out. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:58] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 139) [Convolution]_output. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:58] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 137) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:58] [TRT] [I] Using default for use_int8_scale_max: true
+[03/23/2024-10:03:58] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 143) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:58] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l20_attention_fc_aout. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:58] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 144) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:58] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l20_gelu_out. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:58] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 146) [Convolution]_output. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:58] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 144) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:58] [TRT] [I] Using default for use_int8_scale_max: true
+[03/23/2024-10:03:58] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 150) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:58] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l21_attention_fc_aout. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:58] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 151) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:58] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l21_gelu_out. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:58] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 153) [Convolution]_output. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:58] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 151) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:58] [TRT] [I] Using default for use_int8_scale_max: true
+[03/23/2024-10:03:58] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 157) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:58] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l22_attention_fc_aout. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:58] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 158) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:58] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l22_gelu_out. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:58] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 160) [Convolution]_output. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:58] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 158) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:58] [TRT] [I] Using default for use_int8_scale_max: true
+[03/23/2024-10:03:58] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 164) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:58] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l23_attention_fc_aout. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:58] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 165) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:58] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l23_gelu_out. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:58] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 167) [Convolution]_output. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:58] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 165) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/23/2024-10:03:59] [TRT] [W] Calibrator is not being used. Users must provide dynamic range for all tensors that are not Int32 or Bool.
+[03/23/2024-10:03:59] [TRT] [W] Missing scale and zero-point for tensor input_ids, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/23/2024-10:03:59] [TRT] [W] Missing scale and zero-point for tensor segment_ids, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/23/2024-10:03:59] [TRT] [W] Missing scale and zero-point for tensor cu_seqlens, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/23/2024-10:03:59] [TRT] [W] Missing scale and zero-point for tensor max_seqlen, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/23/2024-10:03:59] [TRT] [I] Graph optimization time: 0.00497089 seconds.
+[03/23/2024-10:03:59] [TRT] [I] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +7, GPU +8, now: CPU 3904, GPU 958 (MiB)
+[03/23/2024-10:03:59] [TRT] [I] [MemUsageChange] Init cuDNN: CPU +1, GPU +10, now: CPU 3905, GPU 968 (MiB)
+[03/23/2024-10:03:59] [TRT] [I] Local timing cache in use. Profiling results in this builder pass will not be stored.
+[03/23/2024-10:04:21] [TRT] [I] [GraphReduction] The approximate region cut reduction algorithm is called.
+[03/23/2024-10:04:21] [TRT] [I] Detected 4 inputs and 1 output network tensors.
+[03/23/2024-10:04:25] [TRT] [I] Total Host Persistent Memory: 165984
+[03/23/2024-10:04:25] [TRT] [I] Total Device Persistent Memory: 0
+[03/23/2024-10:04:25] [TRT] [I] Total Scratch Memory: 0
+[03/23/2024-10:04:25] [TRT] [I] [BlockAssignment] Started assigning block shifts. This will take 222 steps to complete.
+[03/23/2024-10:04:25] [TRT] [I] [BlockAssignment] Algorithm ShiftNTopDown took 3.32867ms to assign 7 blocks to 222 nodes requiring 22021632 bytes.
+[03/23/2024-10:04:25] [TRT] [I] Total Activation Memory: 22020608
+[03/23/2024-10:04:28] [TRT] [I] [GraphReduction] The approximate region cut reduction algorithm is called.
+[03/23/2024-10:04:28] [TRT] [I] Detected 4 inputs and 1 output network tensors.
+[03/23/2024-10:04:31] [TRT] [I] Total Host Persistent Memory: 165984
+[03/23/2024-10:04:31] [TRT] [I] Total Device Persistent Memory: 0
+[03/23/2024-10:04:31] [TRT] [I] Total Scratch Memory: 0
+[03/23/2024-10:04:31] [TRT] [I] [BlockAssignment] Started assigning block shifts. This will take 222 steps to complete.
+[03/23/2024-10:04:31] [TRT] [I] [BlockAssignment] Algorithm ShiftNTopDown took 3.29666ms to assign 7 blocks to 222 nodes requiring 22021632 bytes.
+[03/23/2024-10:04:31] [TRT] [I] Total Activation Memory: 22021632
+[03/23/2024-10:04:31] [TRT] [I] Total Weights Memory: 102106632
+[03/23/2024-10:04:31] [TRT] [I] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +8, now: CPU 4639, GPU 1210 (MiB)
+[03/23/2024-10:04:31] [TRT] [I] [MemUsageChange] Init cuDNN: CPU +0, GPU +8, now: CPU 4639, GPU 1218 (MiB)
+[03/23/2024-10:04:31] [TRT] [I] [MemUsageStats] Peak memory usage of TRT CPU/GPU memory allocators: CPU 8 MiB, GPU 269 MiB
+[03/23/2024-10:04:31] [TRT] [I] [MemUsageChange] TensorRT-managed allocation in building engine: CPU +0, GPU +102, now: CPU 0, GPU 102 (MiB)
+[03/23/2024-10:04:32] [TRT] [I] [MemUsageStats] Peak memory usage during Engine building and serialization: CPU: 6037 MiB
+{'benchmark': <Benchmark.BERT: AliasedName(name='bert', aliases=(), patterns=())>, 'bert_opt_seqlen': 384, 'buffer_manager_thread_count': 0, 'data_dir': '/scratch/gonisla//data', 'enable_interleaved': False, 'gpu_batch_size': 8, 'gpu_copy_streams': 1, 'gpu_inference_streams': 2, 'input_dtype': 'int32', 'input_format': 'linear', 'log_dir': '/work/build/logs/2024.03.23-10.03.42', 'precision': 'int8', 'preprocessed_data_dir': '/scratch/gonisla//preprocessed_data', 'scenario': <Scenario.Server: AliasedName(name='Server', aliases=(), patterns=())>, 'system': SystemConfiguration(host_cpu_conf=CPUConfiguration(layout={CPU(name='Intel(R) Xeon(R) Silver 4314 CPU @ 2.40GHz', architecture=<CPUArchitecture.x86_64: AliasedName(name='x86_64', aliases=(), patterns=())>, core_count=16, threads_per_core=1): 1}), host_mem_conf=MemoryConfiguration(host_memory_capacity=Memory(quantity=65.551536, byte_suffix=<ByteSuffix.GB: (1000, 3)>, _num_bytes=65551536000), comparison_tolerance=0.05), accelerator_conf=AcceleratorConfiguration(layout=defaultdict(<class 'int'>, {GPU(name='NVIDIA A30', accelerator_type=<AcceleratorType.Discrete: AliasedName(name='Discrete', aliases=(), patterns=())>, vram=Memory(quantity=24.0, byte_suffix=<ByteSuffix.GiB: (1024, 3)>, _num_bytes=25769803776), max_power_limit=165.0, pci_id='0x20B710DE', compute_sm=80): 1})), numa_conf=None, system_id='ocejon'), 'use_graphs': True, 'use_small_tile_gemm_plugin': True, 'system_id': 'ocejon', 'config_name': 'ocejon_bert_Server', 'workload_setting': WorkloadSetting(harness_type=<HarnessType.Custom: AliasedName(name='custom', aliases=(), patterns=())>, accuracy_target=<AccuracyTarget.k_99: 0.99>, power_setting=<PowerSetting.MaxP: AliasedName(name='MaxP', aliases=(), patterns=())>), 'optimization_level': 'plugin-enabled', 'use_cpu': False, 'use_inferentia': False, 'num_profiles': 1, 'config_ver': 'custom_k_99_MaxP', 'accuracy_level': '99%', 'inference_server': 'custom', 'power_limit': None, 'cpu_freq': None, 'batch_size': 8, 'dla_core': None}
+This is the path: -----> 
+build/models/bert/bert_large_v1_1_fake_quant.onnx
+Replacing l0_fc_qkv with small-tile GEMM plugin.
+Replacing l0_fc_aout with small-tile GEMM plugin.
+Replacing l0_fc_mid_gelu with small-tile GEMM plugin.
+Replacing l1_fc_qkv with small-tile GEMM plugin.
+Replacing l1_fc_aout with small-tile GEMM plugin.
+Replacing l1_fc_mid_gelu with small-tile GEMM plugin.
+Replacing l2_fc_qkv with small-tile GEMM plugin.
+Replacing l2_fc_aout with small-tile GEMM plugin.
+Replacing l2_fc_mid_gelu with small-tile GEMM plugin.
+Replacing l3_fc_qkv with small-tile GEMM plugin.
+Replacing l3_fc_aout with small-tile GEMM plugin.
+Replacing l3_fc_mid_gelu with small-tile GEMM plugin.
+Replacing l4_fc_qkv with small-tile GEMM plugin.
+Replacing l4_fc_aout with small-tile GEMM plugin.
+Replacing l4_fc_mid_gelu with small-tile GEMM plugin.
+Replacing l5_fc_qkv with small-tile GEMM plugin.
+Replacing l5_fc_aout with small-tile GEMM plugin.
+Replacing l5_fc_mid_gelu with small-tile GEMM plugin.
+Replacing l6_fc_qkv with small-tile GEMM plugin.
+Replacing l6_fc_aout with small-tile GEMM plugin.
+Replacing l6_fc_mid_gelu with small-tile GEMM plugin.
+Replacing l7_fc_qkv with small-tile GEMM plugin.
+Replacing l7_fc_aout with small-tile GEMM plugin.
+Replacing l7_fc_mid_gelu with small-tile GEMM plugin.
+Replacing l8_fc_qkv with small-tile GEMM plugin.
+Replacing l8_fc_aout with small-tile GEMM plugin.
+Replacing l8_fc_mid_gelu with small-tile GEMM plugin.
+Replacing l9_fc_qkv with small-tile GEMM plugin.
+Replacing l9_fc_aout with small-tile GEMM plugin.
+Replacing l9_fc_mid_gelu with small-tile GEMM plugin.
+Replacing l10_fc_qkv with small-tile GEMM plugin.
+Replacing l10_fc_aout with small-tile GEMM plugin.
+Replacing l10_fc_mid_gelu with small-tile GEMM plugin.
+Replacing l11_fc_qkv with small-tile GEMM plugin.
+Replacing l11_fc_aout with small-tile GEMM plugin.
+Replacing l11_fc_mid_gelu with small-tile GEMM plugin.
+Replacing l12_fc_qkv with small-tile GEMM plugin.
+Replacing l12_fc_aout with small-tile GEMM plugin.
+Replacing l12_fc_mid_gelu with small-tile GEMM plugin.
+Replacing l13_fc_qkv with small-tile GEMM plugin.
+Replacing l13_fc_aout with small-tile GEMM plugin.
+Replacing l13_fc_mid_gelu with small-tile GEMM plugin.
+Replacing l14_fc_qkv with small-tile GEMM plugin.
+Replacing l14_fc_aout with small-tile GEMM plugin.
+Replacing l14_fc_mid_gelu with small-tile GEMM plugin.
+Replacing l15_fc_qkv with small-tile GEMM plugin.
+Replacing l15_fc_aout with small-tile GEMM plugin.
+Replacing l15_fc_mid_gelu with small-tile GEMM plugin.
+Replacing l16_fc_qkv with small-tile GEMM plugin.
+Replacing l16_fc_aout with small-tile GEMM plugin.
+Replacing l16_fc_mid_gelu with small-tile GEMM plugin.
+Replacing l17_fc_qkv with small-tile GEMM plugin.
+Replacing l17_fc_aout with small-tile GEMM plugin.
+Replacing l17_fc_mid_gelu with small-tile GEMM plugin.
+Replacing l18_fc_qkv with small-tile GEMM plugin.
+Replacing l18_fc_aout with small-tile GEMM plugin.
+Replacing l18_fc_mid_gelu with small-tile GEMM plugin.
+Replacing l19_fc_qkv with small-tile GEMM plugin.
+Replacing l19_fc_aout with small-tile GEMM plugin.
+Replacing l19_fc_mid_gelu with small-tile GEMM plugin.
+Replacing l20_fc_qkv with small-tile GEMM plugin.
+Replacing l20_fc_aout with small-tile GEMM plugin.
+Replacing l20_fc_mid_gelu with small-tile GEMM plugin.
+Replacing l21_fc_qkv with small-tile GEMM plugin.
+Replacing l21_fc_aout with small-tile GEMM plugin.
+Replacing l21_fc_mid_gelu with small-tile GEMM plugin.
+Replacing l22_fc_qkv with small-tile GEMM plugin.
+Replacing l22_fc_aout with small-tile GEMM plugin.
+Replacing l22_fc_mid_gelu with small-tile GEMM plugin.
+Replacing l23_fc_qkv with small-tile GEMM plugin.
+Replacing l23_fc_aout with small-tile GEMM plugin.
+Replacing l23_fc_mid_gelu with small-tile GEMM plugin.
+Time taken to generate engines: 51.64060950279236 seconds
+make[1]: Leaving directory '/work'
+make[1]: Entering directory '/work'
+$ARCH is [x86_64]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+[2024-03-23 10:04:41,360 main.py:230 INFO] Detected system ID: KnownSystem.ocejon
+[2024-03-23 10:04:41,985 generate_conf_files.py:107 INFO] Generated measurements/ entries for ocejon_TRT/bert-99/Server
+[2024-03-23 10:04:41,986 __init__.py:46 INFO] Running command: ./build/bin/harness_bert --logfile_outdir="/work/build/logs/2024.03.23-10.03.42/ocejon_TRT/bert-99/Server" --logfile_prefix="mlperf_log_" --performance_sample_count=10833 --gpu_batch_size=8 --tensor_path="build/preprocessed_data/squad_tokenized/input_ids.npy,build/preprocessed_data/squad_tokenized/segment_ids.npy,build/preprocessed_data/squad_tokenized/input_mask.npy" --use_graphs=true --gpu_inference_streams=2 --gpu_copy_streams=1 --gpu_engines="./build/engines/ocejon/bert/Server/bert-Server-gpu-int8_S_384_B_8_P_2_vs.custom_k_99_MaxP.plan" --mlperf_conf_path="build/loadgen-configs/ocejon_TRT/bert-99/Server/mlperf.conf" --user_conf_path="build/loadgen-configs/ocejon_TRT/bert-99/Server/user.conf" --scenario Server --model bert
+[2024-03-23 10:04:41,986 __init__.py:53 INFO] Overriding Environment
+benchmark : Benchmark.BERT
+buffer_manager_thread_count : 0
+coalesced_tensor : True
+data_dir : /scratch/gonisla//data
+enable_interleaved : False
+gpu_batch_size : 8
+gpu_copy_streams : 1
+gpu_inference_streams : 2
+input_dtype : int32
+input_format : linear
+log_dir : /work/build/logs/2024.03.23-10.03.42
+precision : int8
+preprocessed_data_dir : /scratch/gonisla//preprocessed_data
+scenario : Scenario.Server
+server_target_qps : 40
+system : SystemConfiguration(host_cpu_conf=CPUConfiguration(layout={CPU(name='Intel(R) Xeon(R) Silver 4314 CPU @ 2.40GHz', architecture=<CPUArchitecture.x86_64: AliasedName(name='x86_64', aliases=(), patterns=())>, core_count=16, threads_per_core=1): 1}), host_mem_conf=MemoryConfiguration(host_memory_capacity=Memory(quantity=65.551536, byte_suffix=<ByteSuffix.GB: (1000, 3)>, _num_bytes=65551536000), comparison_tolerance=0.05), accelerator_conf=AcceleratorConfiguration(layout=defaultdict(<class 'int'>, {GPU(name='NVIDIA A30', accelerator_type=<AcceleratorType.Discrete: AliasedName(name='Discrete', aliases=(), patterns=())>, vram=Memory(quantity=24.0, byte_suffix=<ByteSuffix.GiB: (1024, 3)>, _num_bytes=25769803776), max_power_limit=165.0, pci_id='0x20B710DE', compute_sm=80): 1})), numa_conf=None, system_id='ocejon')
+tensor_path : build/preprocessed_data/squad_tokenized/input_ids.npy,build/preprocessed_data/squad_tokenized/segment_ids.npy,build/preprocessed_data/squad_tokenized/input_mask.npy
+use_graphs : True
+use_small_tile_gemm_plugin : True
+system_id : ocejon
+config_name : ocejon_bert_Server
+workload_setting : WorkloadSetting(HarnessType.Custom, AccuracyTarget.k_99, PowerSetting.MaxP)
+optimization_level : plugin-enabled
+use_cpu : False
+use_inferentia : False
+num_profiles : 1
+config_ver : custom_k_99_MaxP
+accuracy_level : 99%
+inference_server : custom
+skip_file_checks : True
+power_limit : None
+cpu_freq : None
+&&&& RUNNING BERT_HARNESS # ./build/bin/harness_bert
+I0323 10:04:42.036828  4901 main_bert.cc:163] Found 1 GPUs
+I0323 10:04:42.964929  4901 bert_server.cc:142] Engine Path: ./build/engines/ocejon/bert/Server/bert-Server-gpu-int8_S_384_B_8_P_2_vs.custom_k_99_MaxP.plan
+[I] [TRT] Loaded engine size: 608 MiB
+[I] [TRT] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +6, GPU +8, now: CPU 1167, GPU 712 (MiB)
+[I] [TRT] [MemUsageChange] Init cuDNN: CPU +2, GPU +10, now: CPU 1169, GPU 722 (MiB)
+[I] [TRT] [MemUsageChange] TensorRT-managed allocation in engine deserialization: CPU +0, GPU +97, now: CPU 0, GPU 97 (MiB)
+I0323 10:04:43.885226  4901 bert_server.cc:203] Engines Creation Completed
+I0323 10:04:43.886196  4901 bert_server.cc:208] Use CUDA graphs
+I0323 10:04:43.886370  4901 bert_core_vs.cc:385] Engine - Device Memory requirements: 22021632
+I0323 10:04:43.886375  4901 bert_core_vs.cc:393] Engine - Number of Optimization Profiles: 2
+I0323 10:04:43.886380  4901 bert_core_vs.cc:415] Engine - Profile 0 maxDims 3072 Bmax=8 Smax=384
+[I] [TRT] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +8, now: CPU 560, GPU 736 (MiB)
+[I] [TRT] [MemUsageChange] Init cuDNN: CPU +0, GPU +8, now: CPU 560, GPU 744 (MiB)
+I0323 10:04:44.440048  4901 bert_core_vs.cc:426] Setting Opt.Prof. to 0
+I0323 10:04:44.440070  4901 bert_core_vs.cc:444] Context creation complete. Max supported batchSize: 8
+[I] [TRT] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +0, now: CPU 0, GPU 97 (MiB)
+I0323 10:04:44.440186  4901 bert_core_vs.cc:476] Setup complete
+I0323 10:04:46.290632  4906 bert_core_vs.cc:352] Created 302 CUDA graphs
+I0323 10:04:46.290971  4901 bert_core_vs.cc:385] Engine - Device Memory requirements: 22021632
+I0323 10:04:46.290983  4901 bert_core_vs.cc:393] Engine - Number of Optimization Profiles: 2
+I0323 10:04:46.290997  4901 bert_core_vs.cc:415] Engine - Profile 1 maxDims 3072 Bmax=8 Smax=384
+[I] [TRT] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +8, now: CPU 1391, GPU 4712 (MiB)
+[I] [TRT] [MemUsageChange] Init cuDNN: CPU +0, GPU +10, now: CPU 1391, GPU 4722 (MiB)
+I0323 10:04:46.949672  4901 bert_core_vs.cc:426] Setting Opt.Prof. to 1
+[I] [TRT] Could not set default profile 0 for execution context. Profile index must be set explicitly.
+[I] [TRT] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +0, now: CPU 0, GPU 97 (MiB)
+I0323 10:04:46.949944  4901 bert_core_vs.cc:444] Context creation complete. Max supported batchSize: 8
+I0323 10:04:46.950073  4901 bert_core_vs.cc:476] Setup complete
+I0323 10:04:48.804498  4908 bert_core_vs.cc:352] Created 302 CUDA graphs
+I0323 10:04:48.824298  4901 main_bert.cc:184] Starting running actual test.
+I0323 10:14:48.976275  4901 main_bert.cc:190] Finished running actual test.
+================================================
+MLPerf Results Summary
+================================================
+SUT name : BERT SERVER
+Scenario : Server
+Mode     : PerformanceOnly
+Scheduled samples per second : 40.01
+Result is : VALID
+  Performance constraints satisfied : Yes
+  Min duration satisfied : Yes
+  Min queries satisfied : Yes
+  Early stopping satisfied: Yes
+Early Stopping Result:
+ * Run successful.
+
+================================================
+Additional Stats
+================================================
+Completed samples per second    : 40.01
+
+Min latency (ns)                : 2734514
+Max latency (ns)                : 12870345
+Mean latency (ns)               : 4668301
+50.00 percentile latency (ns)   : 4442186
+90.00 percentile latency (ns)   : 5443940
+95.00 percentile latency (ns)   : 5866179
+97.00 percentile latency (ns)   : 6139139
+99.00 percentile latency (ns)   : 6924692
+99.90 percentile latency (ns)   : 9628399
+
+================================================
+Test Parameters Used
+================================================
+samples_per_query : 1
+target_qps : 40
+target_latency (ns): 130000000
+max_async_queries : 0
+min_duration (ms): 600000
+max_duration (ms): 0
+min_query_count : 100
+max_query_count : 0
+qsl_rng_seed : 148687905518835231
+sample_index_rng_seed : 520418551913322573
+schedule_rng_seed : 811580660758947900
+accuracy_log_rng_seed : 0
+accuracy_log_probability : 0
+accuracy_log_sampling_target : 0
+print_timestamps : 0
+performance_issue_unique : 0
+performance_issue_same : 0
+performance_issue_same_index : 0
+performance_sample_count : 10833
+
+No warnings encountered during test.
+
+No errors encountered during test.
+[2024-03-23 10:14:49,814 run_harness.py:167 INFO] Result: result_scheduled_samples_per_sec: 40.0132, Result is VALID
+ 
+======================== Result summaries: ========================
+
+ ocejon_TRT-custom_k_99_MaxP-Server:
+   bert-99:
+     performance: result_scheduled_samples_per_sec: 40.0132, Result is VALID
+ 
+
+======================== Extra Perf Stats: ========================
+
+ ocejon_TRT-custom_k_99_MaxP-Server:
+    FileNotFoundError: Cannot find perf logs for ocejon_TRT/bert-99/Server at build/artifacts/closed/NVIDIA/results/ocejon_TRT/bert-99/Server/performance/run_1. Non-NVIDIA users ignore this. NVIDIA users run `make pull_artifacts_repo`.
+    Server 99-percentile latency 6924692 ns is 0.05 of the target_latency 130000000 ns
+make[1]: Leaving directory '/work'

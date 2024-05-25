@@ -1,0 +1,99 @@
+Modelo    SingleStream   Batch     Exp. ns stream Valido         Percentil 90   Target         qps_w          qps_w_o                       
+resnet50  SingleStream   1         660000         VALID          493224         1515.15        2040.76        2055.33                  
+resnet50  SingleStream   1         760000         VALID          497158         1315.79        2017.25        2030.98                  
+resnet50  SingleStream   1         860000         VALID          498332         1162.79        2007.33        2021.05                  
+resnet50  SingleStream   1         960000         VALID          497461         1041.67        2007.77        2021.10                  
+resnet50  SingleStream   1         1060000        INVALID        497050         943.396        2014.22        2027.95                  
+resnet50  SingleStream   1         1160000        INVALID        496609         862.069        2022.19        2036.26                  
+resnet50  SingleStream   1         1260000        INVALID        497910         793.651        2013.79        2027.60                  
+resnet50  SingleStream   1         1360000        INVALID        496126         735.294        2029.15        2043.22                  
+resnet50  SingleStream   1         1460000        INVALID        496752         684.932        2019.44        2033.30                  
+resnet50  SingleStream   1         1560000        INVALID        497477         641.026        2013.10        2026.87                  
+resnet50  SingleStream   2         660000         VALID          10894224       1515.15        91.96          92.49                    
+resnet50  SingleStream   2         760000         VALID          10877745       1315.79        91.94          92.48                    
+resnet50  SingleStream   2         860000         VALID          10894897       1162.79        92.00          92.45                    
+resnet50  SingleStream   2         960000         VALID          10904334       1041.67        91.95          92.34                    
+resnet50  SingleStream   2         1060000        VALID          10895518       943.396        91.98          92.45                    
+resnet50  SingleStream   2         1160000        VALID          10890476       862.069        92.06          92.52                    
+resnet50  SingleStream   2         1260000        VALID          10895634       793.651        91.99          92.48                    
+resnet50  SingleStream   2         1360000        VALID          10873910       735.294        92.01          92.57                    
+resnet50  SingleStream   2         1460000        VALID          10899379       684.932        91.99          92.42                    
+resnet50  SingleStream   2         1560000        VALID          10885131       641.026        91.96          92.47                    
+resnet50  SingleStream   3         660000         VALID          10979531       1515.15        91.32          91.75                    
+resnet50  SingleStream   3         760000         VALID          10972507       1315.79        91.29          91.80                    
+resnet50  SingleStream   3         860000         VALID          10983705       1162.79        91.31          91.74                    
+resnet50  SingleStream   3         960000         VALID          10979988       1041.67        91.27          91.76                    
+resnet50  SingleStream   3         1060000        VALID          10978839       943.396        91.33          91.76                    
+resnet50  SingleStream   3         1160000        VALID          10974910       862.069        91.31          91.81                    
+resnet50  SingleStream   3         1260000        VALID          10964194       793.651        91.32          91.85                    
+resnet50  SingleStream   3         1360000        VALID          11058429       735.294        91.18          91.57                    
+resnet50  SingleStream   3         1460000        VALID          10986891       684.932        91.30          91.65                    
+resnet50  SingleStream   3         1560000        VALID          10961996       641.026        91.34          91.82                    
+resnet50  SingleStream   4         660000         VALID          11025979       1515.15        90.95          91.38                    
+resnet50  SingleStream   4         760000         VALID          10988000       1315.79        90.94          91.51                    
+resnet50  SingleStream   4         860000         VALID          11022630       1162.79        90.96          91.44                    
+resnet50  SingleStream   4         960000         VALID          11007078       1041.67        90.95          91.47                    
+resnet50  SingleStream   4         1060000        VALID          11029131       943.396        90.92          91.34                    
+resnet50  SingleStream   4         1160000        VALID          11033326       862.069        90.94          91.28                    
+resnet50  SingleStream   4         1260000        VALID          11018934       793.651        90.92          91.43                    
+resnet50  SingleStream   4         1360000        VALID          11025923       735.294        90.95          91.40                    
+resnet50  SingleStream   4         1460000        VALID          11019320       684.932        90.92          91.41                    
+resnet50  SingleStream   4         1560000        VALID          10983693       641.026        90.94          91.51                    
+resnet50  SingleStream   5         500000         VALID          11141125       2000           89.99          90.42                    
+resnet50  SingleStream   5         20000000       VALID          11130043       50             90.07          90.55                    
+resnet50  SingleStream   6         500000         VALID          11177090       2000           89.74          90.10                    
+resnet50  SingleStream   6         20000000       VALID          11175316       50             89.73          90.16                    
+resnet50  SingleStream   7         500000         VALID          11212585       2000           89.43          89.84                    
+resnet50  SingleStream   7         20000000       VALID          11217170       50             89.38          89.76                    
+resnet50  SingleStream   8         500000         VALID          11257071       2000           89.12          89.47                    
+resnet50  SingleStream   8         20000000       VALID          11253225       50             89.13          89.51                    
+resnet50  SingleStream   9         500000         VALID          11281031       2000           88.97          89.24                    
+resnet50  SingleStream   9         20000000       VALID          11264977       50             89.00          89.47                    
+resnet50  SingleStream   10        500000         VALID          11555075       2000           86.88          87.03                    
+resnet50  SingleStream   10        20000000       VALID          11552986       50             86.88          87.11                    
+resnet50  SingleStream   11        500000         VALID          11522883       2000           86.70          87.22                    
+resnet50  SingleStream   11        20000000       VALID          11575474       50             86.72          86.96                    
+resnet50  SingleStream   12        500000         VALID          11613591       2000           86.30          86.74                    
+resnet50  SingleStream   12        20000000       VALID          11615520       50             86.40          86.75                    
+resnet50  SingleStream   13        500000         VALID          11655875       2000           86.06          86.45                    
+resnet50  SingleStream   13        20000000       VALID          11659759       50             86.08          86.34                    
+resnet50  SingleStream   14        500000         VALID          11723415       2000           85.60          85.97                    
+resnet50  SingleStream   14        20000000       VALID          11738458       50             85.53          85.75                    
+resnet50  SingleStream   15        500000         VALID          11747396       2000           85.40          85.76                    
+resnet50  SingleStream   15        20000000       VALID          11751775       50             85.39          85.76                    
+resnet50  SingleStream   16        500000         VALID          11793011       2000           85.15          85.36                    
+resnet50  SingleStream   16        20000000       VALID          11753265       50             85.09          85.56                    
+resnet50  SingleStream   17        500000         VALID          11890322       2000           84.71          84.93                    
+resnet50  SingleStream   17        20000000       VALID          11844308       50             84.76          85.02                    
+resnet50  SingleStream   18        500000         VALID          11868802       2000           84.59          84.78                    
+resnet50  SingleStream   18        20000000       VALID          11857976       50             84.60          84.98                    
+resnet50  SingleStream   19        500000         VALID          12179707       2000           82.55          82.83                    
+resnet50  SingleStream   19        20000000       VALID          12150648       50             82.64          82.88                    
+resnet50  SingleStream   20        500000         VALID          12179874       2000           82.45          82.64                    
+resnet50  SingleStream   20        20000000       VALID          12180760       50             82.47          82.67                    
+resnet50  SingleStream   30        500000         VALID          12747765       2000           78.44          78.86                    
+resnet50  SingleStream   40        500000         VALID          13379728       2000           74.81          75.18                    
+resnet50  SingleStream   50        500000         VALID          13976053       2000           71.59          71.95                    
+resnet50  SingleStream   60        500000         VALID          14665870       2000           68.31          68.57                    
+resnet50  SingleStream   70        500000         VALID          15207251       2000           65.91          66.17                    
+resnet50  SingleStream   80        500000         VALID          15982484       2000           62.99          63.09                    
+resnet50  SingleStream   90        500000         VALID          16580867       2000           60.76          61.00                    
+resnet50  SingleStream   100       500000         VALID          16793147       2000           60.09          60.19                    
+resnet50  SingleStream   200       500000         VALID          19797617       2000           50.99          51.05                    
+resnet50  SingleStream   300       500000         VALID          25381751       2000           40.11          40.13                    
+resnet50  SingleStream   400       500000         VALID          30894222       2000           32.94          33.00                    
+resnet50  SingleStream   500       500000         VALID          36331193       2000           28.00          28.05                    
+resnet50  SingleStream   600       500000         VALID          41624514       2000           24.42          24.45                    
+resnet50  SingleStream   700       500000         VALID          47191356       2000           21.52          21.53                    
+resnet50  SingleStream   800       500000         VALID          52664214       2000           19.30          19.31                    
+resnet50  SingleStream   900       500000         VALID          57908331       2000           17.50          17.50                    
+resnet50  SingleStream   1000      500000         VALID          60902631       2000           16.52          16.53                    
+resnet50  SingleStream   2000      500000         VALID          116538427      2000           8.65           8.65                     
+resnet50  SingleStream   3000      500000                                                                                              
+resnet50  SingleStream   4000      500000                                                                                              
+resnet50  SingleStream   5000      500000                                                                                              
+resnet50  SingleStream   6000      500000                                                                                              
+resnet50  SingleStream   7000      500000                                                                                              
+resnet50  SingleStream   8000      500000                                                                                              
+resnet50  SingleStream   9000      500000                                                                                              
+resnet50  SingleStream   10000     500000                                                                                              

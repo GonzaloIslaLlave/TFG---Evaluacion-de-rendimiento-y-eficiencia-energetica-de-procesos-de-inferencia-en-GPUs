@@ -1,0 +1,182 @@
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+make[1]: Entering directory '/work'
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+[05/15/2024-23:03:36] [TRT] [I] [MemUsageChange] Init CUDA: CPU +2, GPU +0, now: CPU 126, GPU 480 (MiB)
+[05/15/2024-23:03:44] [TRT] [I] [MemUsageChange] Init builder kernel library: CPU +1958, GPU +346, now: CPU 2188, GPU 826 (MiB)
+[05/15/2024-23:03:44] [TRT] [I] No importer registered for op: NMS_OPT_TRT. Attempting to import as plugin.
+[05/15/2024-23:03:44] [TRT] [I] Searching for plugin: NMS_OPT_TRT, plugin_version: 2, plugin_namespace: 
+[05/15/2024-23:03:44] [TRT] [W] builtin_op_importers.cpp:5421: Attribute permuteBeforeReshape not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/15/2024-23:03:44] [TRT] [W] builtin_op_importers.cpp:5421: Attribute concatInputs not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/15/2024-23:03:44] [TRT] [I] Successfully created plugin: NMS_OPT_TRT
+[05/15/2024-23:03:44] [TRT] [I] Graph optimization time: 0.00524035 seconds.
+[05/15/2024-23:03:44] [TRT] [I] Reading Calibration Cache for calibrator: EntropyCalibration2
+[05/15/2024-23:03:44] [TRT] [I] Generated calibration scales using calibration cache. Make sure that calibration cache has latest scales.
+[05/15/2024-23:03:44] [TRT] [I] To regenerate calibration cache, please delete the existing one. TensorRT will generate a new calibration cache.
+[05/15/2024-23:03:44] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 163) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/15/2024-23:03:44] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 174) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/15/2024-23:03:44] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 177) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/15/2024-23:03:44] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 183) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/15/2024-23:03:44] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 190) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/15/2024-23:03:44] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 196) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/15/2024-23:03:44] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 202) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/15/2024-23:03:44] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 209) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/15/2024-23:03:44] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 215) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/15/2024-23:03:44] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 221) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/15/2024-23:03:44] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 228) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/15/2024-23:03:44] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 234) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/15/2024-23:03:44] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 240) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/15/2024-23:03:44] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 247) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/15/2024-23:03:44] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 253) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/15/2024-23:03:44] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 259) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/15/2024-23:03:44] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 266) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/15/2024-23:03:44] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 272) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/15/2024-23:03:44] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 278) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/15/2024-23:03:44] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 287) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/15/2024-23:03:44] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 293) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/15/2024-23:03:44] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 295) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/15/2024-23:03:44] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 306) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/15/2024-23:03:44] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 313) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/15/2024-23:03:44] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 315) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/15/2024-23:03:44] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 320) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/15/2024-23:03:44] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 326) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/15/2024-23:03:44] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 332) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/15/2024-23:03:44] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 334) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/15/2024-23:03:44] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 339) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/15/2024-23:03:44] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 345) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/15/2024-23:03:44] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 351) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/15/2024-23:03:44] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 353) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/15/2024-23:03:44] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 518) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/15/2024-23:03:44] [TRT] [I] Graph optimization time: 0.125256 seconds.
+[05/15/2024-23:03:44] [TRT] [I] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +6, GPU +10, now: CPU 2507, GPU 910 (MiB)
+[05/15/2024-23:03:44] [TRT] [I] [MemUsageChange] Init cuDNN: CPU +1, GPU +10, now: CPU 2508, GPU 920 (MiB)
+[05/15/2024-23:03:44] [TRT] [I] Local timing cache in use. Profiling results in this builder pass will not be stored.
+[05/15/2024-23:09:15] [TRT] [I] Skipping tactic 0x0000000000000000 due to exception Internal error: plugin node nmsopt requires 9943789056 bytes of scratch space, but only 8589934592 is available. Try increasing the workspace size with IBuilderConfig::setMemoryPoolLimit().
+[05/15/2024-23:09:15] [TRT] [I] Skipping tactic 0x0000000000000000 due to exception Internal error: plugin node nmsopt requires 9943789056 bytes of scratch space, but only 8589934592 is available. Try increasing the workspace size with IBuilderConfig::setMemoryPoolLimit().
+[05/15/2024-23:09:15] [TRT] [E] 10: Could not find any implementation for node nmsopt.
+[05/15/2024-23:09:15] [TRT] [E] 10: [optimizer.cpp::computeCosts::4014] Error Code 10: Internal Error (Could not find any implementation for node nmsopt.)
+Loading TensorRT plugin from build/plugins/NMSOptPlugin/libnmsoptplugin.so
+Loading TensorRT plugin from build/plugins/retinanetConcatPlugin/libretinanetconcatplugin.so
+[05/15/2024-23:09:19] [TRT] [I] [MemUsageChange] Init CUDA: CPU +2, GPU +0, now: CPU 126, GPU 480 (MiB)
+[05/15/2024-23:09:27] [TRT] [I] [MemUsageChange] Init builder kernel library: CPU +1958, GPU +346, now: CPU 2188, GPU 826 (MiB)
+[05/15/2024-23:09:27] [TRT] [I] No importer registered for op: NMS_OPT_TRT. Attempting to import as plugin.
+[05/15/2024-23:09:27] [TRT] [I] Searching for plugin: NMS_OPT_TRT, plugin_version: 2, plugin_namespace: 
+[05/15/2024-23:09:27] [TRT] [W] builtin_op_importers.cpp:5421: Attribute permuteBeforeReshape not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/15/2024-23:09:27] [TRT] [W] builtin_op_importers.cpp:5421: Attribute concatInputs not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/15/2024-23:09:27] [TRT] [I] Successfully created plugin: NMS_OPT_TRT
+[05/15/2024-23:09:27] [TRT] [I] Graph optimization time: 0.00514154 seconds.
+[05/15/2024-23:09:27] [TRT] [I] Reading Calibration Cache for calibrator: EntropyCalibration2
+[05/15/2024-23:09:27] [TRT] [I] Generated calibration scales using calibration cache. Make sure that calibration cache has latest scales.
+[05/15/2024-23:09:27] [TRT] [I] To regenerate calibration cache, please delete the existing one. TensorRT will generate a new calibration cache.
+[05/15/2024-23:09:27] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 163) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/15/2024-23:09:27] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 174) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/15/2024-23:09:27] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 177) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/15/2024-23:09:27] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 183) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/15/2024-23:09:27] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 190) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/15/2024-23:09:27] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 196) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/15/2024-23:09:27] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 202) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/15/2024-23:09:27] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 209) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/15/2024-23:09:27] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 215) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/15/2024-23:09:27] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 221) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/15/2024-23:09:27] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 228) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/15/2024-23:09:27] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 234) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/15/2024-23:09:27] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 240) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/15/2024-23:09:27] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 247) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/15/2024-23:09:27] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 253) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/15/2024-23:09:27] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 259) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/15/2024-23:09:27] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 266) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/15/2024-23:09:27] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 272) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/15/2024-23:09:27] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 278) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/15/2024-23:09:27] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 287) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/15/2024-23:09:27] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 293) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/15/2024-23:09:27] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 295) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/15/2024-23:09:27] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 306) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/15/2024-23:09:27] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 313) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/15/2024-23:09:27] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 315) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/15/2024-23:09:27] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 320) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/15/2024-23:09:27] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 326) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/15/2024-23:09:27] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 332) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/15/2024-23:09:27] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 334) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/15/2024-23:09:27] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 339) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/15/2024-23:09:27] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 345) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/15/2024-23:09:27] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 351) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/15/2024-23:09:27] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 353) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/15/2024-23:09:27] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 518) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/15/2024-23:09:27] [TRT] [I] Graph optimization time: 0.123936 seconds.
+[05/15/2024-23:09:27] [TRT] [I] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +6, GPU +10, now: CPU 2507, GPU 910 (MiB)
+[05/15/2024-23:09:27] [TRT] [I] [MemUsageChange] Init cuDNN: CPU +1, GPU +10, now: CPU 2508, GPU 920 (MiB)
+[05/15/2024-23:09:27] [TRT] [I] Local timing cache in use. Profiling results in this builder pass will not be stored.
+[05/15/2024-23:15:00] [TRT] [I] Skipping tactic 0x0000000000000000 due to exception Internal error: plugin node nmsopt requires 9943789056 bytes of scratch space, but only 8589934592 is available. Try increasing the workspace size with IBuilderConfig::setMemoryPoolLimit().
+[05/15/2024-23:15:00] [TRT] [I] Skipping tactic 0x0000000000000000 due to exception Internal error: plugin node nmsopt requires 9943789056 bytes of scratch space, but only 8589934592 is available. Try increasing the workspace size with IBuilderConfig::setMemoryPoolLimit().
+[05/15/2024-23:15:00] [TRT] [E] 10: Could not find any implementation for node nmsopt.
+[05/15/2024-23:15:00] [TRT] [E] 10: [optimizer.cpp::computeCosts::4014] Error Code 10: Internal Error (Could not find any implementation for node nmsopt.)
+Loading TensorRT plugin from build/plugins/NMSOptPlugin/libnmsoptplugin.so
+Loading TensorRT plugin from build/plugins/retinanetConcatPlugin/libretinanetconcatplugin.so
+make[1]: Leaving directory '/work'

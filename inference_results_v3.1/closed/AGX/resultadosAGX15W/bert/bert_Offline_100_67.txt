@@ -1,0 +1,2 @@
+$ARCH is [aarch64]
+$SYSTEM_NAME is [KnownSystem.Orin]

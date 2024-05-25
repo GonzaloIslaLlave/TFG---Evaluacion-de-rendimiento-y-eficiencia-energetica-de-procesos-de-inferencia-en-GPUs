@@ -1,0 +1,5 @@
+$ARCH is [x86_64]
+$SYSTEM_NAME is [None]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]

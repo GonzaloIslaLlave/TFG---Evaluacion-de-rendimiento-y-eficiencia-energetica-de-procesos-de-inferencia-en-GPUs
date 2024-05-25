@@ -1,0 +1,2 @@
+Modelo    Offline        Batch     QPS esperados  Resultado QPS  Valido         Latency ns     Completed      
+retinanet Offline        1         400            252.205        VALID          1045                          

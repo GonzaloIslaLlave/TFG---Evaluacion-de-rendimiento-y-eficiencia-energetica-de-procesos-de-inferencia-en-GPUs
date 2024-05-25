@@ -1,0 +1,251 @@
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+make[1]: Entering directory '/work'
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+[05/13/2024-14:41:10] [TRT] [I] [MemUsageChange] Init CUDA: CPU +1, GPU +0, now: CPU 43, GPU 480 (MiB)
+[05/13/2024-14:41:17] [TRT] [I] [MemUsageChange] Init builder kernel library: CPU +1958, GPU +346, now: CPU 2106, GPU 826 (MiB)
+[05/13/2024-14:41:19] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 0) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:19] [TRT] [I] Using default for use_int8_scale_max: true
+[05/13/2024-14:41:19] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 3) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:19] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l0_attention_fc_aout. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:19] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 4) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:19] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l0_gelu_out. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:19] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 6) [Convolution]_output. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:19] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 4) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:19] [TRT] [I] Using default for use_int8_scale_max: true
+[05/13/2024-14:41:19] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 10) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:19] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l1_attention_fc_aout. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:19] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 11) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:19] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l1_gelu_out. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:19] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 13) [Convolution]_output. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:19] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 11) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:19] [TRT] [I] Using default for use_int8_scale_max: true
+[05/13/2024-14:41:19] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 17) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:19] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l2_attention_fc_aout. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:19] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 18) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:19] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l2_gelu_out. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:19] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 20) [Convolution]_output. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:19] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 18) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:19] [TRT] [I] Using default for use_int8_scale_max: true
+[05/13/2024-14:41:19] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 24) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:19] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l3_attention_fc_aout. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:19] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 25) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:19] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l3_gelu_out. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:19] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 27) [Convolution]_output. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:19] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 25) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:19] [TRT] [I] Using default for use_int8_scale_max: true
+[05/13/2024-14:41:19] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 31) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:19] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l4_attention_fc_aout. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:19] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 32) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:19] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l4_gelu_out. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:19] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 34) [Convolution]_output. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:19] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 32) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:19] [TRT] [I] Using default for use_int8_scale_max: true
+[05/13/2024-14:41:20] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 38) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:20] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l5_attention_fc_aout. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:20] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 39) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:20] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l5_gelu_out. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:20] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 41) [Convolution]_output. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:20] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 39) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:20] [TRT] [I] Using default for use_int8_scale_max: true
+[05/13/2024-14:41:20] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 45) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:20] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l6_attention_fc_aout. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:20] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 46) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:20] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l6_gelu_out. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:20] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 48) [Convolution]_output. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:20] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 46) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:20] [TRT] [I] Using default for use_int8_scale_max: true
+[05/13/2024-14:41:20] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 52) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:20] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l7_attention_fc_aout. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:20] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 53) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:20] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l7_gelu_out. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:20] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 55) [Convolution]_output. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:20] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 53) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:20] [TRT] [I] Using default for use_int8_scale_max: true
+[05/13/2024-14:41:20] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 59) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:20] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l8_attention_fc_aout. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:20] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 60) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:20] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l8_gelu_out. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:20] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 62) [Convolution]_output. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:20] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 60) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:20] [TRT] [I] Using default for use_int8_scale_max: true
+[05/13/2024-14:41:20] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 66) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:20] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l9_attention_fc_aout. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:20] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 67) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:20] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l9_gelu_out. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:20] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 69) [Convolution]_output. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:20] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 67) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:20] [TRT] [I] Using default for use_int8_scale_max: true
+[05/13/2024-14:41:20] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 73) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:20] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l10_attention_fc_aout. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:20] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 74) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:20] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l10_gelu_out. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:20] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 76) [Convolution]_output. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:20] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 74) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:20] [TRT] [I] Using default for use_int8_scale_max: true
+[05/13/2024-14:41:20] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 80) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:20] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l11_attention_fc_aout. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:20] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 81) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:20] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l11_gelu_out. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:20] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 83) [Convolution]_output. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:20] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 81) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:21] [TRT] [I] Using default for use_int8_scale_max: true
+[05/13/2024-14:41:21] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 87) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:21] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l12_attention_fc_aout. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:21] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 88) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:21] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l12_gelu_out. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:21] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 90) [Convolution]_output. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:21] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 88) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:21] [TRT] [I] Using default for use_int8_scale_max: true
+[05/13/2024-14:41:21] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 94) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:21] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l13_attention_fc_aout. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:21] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 95) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:21] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l13_gelu_out. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:21] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 97) [Convolution]_output. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:21] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 95) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:21] [TRT] [I] Using default for use_int8_scale_max: true
+[05/13/2024-14:41:21] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 101) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:21] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l14_attention_fc_aout. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:21] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 102) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:21] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l14_gelu_out. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:21] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 104) [Convolution]_output. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:21] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 102) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:21] [TRT] [I] Using default for use_int8_scale_max: true
+[05/13/2024-14:41:21] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 108) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:21] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l15_attention_fc_aout. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:21] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 109) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:21] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l15_gelu_out. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:21] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 111) [Convolution]_output. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:21] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 109) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:21] [TRT] [I] Using default for use_int8_scale_max: true
+[05/13/2024-14:41:21] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 115) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:21] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l16_attention_fc_aout. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:21] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 116) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:21] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l16_gelu_out. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:21] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 118) [Convolution]_output. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:21] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 116) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:21] [TRT] [I] Using default for use_int8_scale_max: true
+[05/13/2024-14:41:21] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 122) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:21] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l17_attention_fc_aout. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:21] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 123) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:21] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l17_gelu_out. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:21] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 125) [Convolution]_output. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:21] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 123) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:21] [TRT] [I] Using default for use_int8_scale_max: true
+[05/13/2024-14:41:21] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 129) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:21] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l18_attention_fc_aout. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:21] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 130) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:22] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l18_gelu_out. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:22] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 132) [Convolution]_output. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:22] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 130) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:22] [TRT] [I] Using default for use_int8_scale_max: true
+[05/13/2024-14:41:22] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 136) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:22] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l19_attention_fc_aout. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:22] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 137) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:22] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l19_gelu_out. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:22] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 139) [Convolution]_output. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:22] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 137) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:22] [TRT] [I] Using default for use_int8_scale_max: true
+[05/13/2024-14:41:22] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 143) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:22] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l20_attention_fc_aout. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:22] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 144) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:22] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l20_gelu_out. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:22] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 146) [Convolution]_output. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:22] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 144) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:22] [TRT] [I] Using default for use_int8_scale_max: true
+[05/13/2024-14:41:22] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 150) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:22] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l21_attention_fc_aout. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:22] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 151) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:22] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l21_gelu_out. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:22] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 153) [Convolution]_output. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:22] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 151) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:22] [TRT] [I] Using default for use_int8_scale_max: true
+[05/13/2024-14:41:22] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 157) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:22] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l22_attention_fc_aout. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:22] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 158) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:22] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l22_gelu_out. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:22] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 160) [Convolution]_output. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:22] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 158) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:22] [TRT] [I] Using default for use_int8_scale_max: true
+[05/13/2024-14:41:22] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 164) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:22] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l23_attention_fc_aout. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:22] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 165) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:22] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l23_gelu_out. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:22] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 167) [Convolution]_output. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:22] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 165) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[05/13/2024-14:41:23] [TRT] [W] Calibrator is not being used. Users must provide dynamic range for all tensors that are not Int32 or Bool.
+[05/13/2024-14:41:23] [TRT] [W] Missing scale and zero-point for tensor input_ids, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/13/2024-14:41:23] [TRT] [W] Missing scale and zero-point for tensor segment_ids, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/13/2024-14:41:23] [TRT] [W] Missing scale and zero-point for tensor cu_seqlens, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/13/2024-14:41:23] [TRT] [W] Missing scale and zero-point for tensor max_seqlen, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/13/2024-14:41:23] [TRT] [I] Graph optimization time: 0.00502015 seconds.
+[05/13/2024-14:41:23] [TRT] [I] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +7, GPU +8, now: CPU 3904, GPU 958 (MiB)
+[05/13/2024-14:41:23] [TRT] [I] [MemUsageChange] Init cuDNN: CPU +1, GPU +10, now: CPU 3905, GPU 968 (MiB)
+[05/13/2024-14:41:23] [TRT] [I] Local timing cache in use. Profiling results in this builder pass will not be stored.

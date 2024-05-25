@@ -1,0 +1,179 @@
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+make[1]: Entering directory '/work'
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+[05/14/2024-20:52:42] [TRT] [I] [MemUsageChange] Init CUDA: CPU +2, GPU +0, now: CPU 126, GPU 480 (MiB)
+[05/14/2024-20:52:49] [TRT] [I] [MemUsageChange] Init builder kernel library: CPU +1957, GPU +346, now: CPU 2188, GPU 826 (MiB)
+[05/14/2024-20:52:50] [TRT] [I] Graph optimization time: 0.000341376 seconds.
+[05/14/2024-20:52:50] [TRT] [I] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +6, GPU +10, now: CPU 2532, GPU 836 (MiB)
+[05/14/2024-20:52:50] [TRT] [I] [MemUsageChange] Init cuDNN: CPU +1, GPU +10, now: CPU 2533, GPU 846 (MiB)
+[05/14/2024-20:52:50] [TRT] [I] Local timing cache in use. Profiling results in this builder pass will not be stored.
+[05/14/2024-20:52:51] [TRT] [I] Detected 6 inputs and 5 output network tensors.
+[05/14/2024-20:52:51] [TRT] [I] Total Host Persistent Memory: 3648
+[05/14/2024-20:52:51] [TRT] [I] Total Device Persistent Memory: 4096
+[05/14/2024-20:52:51] [TRT] [I] Total Scratch Memory: 59700512
+[05/14/2024-20:52:51] [TRT] [I] [BlockAssignment] Started assigning block shifts. This will take 7 steps to complete.
+[05/14/2024-20:52:51] [TRT] [I] [BlockAssignment] Algorithm ShiftNTopDown took 0.027161ms to assign 4 blocks to 7 nodes requiring 59963904 bytes.
+[05/14/2024-20:52:51] [TRT] [I] Total Activation Memory: 59963392
+[05/14/2024-20:52:51] [TRT] [I] Total Weights Memory: 85935104
+[05/14/2024-20:52:51] [TRT] [I] [MemUsageChange] Init cuDNN: CPU +0, GPU +10, now: CPU 2863, GPU 946 (MiB)
+[05/14/2024-20:52:51] [TRT] [W] TensorRT encountered issues when converting weights between types and that could affect accuracy.
+[05/14/2024-20:52:51] [TRT] [W] If this is not the desired behavior, please modify the weights or retrain with regularization to adjust the magnitude of the weights.
+[05/14/2024-20:52:51] [TRT] [W] Check verbose logs for the list of affected weights.
+[05/14/2024-20:52:51] [TRT] [W] - 9 weights are affected by this issue: Detected subnormal FP16 values.
+[05/14/2024-20:52:51] [TRT] [W] - 5 weights are affected by this issue: Detected values less than smallest positive FP16 subnormal value and converted them to the FP16 minimum subnormalized value.
+[05/14/2024-20:52:51] [TRT] [I] [MemUsageStats] Peak memory usage of TRT CPU/GPU memory allocators: CPU 138 MiB, GPU 227 MiB
+[05/14/2024-20:52:51] [TRT] [I] [MemUsageChange] TensorRT-managed allocation in building engine: CPU +81, GPU +82, now: CPU 81, GPU 82 (MiB)
+[05/14/2024-20:52:51] [TRT] [I] The profiling verbosity was set to ProfilingVerbosity::kLAYER_NAMES_ONLY when the engine was built, so only the layer names will be returned. Rebuild the engine with ProfilingVerbosity::kDETAILED to get more verbose layer information.
+[05/14/2024-20:52:52] [TRT] [I] [MemUsageChange] Init CUDA: CPU +0, GPU +0, now: CPU 2781, GPU 838 (MiB)
+[05/14/2024-20:52:52] [TRT] [I] Graph optimization time: 0.000252636 seconds.
+[05/14/2024-20:52:52] [TRT] [I] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +10, now: CPU 2787, GPU 848 (MiB)
+[05/14/2024-20:52:52] [TRT] [I] [MemUsageChange] Init cuDNN: CPU +0, GPU +8, now: CPU 2787, GPU 856 (MiB)
+[05/14/2024-20:52:52] [TRT] [I] Local timing cache in use. Profiling results in this builder pass will not be stored.
+[05/14/2024-20:52:52] [TRT] [I] Detected 3 inputs and 3 output network tensors.
+[05/14/2024-20:52:52] [TRT] [I] Total Host Persistent Memory: 368
+[05/14/2024-20:52:52] [TRT] [I] Total Device Persistent Memory: 0
+[05/14/2024-20:52:52] [TRT] [I] Total Scratch Memory: 8960
+[05/14/2024-20:52:52] [TRT] [I] [BlockAssignment] Started assigning block shifts. This will take 2 steps to complete.
+[05/14/2024-20:52:52] [TRT] [I] [BlockAssignment] Algorithm ShiftNTopDown took 0.00506ms to assign 2 blocks to 2 nodes requiring 10240 bytes.
+[05/14/2024-20:52:52] [TRT] [I] Total Activation Memory: 10240
+[05/14/2024-20:52:52] [TRT] [I] Total Weights Memory: 18584
+[05/14/2024-20:52:52] [TRT] [I] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +8, now: CPU 2797, GPU 868 (MiB)
+[05/14/2024-20:52:52] [TRT] [I] [MemUsageChange] Init cuDNN: CPU +0, GPU +8, now: CPU 2797, GPU 876 (MiB)
+[05/14/2024-20:52:52] [TRT] [I] [MemUsageStats] Peak memory usage of TRT CPU/GPU memory allocators: CPU 138 MiB, GPU 227 MiB
+[05/14/2024-20:52:52] [TRT] [I] [MemUsageChange] TensorRT-managed allocation in building engine: CPU +0, GPU +1, now: CPU 0, GPU 1 (MiB)
+[05/14/2024-20:52:52] [TRT] [I] The profiling verbosity was set to ProfilingVerbosity::kLAYER_NAMES_ONLY when the engine was built, so only the layer names will be returned. Rebuild the engine with ProfilingVerbosity::kDETAILED to get more verbose layer information.
+[05/14/2024-20:52:52] [TRT] [I] [MemUsageChange] Init CUDA: CPU +0, GPU +0, now: CPU 2796, GPU 840 (MiB)
+[05/14/2024-20:52:52] [TRT] [I] Graph optimization time: 0.000185676 seconds.
+[05/14/2024-20:52:52] [TRT] [I] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +10, now: CPU 2797, GPU 850 (MiB)
+[05/14/2024-20:52:52] [TRT] [I] [MemUsageChange] Init cuDNN: CPU +0, GPU +8, now: CPU 2797, GPU 858 (MiB)
+[05/14/2024-20:52:52] [TRT] [I] Local timing cache in use. Profiling results in this builder pass will not be stored.
+[05/14/2024-20:52:52] [TRT] [I] Detected 7 inputs and 3 output network tensors.
+[05/14/2024-20:52:52] [TRT] [I] Total Host Persistent Memory: 560
+[05/14/2024-20:52:52] [TRT] [I] Total Device Persistent Memory: 0
+[05/14/2024-20:52:52] [TRT] [I] Total Scratch Memory: 0
+[05/14/2024-20:52:52] [TRT] [I] Total Activation Memory: 0
+[05/14/2024-20:52:52] [TRT] [I] Total Weights Memory: 0
+[05/14/2024-20:52:52] [TRT] [I] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +8, now: CPU 2797, GPU 866 (MiB)
+[05/14/2024-20:52:52] [TRT] [I] [MemUsageChange] Init cuDNN: CPU +0, GPU +8, now: CPU 2797, GPU 874 (MiB)
+[05/14/2024-20:52:52] [TRT] [I] [MemUsageStats] Peak memory usage of TRT CPU/GPU memory allocators: CPU 138 MiB, GPU 227 MiB
+[05/14/2024-20:52:52] [TRT] [I] [MemUsageChange] TensorRT-managed allocation in building engine: CPU +0, GPU +0, now: CPU 0, GPU 0 (MiB)
+[05/14/2024-20:52:52] [TRT] [I] The profiling verbosity was set to ProfilingVerbosity::kLAYER_NAMES_ONLY when the engine was built, so only the layer names will be returned. Rebuild the engine with ProfilingVerbosity::kDETAILED to get more verbose layer information.
+[05/14/2024-20:52:52] [TRT] [I] [MemUsageChange] Init CUDA: CPU +0, GPU +0, now: CPU 2797, GPU 840 (MiB)
+[05/14/2024-20:52:52] [TRT] [I] Graph optimization time: 0.000139672 seconds.
+[05/14/2024-20:52:52] [TRT] [I] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +10, now: CPU 2797, GPU 850 (MiB)
+[05/14/2024-20:52:52] [TRT] [I] [MemUsageChange] Init cuDNN: CPU +0, GPU +8, now: CPU 2797, GPU 858 (MiB)
+[05/14/2024-20:52:52] [TRT] [I] Local timing cache in use. Profiling results in this builder pass will not be stored.
+[05/14/2024-20:52:53] [TRT] [I] Detected 2 inputs and 1 output network tensors.
+[05/14/2024-20:52:53] [TRT] [I] Total Host Persistent Memory: 32
+[05/14/2024-20:52:53] [TRT] [I] Total Device Persistent Memory: 0
+[05/14/2024-20:52:53] [TRT] [I] Total Scratch Memory: 0
+[05/14/2024-20:52:53] [TRT] [I] Total Activation Memory: 0
+[05/14/2024-20:52:53] [TRT] [I] Total Weights Memory: 8
+[05/14/2024-20:52:53] [TRT] [I] [MemUsageStats] Peak memory usage of TRT CPU/GPU memory allocators: CPU 138 MiB, GPU 227 MiB
+[05/14/2024-20:52:53] [TRT] [I] [MemUsageChange] TensorRT-managed allocation in building engine: CPU +0, GPU +1, now: CPU 0, GPU 1 (MiB)
+[05/14/2024-20:52:53] [TRT] [I] The profiling verbosity was set to ProfilingVerbosity::kLAYER_NAMES_ONLY when the engine was built, so only the layer names will be returned. Rebuild the engine with ProfilingVerbosity::kDETAILED to get more verbose layer information.
+[05/14/2024-20:52:53] [TRT] [I] [MemUsageChange] Init CUDA: CPU +0, GPU +0, now: CPU 2797, GPU 840 (MiB)
+[05/14/2024-20:52:54] [TRT] [I] Graph optimization time: 0.000102742 seconds.
+[05/14/2024-20:52:54] [TRT] [I] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +10, now: CPU 2799, GPU 850 (MiB)
+[05/14/2024-20:52:54] [TRT] [I] [MemUsageChange] Init cuDNN: CPU +0, GPU +8, now: CPU 2799, GPU 858 (MiB)
+[05/14/2024-20:52:54] [TRT] [I] Local timing cache in use. Profiling results in this builder pass will not be stored.
+[05/14/2024-20:52:56] [TRT] [I] Detected 1 inputs and 1 output network tensors.
+[05/14/2024-20:52:56] [TRT] [I] Total Host Persistent Memory: 7328
+[05/14/2024-20:52:56] [TRT] [I] Total Device Persistent Memory: 0
+[05/14/2024-20:52:56] [TRT] [I] Total Scratch Memory: 0
+[05/14/2024-20:52:56] [TRT] [I] [BlockAssignment] Started assigning block shifts. This will take 2 steps to complete.
+[05/14/2024-20:52:56] [TRT] [I] [BlockAssignment] Algorithm ShiftNTopDown took 0.00397ms to assign 2 blocks to 2 nodes requiring 1024 bytes.
+[05/14/2024-20:52:56] [TRT] [I] Total Activation Memory: 1024
+[05/14/2024-20:52:56] [TRT] [I] Total Weights Memory: 1049600
+[05/14/2024-20:52:56] [TRT] [I] [MemUsageStats] Peak memory usage of TRT CPU/GPU memory allocators: CPU 138 MiB, GPU 227 MiB
+[05/14/2024-20:52:56] [TRT] [I] [MemUsageChange] TensorRT-managed allocation in building engine: CPU +0, GPU +2, now: CPU 0, GPU 2 (MiB)
+[05/14/2024-20:52:56] [TRT] [I] The profiling verbosity was set to ProfilingVerbosity::kLAYER_NAMES_ONLY when the engine was built, so only the layer names will be returned. Rebuild the engine with ProfilingVerbosity::kDETAILED to get more verbose layer information.
+[05/14/2024-20:52:56] [TRT] [I] [MemUsageChange] Init CUDA: CPU +0, GPU +0, now: CPU 2903, GPU 840 (MiB)
+[05/14/2024-20:52:56] [TRT] [I] Graph optimization time: 8.9328e-05 seconds.
+[05/14/2024-20:52:56] [TRT] [I] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +10, now: CPU 2904, GPU 850 (MiB)
+[05/14/2024-20:52:56] [TRT] [I] [MemUsageChange] Init cuDNN: CPU +0, GPU +8, now: CPU 2904, GPU 858 (MiB)
+[05/14/2024-20:52:56] [TRT] [I] Local timing cache in use. Profiling results in this builder pass will not be stored.
+[05/14/2024-20:52:57] [TRT] [I] Detected 1 inputs and 1 output network tensors.
+[05/14/2024-20:52:57] [TRT] [I] Total Host Persistent Memory: 7328
+[05/14/2024-20:52:57] [TRT] [I] Total Device Persistent Memory: 0
+[05/14/2024-20:52:57] [TRT] [I] Total Scratch Memory: 0
+[05/14/2024-20:52:57] [TRT] [I] [BlockAssignment] Started assigning block shifts. This will take 2 steps to complete.
+[05/14/2024-20:52:57] [TRT] [I] [BlockAssignment] Algorithm ShiftNTopDown took 0.003894ms to assign 2 blocks to 2 nodes requiring 1024 bytes.
+[05/14/2024-20:52:57] [TRT] [I] Total Activation Memory: 1024
+[05/14/2024-20:52:57] [TRT] [I] Total Weights Memory: 327680
+[05/14/2024-20:52:57] [TRT] [I] [MemUsageStats] Peak memory usage of TRT CPU/GPU memory allocators: CPU 138 MiB, GPU 227 MiB
+[05/14/2024-20:52:57] [TRT] [I] [MemUsageChange] TensorRT-managed allocation in building engine: CPU +0, GPU +1, now: CPU 0, GPU 1 (MiB)
+[05/14/2024-20:52:57] [TRT] [I] The profiling verbosity was set to ProfilingVerbosity::kLAYER_NAMES_ONLY when the engine was built, so only the layer names will be returned. Rebuild the engine with ProfilingVerbosity::kDETAILED to get more verbose layer information.
+[05/14/2024-20:52:57] [TRT] [I] [MemUsageChange] Init CUDA: CPU +0, GPU +0, now: CPU 2913, GPU 840 (MiB)
+[05/14/2024-20:52:57] [TRT] [I] Graph optimization time: 0.000236466 seconds.
+[05/14/2024-20:52:57] [TRT] [I] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +10, now: CPU 2913, GPU 850 (MiB)
+[05/14/2024-20:52:57] [TRT] [I] [MemUsageChange] Init cuDNN: CPU +0, GPU +8, now: CPU 2913, GPU 858 (MiB)
+[05/14/2024-20:52:57] [TRT] [I] Local timing cache in use. Profiling results in this builder pass will not be stored.

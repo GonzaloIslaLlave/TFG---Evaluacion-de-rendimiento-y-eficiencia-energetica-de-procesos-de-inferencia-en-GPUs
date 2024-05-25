@@ -1,0 +1,82 @@
+Modelo    SingleStream   Batch     Exp. ns stream Valido         Percentil 90   Target         qps_w          qps_w_o                       
+rnnt      SingleStream   1         0                                                                                                   
+rnnt      SingleStream   1         5000                                                                                                
+rnnt      SingleStream   1         10000          VALID          23620779       100000         67.00          67.20                    
+rnnt      SingleStream   1         15000          VALID          23606754       66666.7        67.05          67.32                    
+rnnt      SingleStream   1         20000          VALID          23740553       50000          66.65          66.92                    
+rnnt      SingleStream   1         25000          VALID          23518426       40000          67.31          67.56                    
+rnnt      SingleStream   1         30000          VALID          23476929       33333.3        67.49          67.69                    
+rnnt      SingleStream   1         35000          VALID          23522149       28571.4        67.37          67.62                    
+rnnt      SingleStream   1         40000          VALID          23777520       25000          66.72          66.87                    
+rnnt      SingleStream   1         45000          VALID          23722552       22222.2        66.79          66.99                    
+rnnt      SingleStream   1         50000          VALID          23544282       20000          67.33          67.44                    
+rnnt      SingleStream   1         55000          VALID          23682486       18181.8        66.91          67.08                    
+rnnt      SingleStream   1         60000          VALID          23777069       16666.7        66.68          66.87                    
+rnnt      SingleStream   1         65000          VALID          23596750       15384.6        67.09          67.35                    
+rnnt      SingleStream   1         70000          VALID          23558504       14285.7        67.31          67.48                    
+rnnt      SingleStream   1         75000          VALID          23766616       13333.3        66.64          66.88                    
+rnnt      SingleStream   1         80000          VALID          23741038       12500          66.75          66.95                    
+rnnt      SingleStream   1         85000          VALID          23557059       11764.7        67.22          67.48                    
+rnnt      SingleStream   1         90000          VALID          23766586       11111.1        66.57          66.80                    
+rnnt      SingleStream   1         95000          VALID          23772569       10526.3        66.70          66.85                    
+rnnt      SingleStream   1         100000         VALID          23585017       10000          67.24          67.45                    
+rnnt      SingleStream   1         105000         VALID          23858335       9523.81        66.36          66.59                    
+rnnt      SingleStream   1         110000         VALID          23756201       9090.91        66.64          66.84                    
+rnnt      SingleStream   1         115000         VALID          23592429       8695.65        67.05          67.32                    
+rnnt      SingleStream   1         120000         VALID          23566534       8333.33        67.16          67.40                    
+rnnt      SingleStream   1         125000         VALID          23542380       8000           67.22          67.47                    
+rnnt      SingleStream   1         130000         VALID          23787280       7692.31        66.62          66.84                    
+rnnt      SingleStream   1         135000                                                                                              
+rnnt      SingleStream   1         140000                                                                                              
+rnnt      SingleStream   1         145000                                                                                              
+rnnt      SingleStream   1         150000                                                                                              
+rnnt      SingleStream   1         155000                                                                                              
+rnnt      SingleStream   1         160000                                                                                              
+rnnt      SingleStream   1         165000                                                                                              
+rnnt      SingleStream   1         170000                                                                                              
+rnnt      SingleStream   1         175000                                                                                              
+rnnt      SingleStream   1         180000                                                                                              
+rnnt      SingleStream   1         185000                                                                                              
+rnnt      SingleStream   1         190000                                                                                              
+rnnt      SingleStream   1         195000                                                                                              
+rnnt      SingleStream   1         200000                                                                                              
+rnnt      SingleStream   1         205000                                                                                              
+rnnt      SingleStream   1         210000                                                                                              
+rnnt      SingleStream   1         215000                                                                                              
+rnnt      SingleStream   1         220000                                                                                              
+rnnt      SingleStream   1         225000                                                                                              
+rnnt      SingleStream   1         230000                                                                                              
+rnnt      SingleStream   1         235000                                                                                              
+rnnt      SingleStream   1         240000                                                                                              
+rnnt      SingleStream   1         245000                                                                                              
+rnnt      SingleStream   1         250000                                                                                              
+rnnt      SingleStream   1         255000                                                                                              
+rnnt      SingleStream   1         260000                                                                                              
+rnnt      SingleStream   1         265000                                                                                              
+rnnt      SingleStream   1         270000                                                                                              
+rnnt      SingleStream   1         275000                                                                                              
+rnnt      SingleStream   1         280000                                                                                              
+rnnt      SingleStream   1         285000                                                                                              
+rnnt      SingleStream   1         290000                                                                                              
+rnnt      SingleStream   1         295000                                                                                              
+rnnt      SingleStream   1         300000                                                                                              
+rnnt      SingleStream   1         500000         VALID          23479275       2000           67.44          67.68                    
+rnnt      SingleStream   1         1000000        VALID          23801261       1000           66.58          66.75                    
+rnnt      SingleStream   1         1500000        VALID          23770050       666.667        66.62          66.87                    
+rnnt      SingleStream   1         2000000        VALID          23573626       500            67.15          67.37                    
+rnnt      SingleStream   1         2500000        VALID          23719907       400            66.82          66.96                    
+rnnt      SingleStream   1         3000000        VALID          23846242       333.333        66.38          66.63                    
+rnnt      SingleStream   2         100000                                                                                              
+rnnt      SingleStream   3         100000                                                                                              
+rnnt      SingleStream   4         100000                                                                                              
+rnnt      SingleStream   5         100000                                                                                              
+rnnt      SingleStream   6         100000                                                                                              
+rnnt      SingleStream   7         100000                                                                                              
+rnnt      SingleStream   8         100000                                                                                              
+rnnt      SingleStream   9         100000                                                                                              
+rnnt      SingleStream   10        100000                                                                                              
+rnnt      SingleStream   50        300000                                                                                              
+rnnt      SingleStream   60        300000                                                                                              
+rnnt      SingleStream   70        300000                                                                                              
+rnnt      SingleStream   80        300000                                                                                              
+rnnt      SingleStream   90        300000                                                                                              

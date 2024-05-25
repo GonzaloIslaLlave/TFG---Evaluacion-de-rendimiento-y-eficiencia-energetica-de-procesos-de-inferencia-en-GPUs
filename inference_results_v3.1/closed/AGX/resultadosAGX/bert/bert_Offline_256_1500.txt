@@ -1,0 +1,469 @@
+$ARCH is [aarch64]
+$SYSTEM_NAME is [KnownSystem.Orin]
+$IS_SOC is [1]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [aarch64]
+$SYSTEM_NAME is [KnownSystem.Orin]
+$IS_SOC is [1]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [aarch64]
+$SYSTEM_NAME is [KnownSystem.Orin]
+$IS_SOC is [1]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [aarch64]
+$SYSTEM_NAME is [KnownSystem.Orin]
+$IS_SOC is [1]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [aarch64]
+$SYSTEM_NAME is [KnownSystem.Orin]
+$IS_SOC is [1]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [aarch64]
+$SYSTEM_NAME is [KnownSystem.Orin]
+$IS_SOC is [1]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [aarch64]
+$SYSTEM_NAME is [KnownSystem.Orin]
+$IS_SOC is [1]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+make[1]: Entering directory '/work'
+$ARCH is [aarch64]
+$SYSTEM_NAME is [KnownSystem.Orin]
+$IS_SOC is [1]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [aarch64]
+$SYSTEM_NAME is [KnownSystem.Orin]
+$IS_SOC is [1]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [aarch64]
+$SYSTEM_NAME is [KnownSystem.Orin]
+$IS_SOC is [1]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [aarch64]
+$SYSTEM_NAME is [KnownSystem.Orin]
+$IS_SOC is [1]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [aarch64]
+$SYSTEM_NAME is [KnownSystem.Orin]
+$IS_SOC is [1]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [aarch64]
+$SYSTEM_NAME is [KnownSystem.Orin]
+$IS_SOC is [1]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [aarch64]
+$SYSTEM_NAME is [KnownSystem.Orin]
+$IS_SOC is [1]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+[04/09/2024-20:17:50] [TRT] [I] [MemUsageChange] Init CUDA: CPU +215, GPU +0, now: CPU 262, GPU 14863 (MiB)
+[04/09/2024-20:17:52] [TRT] [I] [MemUsageChange] Init builder kernel library: CPU +302, GPU +429, now: CPU 587, GPU 15312 (MiB)
+[04/09/2024-20:17:54] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:54] [TRT] [I] Using default for use_int8_scale_max: true
+[04/09/2024-20:17:54] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:54] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:54] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:54] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:54] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:54] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:54] [TRT] [I] Using default for use_int8_scale_max: true
+[04/09/2024-20:17:54] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:54] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:54] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:54] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:54] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:54] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:54] [TRT] [I] Using default for use_int8_scale_max: true
+[04/09/2024-20:17:54] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:54] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:54] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:54] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:54] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:54] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:54] [TRT] [I] Using default for use_int8_scale_max: true
+[04/09/2024-20:17:54] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:54] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:54] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:54] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:54] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:54] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:54] [TRT] [I] Using default for use_int8_scale_max: true
+[04/09/2024-20:17:54] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:54] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:54] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:54] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:54] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:54] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:54] [TRT] [I] Using default for use_int8_scale_max: true
+[04/09/2024-20:17:54] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:54] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:54] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:54] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:54] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:54] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:54] [TRT] [I] Using default for use_int8_scale_max: true
+[04/09/2024-20:17:54] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:54] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:54] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:54] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:54] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:54] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:54] [TRT] [I] Using default for use_int8_scale_max: true
+[04/09/2024-20:17:54] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:54] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:54] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:54] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:54] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:54] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:55] [TRT] [I] Using default for use_int8_scale_max: true
+[04/09/2024-20:17:55] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:55] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:55] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:55] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:55] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:55] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:55] [TRT] [I] Using default for use_int8_scale_max: true
+[04/09/2024-20:17:55] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:55] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:55] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:55] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:55] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:55] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:55] [TRT] [I] Using default for use_int8_scale_max: true
+[04/09/2024-20:17:55] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:55] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:55] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:55] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:55] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:55] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:55] [TRT] [I] Using default for use_int8_scale_max: true
+[04/09/2024-20:17:55] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:55] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:55] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:55] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:55] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:55] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:55] [TRT] [I] Using default for use_int8_scale_max: true
+[04/09/2024-20:17:55] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:55] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:55] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:55] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:55] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:55] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:55] [TRT] [I] Using default for use_int8_scale_max: true
+[04/09/2024-20:17:55] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:55] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:55] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:55] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:55] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:55] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:55] [TRT] [I] Using default for use_int8_scale_max: true
+[04/09/2024-20:17:55] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:55] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:55] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:55] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:55] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:55] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:55] [TRT] [I] Using default for use_int8_scale_max: true
+[04/09/2024-20:17:55] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:55] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:55] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:55] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:55] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:55] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:55] [TRT] [I] Using default for use_int8_scale_max: true
+[04/09/2024-20:17:55] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:55] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:55] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:55] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:55] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:55] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:55] [TRT] [I] Using default for use_int8_scale_max: true
+[04/09/2024-20:17:55] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:55] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:55] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:55] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:55] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:55] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:55] [TRT] [I] Using default for use_int8_scale_max: true
+[04/09/2024-20:17:55] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:55] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:55] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:55] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:55] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:55] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:55] [TRT] [I] Using default for use_int8_scale_max: true
+[04/09/2024-20:17:55] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:55] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:55] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:55] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:55] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:55] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:55] [TRT] [I] Using default for use_int8_scale_max: true
+[04/09/2024-20:17:56] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:56] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:56] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:56] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:56] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:56] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:56] [TRT] [I] Using default for use_int8_scale_max: true
+[04/09/2024-20:17:56] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:56] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:56] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:56] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:56] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:56] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:56] [TRT] [I] Using default for use_int8_scale_max: true
+[04/09/2024-20:17:56] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:56] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:56] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:56] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:56] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:56] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:56] [TRT] [I] Using default for use_int8_scale_max: true
+[04/09/2024-20:17:56] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:56] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:56] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:56] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:56] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:56] [TRT] [W] Tensor DataType is determined at build time for tensors not marked as input or output.
+[04/09/2024-20:17:56] [TRT] [W] DLA requests all profiles have same min, max, and opt value. All dla layers are falling back to GPU
+[04/09/2024-20:17:56] [TRT] [W] Calibrator is not being used. Users must provide dynamic range for all tensors that are not Int32 or Bool.
+[04/09/2024-20:17:56] [TRT] [W] Missing scale and zero-point for tensor input_ids, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[04/09/2024-20:17:56] [TRT] [W] Missing scale and zero-point for tensor segment_ids, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[04/09/2024-20:17:56] [TRT] [W] Missing scale and zero-point for tensor cu_seqlens, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[04/09/2024-20:17:56] [TRT] [W] Missing scale and zero-point for tensor max_seqlen, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[04/09/2024-20:17:56] [TRT] [I] ---------- Layers Running on DLA ----------
+[04/09/2024-20:17:56] [TRT] [I] ---------- Layers Running on GPU ----------
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] COPY: Reformatting CopyNode for Network Input cu_seqlens
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] COPY: Reformatting CopyNode for Network Input max_seqlen
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: embln
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: (Unnamed Layer* 1) [PluginV2DynamicExt]
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: l0_qkv_to_ctx
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: (Unnamed Layer* 3) [PluginV2DynamicExt]
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: l0_skln_1
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: (Unnamed Layer* 5) [PluginV2DynamicExt]
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] CONVOLUTION: l0_fc_out
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: l0_skln_2
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: (Unnamed Layer* 8) [PluginV2DynamicExt]
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: l1_qkv_to_ctx
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: (Unnamed Layer* 10) [PluginV2DynamicExt]
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: l1_skln_1
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: (Unnamed Layer* 12) [PluginV2DynamicExt]
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] CONVOLUTION: l1_fc_out
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: l1_skln_2
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: (Unnamed Layer* 15) [PluginV2DynamicExt]
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: l2_qkv_to_ctx
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: (Unnamed Layer* 17) [PluginV2DynamicExt]
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: l2_skln_1
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: (Unnamed Layer* 19) [PluginV2DynamicExt]
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] CONVOLUTION: l2_fc_out
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: l2_skln_2
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: (Unnamed Layer* 22) [PluginV2DynamicExt]
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: l3_qkv_to_ctx
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: (Unnamed Layer* 24) [PluginV2DynamicExt]
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: l3_skln_1
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: (Unnamed Layer* 26) [PluginV2DynamicExt]
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] CONVOLUTION: l3_fc_out
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: l3_skln_2
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: (Unnamed Layer* 29) [PluginV2DynamicExt]
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: l4_qkv_to_ctx
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: (Unnamed Layer* 31) [PluginV2DynamicExt]
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: l4_skln_1
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: (Unnamed Layer* 33) [PluginV2DynamicExt]
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] CONVOLUTION: l4_fc_out
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: l4_skln_2
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: (Unnamed Layer* 36) [PluginV2DynamicExt]
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: l5_qkv_to_ctx
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: (Unnamed Layer* 38) [PluginV2DynamicExt]
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: l5_skln_1
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: (Unnamed Layer* 40) [PluginV2DynamicExt]
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] CONVOLUTION: l5_fc_out
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: l5_skln_2
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: (Unnamed Layer* 43) [PluginV2DynamicExt]
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: l6_qkv_to_ctx
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: (Unnamed Layer* 45) [PluginV2DynamicExt]
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: l6_skln_1
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: (Unnamed Layer* 47) [PluginV2DynamicExt]
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] CONVOLUTION: l6_fc_out
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: l6_skln_2
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: (Unnamed Layer* 50) [PluginV2DynamicExt]
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: l7_qkv_to_ctx
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: (Unnamed Layer* 52) [PluginV2DynamicExt]
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: l7_skln_1
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: (Unnamed Layer* 54) [PluginV2DynamicExt]
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] CONVOLUTION: l7_fc_out
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: l7_skln_2
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: (Unnamed Layer* 57) [PluginV2DynamicExt]
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: l8_qkv_to_ctx
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: (Unnamed Layer* 59) [PluginV2DynamicExt]
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: l8_skln_1
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: (Unnamed Layer* 61) [PluginV2DynamicExt]
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] CONVOLUTION: l8_fc_out
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: l8_skln_2
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: (Unnamed Layer* 64) [PluginV2DynamicExt]
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: l9_qkv_to_ctx
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: (Unnamed Layer* 66) [PluginV2DynamicExt]
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: l9_skln_1
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: (Unnamed Layer* 68) [PluginV2DynamicExt]
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] CONVOLUTION: l9_fc_out
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: l9_skln_2
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: (Unnamed Layer* 71) [PluginV2DynamicExt]
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: l10_qkv_to_ctx
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: (Unnamed Layer* 73) [PluginV2DynamicExt]
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: l10_skln_1
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: (Unnamed Layer* 75) [PluginV2DynamicExt]
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] CONVOLUTION: l10_fc_out
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: l10_skln_2
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: (Unnamed Layer* 78) [PluginV2DynamicExt]
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: l11_qkv_to_ctx
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: (Unnamed Layer* 80) [PluginV2DynamicExt]
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: l11_skln_1
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: (Unnamed Layer* 82) [PluginV2DynamicExt]
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] CONVOLUTION: l11_fc_out
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: l11_skln_2
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: (Unnamed Layer* 85) [PluginV2DynamicExt]
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: l12_qkv_to_ctx
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: (Unnamed Layer* 87) [PluginV2DynamicExt]
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: l12_skln_1
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: (Unnamed Layer* 89) [PluginV2DynamicExt]
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] CONVOLUTION: l12_fc_out
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: l12_skln_2
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: (Unnamed Layer* 92) [PluginV2DynamicExt]
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: l13_qkv_to_ctx
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: (Unnamed Layer* 94) [PluginV2DynamicExt]
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: l13_skln_1
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: (Unnamed Layer* 96) [PluginV2DynamicExt]
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] CONVOLUTION: l13_fc_out
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: l13_skln_2
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: (Unnamed Layer* 99) [PluginV2DynamicExt]
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: l14_qkv_to_ctx
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: (Unnamed Layer* 101) [PluginV2DynamicExt]
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: l14_skln_1
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: (Unnamed Layer* 103) [PluginV2DynamicExt]
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] CONVOLUTION: l14_fc_out
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: l14_skln_2
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: (Unnamed Layer* 106) [PluginV2DynamicExt]
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: l15_qkv_to_ctx
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: (Unnamed Layer* 108) [PluginV2DynamicExt]
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: l15_skln_1
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: (Unnamed Layer* 110) [PluginV2DynamicExt]
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] CONVOLUTION: l15_fc_out
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: l15_skln_2
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: (Unnamed Layer* 113) [PluginV2DynamicExt]
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: l16_qkv_to_ctx
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: (Unnamed Layer* 115) [PluginV2DynamicExt]
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: l16_skln_1
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: (Unnamed Layer* 117) [PluginV2DynamicExt]
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] CONVOLUTION: l16_fc_out
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: l16_skln_2
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: (Unnamed Layer* 120) [PluginV2DynamicExt]
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: l17_qkv_to_ctx
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: (Unnamed Layer* 122) [PluginV2DynamicExt]
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: l17_skln_1
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: (Unnamed Layer* 124) [PluginV2DynamicExt]
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] CONVOLUTION: l17_fc_out
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: l17_skln_2
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: (Unnamed Layer* 127) [PluginV2DynamicExt]
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: l18_qkv_to_ctx
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: (Unnamed Layer* 129) [PluginV2DynamicExt]
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: l18_skln_1
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: (Unnamed Layer* 131) [PluginV2DynamicExt]
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] CONVOLUTION: l18_fc_out
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: l18_skln_2
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: (Unnamed Layer* 134) [PluginV2DynamicExt]
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: l19_qkv_to_ctx
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: (Unnamed Layer* 136) [PluginV2DynamicExt]
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: l19_skln_1
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: (Unnamed Layer* 138) [PluginV2DynamicExt]
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] CONVOLUTION: l19_fc_out
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: l19_skln_2
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: (Unnamed Layer* 141) [PluginV2DynamicExt]
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: l20_qkv_to_ctx
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: (Unnamed Layer* 143) [PluginV2DynamicExt]
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: l20_skln_1
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: (Unnamed Layer* 145) [PluginV2DynamicExt]
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] CONVOLUTION: l20_fc_out
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: l20_skln_2
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: (Unnamed Layer* 148) [PluginV2DynamicExt]
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: l21_qkv_to_ctx
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: (Unnamed Layer* 150) [PluginV2DynamicExt]
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: l21_skln_1
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: (Unnamed Layer* 152) [PluginV2DynamicExt]
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] CONVOLUTION: l21_fc_out
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: l21_skln_2
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: (Unnamed Layer* 155) [PluginV2DynamicExt]
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: l22_qkv_to_ctx
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: (Unnamed Layer* 157) [PluginV2DynamicExt]
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: l22_skln_1
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: (Unnamed Layer* 159) [PluginV2DynamicExt]
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] CONVOLUTION: l22_fc_out
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: l22_skln_2
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: (Unnamed Layer* 162) [PluginV2DynamicExt]
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: l23_qkv_to_ctx
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: (Unnamed Layer* 164) [PluginV2DynamicExt]
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: l23_skln_1
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: (Unnamed Layer* 166) [PluginV2DynamicExt]
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] CONVOLUTION: l23_fc_out
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] PLUGIN_V2: l23_skln_2
+[04/09/2024-20:17:56] [TRT] [I] [GpuLayer] CONVOLUTION: squad_FC_layer
+[04/09/2024-20:17:57] [TRT] [I] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +534, GPU +802, now: CPU 2925, GPU 17967 (MiB)
+[04/09/2024-20:17:57] [TRT] [I] [MemUsageChange] Init cuDNN: CPU +82, GPU +123, now: CPU 3007, GPU 18090 (MiB)
+[04/09/2024-20:17:57] [TRT] [I] Local timing cache in use. Profiling results in this builder pass will not be stored.
+[04/09/2024-20:17:57] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[04/09/2024-20:17:58] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[04/09/2024-20:17:58] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[04/09/2024-20:17:59] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[04/09/2024-20:17:59] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[04/09/2024-20:17:59] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[04/09/2024-20:17:59] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[04/09/2024-20:17:59] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[04/09/2024-20:17:59] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[04/09/2024-20:18:00] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[04/09/2024-20:18:00] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[04/09/2024-20:18:00] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[04/09/2024-20:18:00] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[04/09/2024-20:18:00] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[04/09/2024-20:18:00] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[04/09/2024-20:18:00] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[04/09/2024-20:18:00] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[04/09/2024-20:18:04] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[04/09/2024-20:18:04] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[04/09/2024-20:18:05] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[04/09/2024-20:18:05] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[04/09/2024-20:18:06] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[04/09/2024-20:18:07] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[04/09/2024-20:18:07] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[04/09/2024-20:18:08] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[04/09/2024-20:18:08] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[04/09/2024-20:18:11] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[04/09/2024-20:18:12] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[04/09/2024-20:18:12] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[04/09/2024-20:18:15] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[04/09/2024-20:18:16] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[04/09/2024-20:18:16] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[04/09/2024-20:18:17] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[04/09/2024-20:18:17] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[04/09/2024-20:18:17] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[04/09/2024-20:18:18] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[04/09/2024-20:18:18] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[04/09/2024-20:18:19] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[04/09/2024-20:18:19] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[04/09/2024-20:18:19] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[04/09/2024-20:18:20] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[04/09/2024-20:18:23] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[04/09/2024-20:18:23] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.
+[04/09/2024-20:18:24] [TRT] [W] Unknown embedded device detected. Using 59656MiB as the allocation cap for memory on embedded devices.

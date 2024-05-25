@@ -1,0 +1,430 @@
+$ARCH is [aarch64]
+$SYSTEM_NAME is [KnownSystem.Orin]
+$IS_SOC is [1]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [aarch64]
+$SYSTEM_NAME is [KnownSystem.Orin]
+$IS_SOC is [1]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [aarch64]
+$SYSTEM_NAME is [KnownSystem.Orin]
+$IS_SOC is [1]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [aarch64]
+$SYSTEM_NAME is [KnownSystem.Orin]
+$IS_SOC is [1]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [aarch64]
+$SYSTEM_NAME is [KnownSystem.Orin]
+$IS_SOC is [1]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [aarch64]
+$SYSTEM_NAME is [KnownSystem.Orin]
+$IS_SOC is [1]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [aarch64]
+$SYSTEM_NAME is [KnownSystem.Orin]
+$IS_SOC is [1]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+make[1]: Entering directory '/work'
+$ARCH is [aarch64]
+$SYSTEM_NAME is [KnownSystem.Orin]
+$IS_SOC is [1]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [aarch64]
+$SYSTEM_NAME is [KnownSystem.Orin]
+$IS_SOC is [1]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [aarch64]
+$SYSTEM_NAME is [KnownSystem.Orin]
+$IS_SOC is [1]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [aarch64]
+$SYSTEM_NAME is [KnownSystem.Orin]
+$IS_SOC is [1]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [aarch64]
+$SYSTEM_NAME is [KnownSystem.Orin]
+$IS_SOC is [1]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [aarch64]
+$SYSTEM_NAME is [KnownSystem.Orin]
+$IS_SOC is [1]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [aarch64]
+$SYSTEM_NAME is [KnownSystem.Orin]
+$IS_SOC is [1]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+[05/20/2024-15:57:34] [TRT] [I] [MemUsageChange] Init CUDA: CPU +215, GPU +0, now: CPU 348, GPU 14833 (MiB)
+[05/20/2024-15:57:36] [TRT] [I] [MemUsageChange] Init builder kernel library: CPU +302, GPU +431, now: CPU 673, GPU 15285 (MiB)
+[05/20/2024-15:57:36] [TRT] [W] onnx2trt_utils.cpp:375: Your ONNX model has been generated with INT64 weights, while TensorRT does not natively support INT64. Attempting to cast down to INT32.
+[05/20/2024-15:57:37] [TRT] [I] No importer registered for op: RetinaNetNMSPVATRT. Attempting to import as plugin.
+[05/20/2024-15:57:37] [TRT] [I] Searching for plugin: RetinaNetNMSPVATRT, plugin_version: 1, plugin_namespace: 
+[05/20/2024-15:57:37] [TRT] [I] Successfully created plugin: RetinaNetNMSPVATRT
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res1_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res1_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res2a_branch2a_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res2a_branch1_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res2a_branch2a_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res2a_branch1_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res2a_branch2b_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res2a_branch2b_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res2a_branch2c_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res2a_branch2c_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res2b_branch2a_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res2b_branch2a_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res2b_branch2b_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res2b_branch2b_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res2b_branch2c_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res2b_branch2c_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res2c_branch2a_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res2c_branch2a_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res2c_branch2b_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res2c_branch2b_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res2c_branch2c_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res2c_branch2c_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res3a_branch2a_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res3a_branch1_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res3a_branch2a_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res3a_branch1_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res3a_branch2b_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res3a_branch2b_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res3a_branch2c_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res3a_branch2c_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res3b_branch2a_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res3b_branch2a_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res3b_branch2b_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res3b_branch2b_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res3b_branch2c_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res3b_branch2c_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res3c_branch2a_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res3c_branch2a_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res3c_branch2b_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res3c_branch2b_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res3c_branch2c_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res3c_branch2c_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res3d_branch2a_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res3d_branch2a_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res3d_branch2b_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res3d_branch2b_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res3d_branch2c_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res3d_branch2c_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res4a_branch2a_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res4a_branch1_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer '/backbone/fpn/Shape_3' (SHAPE): DLA only supports FP16 and Int8 precision type. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer '/backbone/fpn/Shape_4' (SHAPE): DLA only supports FP16 and Int8 precision type. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res4a_branch2a_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res4a_branch1_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer '/backbone/fpn/Constant_7_output_0' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer '/backbone/fpn/Gather_2' (GATHER): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer '/backbone/fpn/Constant_8_output_0' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer '/backbone/fpn/Gather_3' (GATHER): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer '/backbone/fpn/Unsqueeze_2' (SHUFFLE): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer '/backbone/fpn/Unsqueeze_3' (SHUFFLE): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] /backbone/fpn/Concat_2: DLA only supports concatenation on the C dimension.
+[05/20/2024-15:57:37] [TRT] [W] Layer '/backbone/fpn/Concat_2' (CONCATENATION): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res4a_branch2b_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer '/backbone/fpn/Cast_1' (CAST): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res4a_branch2b_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res4a_branch2c_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res4a_branch2c_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res4b_branch2a_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res4b_branch2a_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res4b_branch2b_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res4b_branch2b_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res4b_branch2c_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res4b_branch2c_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res4c_branch2a_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res4c_branch2a_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res4c_branch2b_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res4c_branch2b_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res4c_branch2c_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res4c_branch2c_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res4d_branch2a_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res4d_branch2a_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res4d_branch2b_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res4d_branch2b_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res4d_branch2c_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res4d_branch2c_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res4e_branch2a_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res4e_branch2a_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res4e_branch2b_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res4e_branch2b_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res4e_branch2c_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res4e_branch2c_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res4f_branch2a_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res4f_branch2a_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res4f_branch2b_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res4f_branch2b_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res4f_branch2c_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res4f_branch2c_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res5a_branch2a_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res5a_branch1_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer '/backbone/fpn/Shape' (SHAPE): DLA only supports FP16 and Int8 precision type. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer '/backbone/fpn/Shape_1' (SHAPE): DLA only supports FP16 and Int8 precision type. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res5a_branch2a_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res5a_branch1_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer '/backbone/fpn/Constant_output_0' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer '/backbone/fpn/Gather' (GATHER): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer '/backbone/fpn/Constant_1_output_0' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer '/backbone/fpn/Gather_1' (GATHER): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer '/backbone/fpn/Unsqueeze' (SHUFFLE): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer '/backbone/fpn/Unsqueeze_1' (SHUFFLE): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] /backbone/fpn/Concat: DLA only supports concatenation on the C dimension.
+[05/20/2024-15:57:37] [TRT] [W] Layer '/backbone/fpn/Concat' (CONCATENATION): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res5a_branch2b_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer '/backbone/fpn/Cast' (CAST): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res5a_branch2b_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res5a_branch2c_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res5a_branch2c_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res5b_branch2a_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res5b_branch2a_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res5b_branch2b_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res5b_branch2b_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res5b_branch2c_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res5b_branch2c_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res5c_branch2a_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res5c_branch2a_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res5c_branch2b_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res5c_branch2b_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res5c_branch2c_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'res5c_branch2c_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer '/backbone/fpn/Shape_2' (SHAPE): DLA only supports FP16 and Int8 precision type. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] /backbone/fpn/Slice: DLA only supports slicing 4 dimensional tensors.
+[05/20/2024-15:57:37] [TRT] [W] Layer '/backbone/fpn/Slice' (SLICE): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] /backbone/fpn/Concat_1: DLA only supports concatenation on the C dimension.
+[05/20/2024-15:57:37] [TRT] [W] Layer '/backbone/fpn/Concat_1' (CONCATENATION): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer '/backbone/fpn/Shape_5' (SHAPE): DLA only supports FP16 and Int8 precision type. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] /backbone/fpn/Slice_1: DLA only supports slicing 4 dimensional tensors.
+[05/20/2024-15:57:37] [TRT] [W] Layer '/backbone/fpn/Slice_1' (SLICE): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] /backbone/fpn/Concat_3: DLA only supports concatenation on the C dimension.
+[05/20/2024-15:57:37] [TRT] [W] Layer '/backbone/fpn/Concat_3' (CONCATENATION): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'anchor' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [W] Layer 'RetinaNetNMSPVA' (PLUGIN_V2): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:57:37] [TRT] [I] Reading Calibration Cache for calibrator: EntropyCalibration2
+[05/20/2024-15:57:37] [TRT] [I] Generated calibration scales using calibration cache. Make sure that calibration cache has latest scales.
+[05/20/2024-15:57:37] [TRT] [I] To regenerate calibration cache, please delete the existing one. TensorRT will generate a new calibration cache.
+[05/20/2024-15:57:38] [TRT] [W] DLA compiler failed with error code: 2 while compiling layer: res5a_branch2b_conv + res5a_branch2b_scale_value + res5a_branch2b_scale + res5a_branch2b_bias_value + res5a_branch2b_bias. 
+Hint: Try reducing the input and/or weight sizes. 
+[05/20/2024-15:57:38] [TRT] [W] Validation failed for DLA layer: res5a_branch2b_conv + res5a_branch2b_scale_value + res5a_branch2b_scale + res5a_branch2b_bias_value + res5a_branch2b_bias. Switching to GPU fallback.
+[05/20/2024-15:57:38] [TRT] [W] Splitting DLA subgraph at: res5a_branch2b_conv + res5a_branch2b_scale_value + res5a_branch2b_scale + res5a_branch2b_bias_value + res5a_branch2b_bias because DLA validation failed for this layer.
+[05/20/2024-15:57:38] [TRT] [W] DLA compiler failed with error code: 2 while compiling layer: res5a_branch2b_conv + res5a_branch2b_scale_value + res5a_branch2b_scale + res5a_branch2b_bias_value + res5a_branch2b_bias. 
+Hint: Try reducing the input and/or weight sizes. 
+[05/20/2024-15:57:38] [TRT] [W] Validation failed for DLA layer: res5a_branch2b_conv + res5a_branch2b_scale_value + res5a_branch2b_scale + res5a_branch2b_bias_value + res5a_branch2b_bias. Switching to GPU fallback.
+[05/20/2024-15:57:39] [TRT] [W] DLA compiler failed with error code: 2 while compiling layer: res5b_branch2b_conv + res5b_branch2b_scale_value + res5b_branch2b_scale + res5b_branch2b_bias_value + res5b_branch2b_bias. 
+Hint: Try reducing the input and/or weight sizes. 
+[05/20/2024-15:57:39] [TRT] [W] Validation failed for DLA layer: res5b_branch2b_conv + res5b_branch2b_scale_value + res5b_branch2b_scale + res5b_branch2b_bias_value + res5b_branch2b_bias. Switching to GPU fallback.
+[05/20/2024-15:57:39] [TRT] [W] Splitting DLA subgraph at: res5b_branch2b_conv + res5b_branch2b_scale_value + res5b_branch2b_scale + res5b_branch2b_bias_value + res5b_branch2b_bias because DLA validation failed for this layer.
+[05/20/2024-15:57:39] [TRT] [W] DLA compiler failed with error code: 2 while compiling layer: res5b_branch2b_conv + res5b_branch2b_scale_value + res5b_branch2b_scale + res5b_branch2b_bias_value + res5b_branch2b_bias. 
+Hint: Try reducing the input and/or weight sizes. 
+[05/20/2024-15:57:39] [TRT] [W] Validation failed for DLA layer: res5b_branch2b_conv + res5b_branch2b_scale_value + res5b_branch2b_scale + res5b_branch2b_bias_value + res5b_branch2b_bias. Switching to GPU fallback.
+[05/20/2024-15:57:39] [TRT] [W] DLA compiler failed with error code: 2 while compiling layer: res5c_branch2b_conv + res5c_branch2b_scale_value + res5c_branch2b_scale + res5c_branch2b_bias_value + res5c_branch2b_bias. 
+Hint: Try reducing the input and/or weight sizes. 
+[05/20/2024-15:57:39] [TRT] [W] Validation failed for DLA layer: res5c_branch2b_conv + res5c_branch2b_scale_value + res5c_branch2b_scale + res5c_branch2b_bias_value + res5c_branch2b_bias. Switching to GPU fallback.
+[05/20/2024-15:57:39] [TRT] [W] Splitting DLA subgraph at: res5c_branch2b_conv + res5c_branch2b_scale_value + res5c_branch2b_scale + res5c_branch2b_bias_value + res5c_branch2b_bias because DLA validation failed for this layer.
+[05/20/2024-15:57:39] [TRT] [W] DLA compiler failed with error code: 2 while compiling layer: res5c_branch2b_conv + res5c_branch2b_scale_value + res5c_branch2b_scale + res5c_branch2b_bias_value + res5c_branch2b_bias. 
+Hint: Try reducing the input and/or weight sizes. 
+[05/20/2024-15:57:39] [TRT] [W] Validation failed for DLA layer: res5c_branch2b_conv + res5c_branch2b_scale_value + res5c_branch2b_scale + res5c_branch2b_bias_value + res5c_branch2b_bias. Switching to GPU fallback.
+[05/20/2024-15:57:40] [TRT] [W] /backbone/fpn/Resize: DLA only supports Resize with pre-set scale factors, hence computing explicit scale factors from output dimensions.
+[05/20/2024-15:57:40] [TRT] [W] /backbone/fpn/Resize_1: DLA only supports Resize with pre-set scale factors, hence computing explicit scale factors from output dimensions.
+[05/20/2024-15:57:44] [TRT] [W] {ForeignNode[res1_conv + res1_scale_value + res1_scale + res1_bias_value + res1_bias...res5a_branch2a_relu]} does not use managed SRAM to avoid exceeding device capacity. Decreasing managed SRAM pool size may help to better utilize capacity and potentially improve performance.
+[05/20/2024-15:57:53] [TRT] [W] {ForeignNode[res5a_branch2b_relu...res5b_branch2a_relu]} does not use managed SRAM to avoid exceeding device capacity. Decreasing managed SRAM pool size may help to better utilize capacity and potentially improve performance.
+[05/20/2024-15:57:53] [TRT] [W] {ForeignNode[res5b_branch2b_relu...res5c_branch2a_relu]} does not use managed SRAM to avoid exceeding device capacity. Decreasing managed SRAM pool size may help to better utilize capacity and potentially improve performance.
+[05/20/2024-15:57:53] [TRT] [E] 4: [foreignNode.cpp::finalizeRanges::1102] Error Code 4: Internal Error (Network has multiple DLA subgraphs, managed SRAM pool size must be at most half of device capacity.)
+Loading TensorRT plugin from build/plugins/NMSOptPlugin/libnmsoptplugin.so
+Loading TensorRT plugin from build/plugins/NMSPVAPlugin/libretinanetNMSPVA_aarch64_linux.so.1.0.0
+Loading TensorRT plugin from build/plugins/retinanetConcatPlugin/libretinanetconcatplugin.so
+[05/20/2024-15:58:01] [TRT] [I] [MemUsageChange] Init CUDA: CPU +215, GPU +0, now: CPU 348, GPU 14855 (MiB)
+[05/20/2024-15:58:03] [TRT] [I] [MemUsageChange] Init builder kernel library: CPU +302, GPU +407, now: CPU 673, GPU 15284 (MiB)
+[05/20/2024-15:58:03] [TRT] [W] onnx2trt_utils.cpp:375: Your ONNX model has been generated with INT64 weights, while TensorRT does not natively support INT64. Attempting to cast down to INT32.
+[05/20/2024-15:58:03] [TRT] [I] No importer registered for op: RetinaNetNMSPVATRT. Attempting to import as plugin.
+[05/20/2024-15:58:03] [TRT] [I] Searching for plugin: RetinaNetNMSPVATRT, plugin_version: 1, plugin_namespace: 
+[05/20/2024-15:58:03] [TRT] [I] Successfully created plugin: RetinaNetNMSPVATRT
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res1_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res1_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res2a_branch2a_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res2a_branch1_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res2a_branch2a_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res2a_branch1_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res2a_branch2b_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res2a_branch2b_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res2a_branch2c_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res2a_branch2c_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res2b_branch2a_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res2b_branch2a_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res2b_branch2b_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res2b_branch2b_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res2b_branch2c_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res2b_branch2c_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res2c_branch2a_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res2c_branch2a_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res2c_branch2b_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res2c_branch2b_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res2c_branch2c_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res2c_branch2c_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res3a_branch2a_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res3a_branch1_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res3a_branch2a_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res3a_branch1_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res3a_branch2b_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res3a_branch2b_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res3a_branch2c_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res3a_branch2c_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res3b_branch2a_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res3b_branch2a_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res3b_branch2b_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res3b_branch2b_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res3b_branch2c_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res3b_branch2c_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res3c_branch2a_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res3c_branch2a_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res3c_branch2b_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res3c_branch2b_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res3c_branch2c_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res3c_branch2c_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res3d_branch2a_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res3d_branch2a_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res3d_branch2b_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res3d_branch2b_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res3d_branch2c_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res3d_branch2c_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res4a_branch2a_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res4a_branch1_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer '/backbone/fpn/Shape_3' (SHAPE): DLA only supports FP16 and Int8 precision type. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer '/backbone/fpn/Shape_4' (SHAPE): DLA only supports FP16 and Int8 precision type. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res4a_branch2a_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res4a_branch1_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer '/backbone/fpn/Constant_7_output_0' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer '/backbone/fpn/Gather_2' (GATHER): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer '/backbone/fpn/Constant_8_output_0' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer '/backbone/fpn/Gather_3' (GATHER): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer '/backbone/fpn/Unsqueeze_2' (SHUFFLE): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer '/backbone/fpn/Unsqueeze_3' (SHUFFLE): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] /backbone/fpn/Concat_2: DLA only supports concatenation on the C dimension.
+[05/20/2024-15:58:04] [TRT] [W] Layer '/backbone/fpn/Concat_2' (CONCATENATION): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res4a_branch2b_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer '/backbone/fpn/Cast_1' (CAST): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res4a_branch2b_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res4a_branch2c_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res4a_branch2c_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res4b_branch2a_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res4b_branch2a_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res4b_branch2b_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res4b_branch2b_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res4b_branch2c_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res4b_branch2c_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res4c_branch2a_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res4c_branch2a_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res4c_branch2b_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res4c_branch2b_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res4c_branch2c_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res4c_branch2c_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res4d_branch2a_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res4d_branch2a_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res4d_branch2b_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res4d_branch2b_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res4d_branch2c_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res4d_branch2c_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res4e_branch2a_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res4e_branch2a_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res4e_branch2b_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res4e_branch2b_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res4e_branch2c_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res4e_branch2c_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res4f_branch2a_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res4f_branch2a_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res4f_branch2b_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res4f_branch2b_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res4f_branch2c_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res4f_branch2c_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res5a_branch2a_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res5a_branch1_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer '/backbone/fpn/Shape' (SHAPE): DLA only supports FP16 and Int8 precision type. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer '/backbone/fpn/Shape_1' (SHAPE): DLA only supports FP16 and Int8 precision type. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res5a_branch2a_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res5a_branch1_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer '/backbone/fpn/Constant_output_0' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer '/backbone/fpn/Gather' (GATHER): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer '/backbone/fpn/Constant_1_output_0' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer '/backbone/fpn/Gather_1' (GATHER): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer '/backbone/fpn/Unsqueeze' (SHUFFLE): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer '/backbone/fpn/Unsqueeze_1' (SHUFFLE): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] /backbone/fpn/Concat: DLA only supports concatenation on the C dimension.
+[05/20/2024-15:58:04] [TRT] [W] Layer '/backbone/fpn/Concat' (CONCATENATION): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res5a_branch2b_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer '/backbone/fpn/Cast' (CAST): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res5a_branch2b_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res5a_branch2c_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res5a_branch2c_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res5b_branch2a_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res5b_branch2a_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res5b_branch2b_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res5b_branch2b_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res5b_branch2c_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res5b_branch2c_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res5c_branch2a_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res5c_branch2a_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res5c_branch2b_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res5c_branch2b_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res5c_branch2c_scale_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'res5c_branch2c_bias_value' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer '/backbone/fpn/Shape_2' (SHAPE): DLA only supports FP16 and Int8 precision type. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] /backbone/fpn/Slice: DLA only supports slicing 4 dimensional tensors.
+[05/20/2024-15:58:04] [TRT] [W] Layer '/backbone/fpn/Slice' (SLICE): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] /backbone/fpn/Concat_1: DLA only supports concatenation on the C dimension.
+[05/20/2024-15:58:04] [TRT] [W] Layer '/backbone/fpn/Concat_1' (CONCATENATION): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer '/backbone/fpn/Shape_5' (SHAPE): DLA only supports FP16 and Int8 precision type. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] /backbone/fpn/Slice_1: DLA only supports slicing 4 dimensional tensors.
+[05/20/2024-15:58:04] [TRT] [W] Layer '/backbone/fpn/Slice_1' (SLICE): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] /backbone/fpn/Concat_3: DLA only supports concatenation on the C dimension.
+[05/20/2024-15:58:04] [TRT] [W] Layer '/backbone/fpn/Concat_3' (CONCATENATION): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'anchor' (CONSTANT): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [W] Layer 'RetinaNetNMSPVA' (PLUGIN_V2): Unsupported on DLA. Switching this layer's device type to GPU.
+[05/20/2024-15:58:04] [TRT] [I] Reading Calibration Cache for calibrator: EntropyCalibration2
+[05/20/2024-15:58:04] [TRT] [I] Generated calibration scales using calibration cache. Make sure that calibration cache has latest scales.
+[05/20/2024-15:58:04] [TRT] [I] To regenerate calibration cache, please delete the existing one. TensorRT will generate a new calibration cache.
+[05/20/2024-15:58:05] [TRT] [W] DLA compiler failed with error code: 2 while compiling layer: res5a_branch2b_conv + res5a_branch2b_scale_value + res5a_branch2b_scale + res5a_branch2b_bias_value + res5a_branch2b_bias. 
+Hint: Try reducing the input and/or weight sizes. 
+[05/20/2024-15:58:05] [TRT] [W] Validation failed for DLA layer: res5a_branch2b_conv + res5a_branch2b_scale_value + res5a_branch2b_scale + res5a_branch2b_bias_value + res5a_branch2b_bias. Switching to GPU fallback.
+[05/20/2024-15:58:05] [TRT] [W] Splitting DLA subgraph at: res5a_branch2b_conv + res5a_branch2b_scale_value + res5a_branch2b_scale + res5a_branch2b_bias_value + res5a_branch2b_bias because DLA validation failed for this layer.
+[05/20/2024-15:58:05] [TRT] [W] DLA compiler failed with error code: 2 while compiling layer: res5a_branch2b_conv + res5a_branch2b_scale_value + res5a_branch2b_scale + res5a_branch2b_bias_value + res5a_branch2b_bias. 
+Hint: Try reducing the input and/or weight sizes. 
+[05/20/2024-15:58:05] [TRT] [W] Validation failed for DLA layer: res5a_branch2b_conv + res5a_branch2b_scale_value + res5a_branch2b_scale + res5a_branch2b_bias_value + res5a_branch2b_bias. Switching to GPU fallback.
+[05/20/2024-15:58:05] [TRT] [W] DLA compiler failed with error code: 2 while compiling layer: res5b_branch2b_conv + res5b_branch2b_scale_value + res5b_branch2b_scale + res5b_branch2b_bias_value + res5b_branch2b_bias. 
+Hint: Try reducing the input and/or weight sizes. 
+[05/20/2024-15:58:05] [TRT] [W] Validation failed for DLA layer: res5b_branch2b_conv + res5b_branch2b_scale_value + res5b_branch2b_scale + res5b_branch2b_bias_value + res5b_branch2b_bias. Switching to GPU fallback.
+[05/20/2024-15:58:05] [TRT] [W] Splitting DLA subgraph at: res5b_branch2b_conv + res5b_branch2b_scale_value + res5b_branch2b_scale + res5b_branch2b_bias_value + res5b_branch2b_bias because DLA validation failed for this layer.
+[05/20/2024-15:58:06] [TRT] [W] DLA compiler failed with error code: 2 while compiling layer: res5b_branch2b_conv + res5b_branch2b_scale_value + res5b_branch2b_scale + res5b_branch2b_bias_value + res5b_branch2b_bias. 
+Hint: Try reducing the input and/or weight sizes. 
+[05/20/2024-15:58:06] [TRT] [W] Validation failed for DLA layer: res5b_branch2b_conv + res5b_branch2b_scale_value + res5b_branch2b_scale + res5b_branch2b_bias_value + res5b_branch2b_bias. Switching to GPU fallback.
+[05/20/2024-15:58:06] [TRT] [W] DLA compiler failed with error code: 2 while compiling layer: res5c_branch2b_conv + res5c_branch2b_scale_value + res5c_branch2b_scale + res5c_branch2b_bias_value + res5c_branch2b_bias. 
+Hint: Try reducing the input and/or weight sizes. 
+[05/20/2024-15:58:06] [TRT] [W] Validation failed for DLA layer: res5c_branch2b_conv + res5c_branch2b_scale_value + res5c_branch2b_scale + res5c_branch2b_bias_value + res5c_branch2b_bias. Switching to GPU fallback.
+[05/20/2024-15:58:06] [TRT] [W] Splitting DLA subgraph at: res5c_branch2b_conv + res5c_branch2b_scale_value + res5c_branch2b_scale + res5c_branch2b_bias_value + res5c_branch2b_bias because DLA validation failed for this layer.
+[05/20/2024-15:58:06] [TRT] [W] DLA compiler failed with error code: 2 while compiling layer: res5c_branch2b_conv + res5c_branch2b_scale_value + res5c_branch2b_scale + res5c_branch2b_bias_value + res5c_branch2b_bias. 
+Hint: Try reducing the input and/or weight sizes. 
+[05/20/2024-15:58:06] [TRT] [W] Validation failed for DLA layer: res5c_branch2b_conv + res5c_branch2b_scale_value + res5c_branch2b_scale + res5c_branch2b_bias_value + res5c_branch2b_bias. Switching to GPU fallback.
+[05/20/2024-15:58:06] [TRT] [W] /backbone/fpn/Resize: DLA only supports Resize with pre-set scale factors, hence computing explicit scale factors from output dimensions.
+[05/20/2024-15:58:06] [TRT] [W] /backbone/fpn/Resize_1: DLA only supports Resize with pre-set scale factors, hence computing explicit scale factors from output dimensions.
+[05/20/2024-15:58:10] [TRT] [W] {ForeignNode[res1_conv + res1_scale_value + res1_scale + res1_bias_value + res1_bias...res5a_branch2a_relu]} does not use managed SRAM to avoid exceeding device capacity. Decreasing managed SRAM pool size may help to better utilize capacity and potentially improve performance.
+[05/20/2024-15:58:21] [TRT] [W] {ForeignNode[res5a_branch2b_relu...res5b_branch2a_relu]} does not use managed SRAM to avoid exceeding device capacity. Decreasing managed SRAM pool size may help to better utilize capacity and potentially improve performance.
+[05/20/2024-15:58:21] [TRT] [W] {ForeignNode[res5b_branch2b_relu...res5c_branch2a_relu]} does not use managed SRAM to avoid exceeding device capacity. Decreasing managed SRAM pool size may help to better utilize capacity and potentially improve performance.
+[05/20/2024-15:58:21] [TRT] [E] 4: [foreignNode.cpp::finalizeRanges::1102] Error Code 4: Internal Error (Network has multiple DLA subgraphs, managed SRAM pool size must be at most half of device capacity.)
+Loading TensorRT plugin from build/plugins/NMSOptPlugin/libnmsoptplugin.so
+Loading TensorRT plugin from build/plugins/NMSPVAPlugin/libretinanetNMSPVA_aarch64_linux.so.1.0.0
+Loading TensorRT plugin from build/plugins/retinanetConcatPlugin/libretinanetconcatplugin.so
+make[1]: Leaving directory '/work'

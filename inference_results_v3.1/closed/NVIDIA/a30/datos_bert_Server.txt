@@ -1,0 +1,184 @@
+Modelo    Server         Batch     QPS esperados  Tiempo ns      Valido         Latencia       Completed Samples/s
+bert      Server         1         1              0.981555       VALID                         0.98           
+bert      Server         1         2              2.01678        VALID                         2.02           
+bert      Server         1         3              2.93852        VALID                         2.94           
+bert      Server         1         4              3.94328        VALID                         3.94           
+bert      Server         1         5              4.95105        VALID                         4.95           
+bert      Server         1         6              5.9508         VALID                         5.95           
+bert      Server         1         7              6.94899        VALID                         6.95           
+bert      Server         1         8              7.94127        VALID                         7.94           
+bert      Server         1         9              8.92966        VALID                         8.93           
+bert      Server         1         10             9.90828        VALID                         9.91           
+bert      Server         1         11             10.8455        VALID                         10.85          
+bert      Server         1         12             11.8995        VALID                         11.90          
+bert      Server         1         13             12.878         VALID                         12.88          
+bert      Server         1         14             13.8064        VALID                         13.81          
+bert      Server         1         15             14.8461        VALID                         14.85          
+bert      Server         1         16             15.8788        VALID                         15.88          
+bert      Server         1         17             16.9226        VALID                         16.92          
+bert      Server         1         18             17.9513        VALID                         17.95          
+bert      Server         1         19             19.0026        VALID                         19.00          
+bert      Server         1         20             20.1184        VALID                         20.12          
+bert      Server         1         300            299.675        VALID                         299.67         
+bert      Server         1         310            309.499        VALID                         309.50         
+bert      Server         1         320            319.799        VALID                         319.80         
+bert      Server         1         330            329.718        VALID                         329.71         
+bert      Server         1         340            339.781        VALID                         339.78         
+bert      Server         1         350            349.891        VALID                         349.89         
+bert      Server         1         360            359.86         VALID                         359.85         
+bert      Server         1         370            369.714        VALID                         369.71         
+bert      Server         1         380            379.661        VALID                         379.66         
+bert      Server         1         390            389.759        VALID                         389.76         
+bert      Server         1         400            399.618        VALID                         399.60         
+bert      Server         1         410            409.639        VALID                         409.64         
+bert      Server         1         420            419.697        VALID                         419.69         
+bert      Server         1         430            429.708        VALID                         429.70         
+bert      Server         1         440            439.672        VALID                         439.67         
+bert      Server         1         450            449.425        VALID                         449.42         
+bert      Server         1         460            459.247        VALID                         459.24         
+bert      Server         1         470            469.097        VALID                         469.09         
+bert      Server         1         480            478.939        VALID                         478.93         
+bert      Server         1         490            489.102        VALID                         489.05         
+bert      Server         1         500            499.28         VALID                         499.20         
+bert      Server         1         510                                                                        
+bert      Server         1         520                                                                        
+bert      Server         1         530            529.365        INVALID        14             516.58         
+bert      Server         1         540            539.238        INVALID        26             516.72         
+bert      Server         1         550            549.211        INVALID        36             517.52         
+bert      Server         1         560            559.006        INVALID        47             517.86         
+bert      Server         1         570            569.114        INVALID        59             517.61         
+bert      Server         1         580            579.278        INVALID        73             516.28         
+bert      Server         1         590            589.092        INVALID        83             517.20         
+bert      Server         1         600            599.001        INVALID        95             516.45         
+bert      Server         1         610            608.908        INVALID        105            517.55         
+bert      Server         1         620            618.666        INVALID        117            517.60         
+bert      Server         1         630            628.802        INVALID        130            516.69         
+bert      Server         1         640            638.706        INVALID        141            516.41         
+bert      Server         1         650            648.953        INVALID        153            516.32         
+bert      Server         1         660            658.823        INVALID        164            517.21         
+bert      Server         1         670            668.727        INVALID        174            517.82         
+bert      Server         1         680            678.895        INVALID        188            516.62         
+bert      Server         1         690            689.006        INVALID        200            516.26         
+bert      Server         1         700            698.952        INVALID        210            517.22         
+bert      Server         1         1000           999.146        INVALID        553            519.41         
+bert      Server         1         1010           1009.17        INVALID        579            513.29         
+bert      Server         1         1020           1019.27        INVALID        591            512.94         
+bert      Server         1         1030           1029.21        INVALID        601            513.88         
+bert      Server         1         1040           1039.42        INVALID        615            512.89         
+bert      Server         1         1050           1049.36        INVALID        624            513.78         
+bert      Server         1         1060           1059.54        INVALID        637            513.34         
+bert      Server         1         1070           1069.8         INVALID        647            514.14         
+bert      Server         1         1080           1079.75        INVALID        663            512.64         
+bert      Server         1         1090           1089.77        INVALID        673            513.29         
+bert      Server         1         1100           1099.72        INVALID        681            514.42         
+bert      Server         2         500            499.28         VALID                         499.27         
+bert      Server         3         500            499.28         VALID                         499.27         
+bert      Server         4         500            499.28         VALID                         499.27         
+bert      Server         5         500            499.28         VALID                         499.27         
+bert      Server         6         500            499.28         VALID                         499.27         
+bert      Server         6         600            599.001        VALID                         598.99         
+bert      Server         6         700            698.952        VALID                         698.94         
+bert      Server         6         800            799.336        VALID                         799.33         
+bert      Server         6         900            898.945        VALID                         898.92         
+bert      Server         6         1000           999.146        INVALID        4              992.20         
+bert      Server         7         500            499.28         VALID                         499.27         
+bert      Server         8         1              0.981555       VALID                         0.98           
+bert      Server         8         2              2.01678        VALID                         2.02           
+bert      Server         8         3              2.93852        VALID                         2.94           
+bert      Server         8         4              3.94328        VALID                         3.94           
+bert      Server         8         5              4.95105        VALID                         4.95           
+bert      Server         8         6              5.9508         VALID                         5.95           
+bert      Server         8         7              6.94899        VALID                         6.95           
+bert      Server         8         8              7.94127        VALID                         7.94           
+bert      Server         8         9              8.92966        VALID                         8.93           
+bert      Server         8         10             9.90828        VALID                         9.91           
+bert      Server         8         11             10.8455        VALID                         10.85          
+bert      Server         8         12             11.8995        VALID                         11.90          
+bert      Server         8         13             12.878         VALID                         12.88          
+bert      Server         8         14             13.8064        VALID                         13.81          
+bert      Server         8         15             14.8461        VALID                         14.85          
+bert      Server         8         16             15.8788        VALID                         15.88          
+bert      Server         8         17             16.9226        VALID                         16.92          
+bert      Server         8         18                                                                         
+bert      Server         8         20             20.1184        VALID                         20.12          
+bert      Server         8         40             40.0132        VALID                         40.01          
+bert      Server         8         60             59.9872        VALID                         59.99          
+bert      Server         8         80             80.2302        VALID                         80.23          
+bert      Server         8         100            100.14         VALID                         100.14         
+bert      Server         8         250            249.414        VALID                         249.41         
+bert      Server         8         500            499.28         VALID                         499.27         
+bert      Server         8         750            749.21         VALID                         749.19         
+bert      Server         8         1000           999.146        VALID                         999.11         
+bert      Server         8         1100           1099.72        INVALID        14             1073.77        
+bert      Server         8         1250           1250.31        INVALID        106            1062.22        
+bert      Server         9         500            499.28         VALID                         499.27         
+bert      Server         10        500            499.28         VALID                         499.27         
+bert      Server         10        1000           999.146        VALID                         999.13         
+bert      Server         10        1100           1099.72        VALID                         1099.68        
+bert      Server         10        1200           1200.16        VALID                         1200.10        
+bert      Server         10        1210           1210.18        VALID                         1210.11        
+bert      Server         10        1220           1220.15        VALID                         1220.06        
+bert      Server         10        1230           1230.14        VALID                         1230.09        
+bert      Server         10        1240           1240.11        INVALID                       1240.01        
+bert      Server         10        1250                                                                       
+bert      Server         10        1260           1260.42        INVALID        1              1257.90        
+bert      Server         10        1270                                                                       
+bert      Server         10        1300           1300.17        INVALID        16             1264.44        
+bert      Server         10        1400           1400.35        INVALID        64             1265.25        
+bert      Server         10        1500                                                                       
+bert      Server         10        1600           1601.45        INVALID        160            1262.73        
+bert      Server         10        1700           1701.57        INVALID        206            1264.85        
+bert      Server         10        1800           1801.28        INVALID        263            1250.88        
+bert      Server         10        1900           1901.51        INVALID        304            1261.54        
+bert      Server         12        500            499.28         VALID                         499.27         
+bert      Server         12        1000           999.146        VALID                         999.13         
+bert      Server         12        1500           1501.24        INVALID        91             1301.81        
+bert      Server         64        500            499.28         VALID                         499.27         
+bert      Server         64        600            599.001        VALID                         598.99         
+bert      Server         64        700            698.952        VALID                         698.94         
+bert      Server         64        800            799.336        VALID                         799.32         
+bert      Server         64        900            898.945        VALID                         898.92         
+bert      Server         64        1000           999.146        VALID                         999.12         
+bert      Server         68        20             20.1184        VALID                         20.12          
+bert      Server         68        40             40.0132        VALID                         40.01          
+bert      Server         68        60             59.9872        VALID                         59.99          
+bert      Server         68        80             80.2302        VALID                         80.23          
+bert      Server         76        100            100.14         VALID                         100.14         
+bert      Server         76        250            249.414        VALID                         249.41         
+bert      Server         76        500            499.28         VALID                         499.27         
+bert      Server         76        750            749.21         VALID                         749.19         
+bert      Server         76        1000           999.146        VALID                         999.12         
+bert      Server         76        1100           1099.72        VALID                         1099.67        
+bert      Server         76        1250           1250.31        VALID                         1250.26        
+bert      Server         128       20             20.1184        VALID                         20.12          
+bert      Server         128       40             40.0132        VALID                         40.01          
+bert      Server         128       60             59.9872        VALID                         59.99          
+bert      Server         128       80             80.2302        VALID                         80.23          
+bert      Server         250       500            499.28         VALID                         499.27         
+bert      Server         250       600            599.001        VALID                         598.98         
+bert      Server         250       700            698.952        VALID                         698.93         
+bert      Server         250       800            799.336        VALID                         799.32         
+bert      Server         250       900            898.945        VALID                         898.91         
+bert      Server         250       1000           999.146        VALID                         999.12         
+bert      Server         262       500            499.28         VALID                         499.27         
+bert      Server         262       600            599.001        VALID                         598.98         
+bert      Server         262       700            698.952        VALID                         698.93         
+bert      Server         262       800                                                                        
+bert      Server         262       1000           999.146        VALID                         999.11         
+bert      Server         262       1500           1501.24        INVALID        11             1474.15        
+bert      Server         300       500            499.28         VALID                         499.27         
+bert      Server         300       600            599.001        VALID                         598.98         
+bert      Server         300       700                                                                        
+bert      Server         450       500            499.28         VALID                         499.26         
+bert      Server         500       500            499.28         VALID                         499.26         
+bert      Server         512       500            499.28         VALID                         499.26         
+bert      Server         512       1000                                                                       
+bert      Server         512       1500           1501.24        INVALID        9              1478.95        
+bert      Server         550       500            499.28         VALID                         499.26         
+bert      Server         600       500            499.28         VALID                         499.26         
+bert      Server         650       500            499.28         VALID                         499.26         
+bert      Server         700       500            499.28         VALID                         499.26         
+bert      Server         750       500            499.28         VALID                         499.26         
+bert      Server         800       500            499.28         VALID                         499.26         
+bert      Server         850       500            499.28         VALID                         499.26         
+bert      Server         900       500                                                                        

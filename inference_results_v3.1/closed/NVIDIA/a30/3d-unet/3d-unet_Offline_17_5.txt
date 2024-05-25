@@ -1,0 +1,298 @@
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+make[1]: Entering directory '/work'
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+[05/13/2024-00:54:46] [TRT] [I] [MemUsageChange] Init CUDA: CPU +2, GPU +0, now: CPU 44, GPU 480 (MiB)
+[05/13/2024-00:54:53] [TRT] [I] [MemUsageChange] Init builder kernel library: CPU +1957, GPU +346, now: CPU 2106, GPU 826 (MiB)
+[05/13/2024-00:54:53] [TRT] [I] No importer registered for op: CONV3D3X3X3C1K32_TRT. Attempting to import as plugin.
+[05/13/2024-00:54:53] [TRT] [I] Searching for plugin: CONV3D3X3X3C1K32_TRT, plugin_version: 1, plugin_namespace: 
+[05/13/2024-00:54:53] [TRT] [I] Successfully created plugin: CONV3D3X3X3C1K32_TRT
+[05/13/2024-00:54:53] [TRT] [I] No importer registered for op: InstanceNormalization_TRT. Attempting to import as plugin.
+[05/13/2024-00:54:53] [TRT] [I] Searching for plugin: InstanceNormalization_TRT, plugin_version: 2, plugin_namespace: 
+[05/13/2024-00:54:53] [TRT] [I] Successfully created plugin: InstanceNormalization_TRT
+[05/13/2024-00:54:53] [TRT] [I] No importer registered for op: InstanceNormalization_TRT. Attempting to import as plugin.
+[05/13/2024-00:54:53] [TRT] [I] Searching for plugin: InstanceNormalization_TRT, plugin_version: 2, plugin_namespace: 
+[05/13/2024-00:54:53] [TRT] [I] Successfully created plugin: InstanceNormalization_TRT
+[05/13/2024-00:54:53] [TRT] [I] No importer registered for op: InstanceNormalization_TRT. Attempting to import as plugin.
+[05/13/2024-00:54:53] [TRT] [I] Searching for plugin: InstanceNormalization_TRT, plugin_version: 2, plugin_namespace: 
+[05/13/2024-00:54:54] [TRT] [I] Successfully created plugin: InstanceNormalization_TRT
+[05/13/2024-00:54:54] [TRT] [I] No importer registered for op: InstanceNormalization_TRT. Attempting to import as plugin.
+[05/13/2024-00:54:54] [TRT] [I] Searching for plugin: InstanceNormalization_TRT, plugin_version: 2, plugin_namespace: 
+[05/13/2024-00:54:54] [TRT] [I] Successfully created plugin: InstanceNormalization_TRT
+[05/13/2024-00:54:54] [TRT] [I] No importer registered for op: InstanceNormalization_TRT. Attempting to import as plugin.
+[05/13/2024-00:54:54] [TRT] [I] Searching for plugin: InstanceNormalization_TRT, plugin_version: 2, plugin_namespace: 
+[05/13/2024-00:54:54] [TRT] [I] Successfully created plugin: InstanceNormalization_TRT
+[05/13/2024-00:54:54] [TRT] [I] No importer registered for op: InstanceNormalization_TRT. Attempting to import as plugin.
+[05/13/2024-00:54:54] [TRT] [I] Searching for plugin: InstanceNormalization_TRT, plugin_version: 2, plugin_namespace: 
+[05/13/2024-00:54:54] [TRT] [I] Successfully created plugin: InstanceNormalization_TRT
+[05/13/2024-00:54:54] [TRT] [I] No importer registered for op: InstanceNormalization_TRT. Attempting to import as plugin.
+[05/13/2024-00:54:54] [TRT] [I] Searching for plugin: InstanceNormalization_TRT, plugin_version: 2, plugin_namespace: 
+[05/13/2024-00:54:54] [TRT] [I] Successfully created plugin: InstanceNormalization_TRT
+[05/13/2024-00:54:54] [TRT] [I] No importer registered for op: InstanceNormalization_TRT. Attempting to import as plugin.
+[05/13/2024-00:54:54] [TRT] [I] Searching for plugin: InstanceNormalization_TRT, plugin_version: 2, plugin_namespace: 
+[05/13/2024-00:54:54] [TRT] [I] Successfully created plugin: InstanceNormalization_TRT
+[05/13/2024-00:54:54] [TRT] [I] No importer registered for op: InstanceNormalization_TRT. Attempting to import as plugin.
+[05/13/2024-00:54:54] [TRT] [I] Searching for plugin: InstanceNormalization_TRT, plugin_version: 2, plugin_namespace: 
+[05/13/2024-00:54:54] [TRT] [I] Successfully created plugin: InstanceNormalization_TRT
+[05/13/2024-00:54:54] [TRT] [I] No importer registered for op: InstanceNormalization_TRT. Attempting to import as plugin.
+[05/13/2024-00:54:54] [TRT] [I] Searching for plugin: InstanceNormalization_TRT, plugin_version: 2, plugin_namespace: 
+[05/13/2024-00:54:54] [TRT] [I] Successfully created plugin: InstanceNormalization_TRT
+[05/13/2024-00:54:54] [TRT] [I] No importer registered for op: InstanceNormalization_TRT. Attempting to import as plugin.
+[05/13/2024-00:54:54] [TRT] [I] Searching for plugin: InstanceNormalization_TRT, plugin_version: 2, plugin_namespace: 
+[05/13/2024-00:54:54] [TRT] [I] Successfully created plugin: InstanceNormalization_TRT
+[05/13/2024-00:54:54] [TRT] [I] No importer registered for op: InstanceNormalization_TRT. Attempting to import as plugin.
+[05/13/2024-00:54:54] [TRT] [I] Searching for plugin: InstanceNormalization_TRT, plugin_version: 2, plugin_namespace: 
+[05/13/2024-00:54:54] [TRT] [I] Successfully created plugin: InstanceNormalization_TRT
+[05/13/2024-00:54:54] [TRT] [I] No importer registered for op: PIXELSHUFFLE3D_TRT. Attempting to import as plugin.
+[05/13/2024-00:54:54] [TRT] [I] Searching for plugin: PIXELSHUFFLE3D_TRT, plugin_version: 1, plugin_namespace: 
+[05/13/2024-00:54:54] [TRT] [I] Successfully created plugin: PIXELSHUFFLE3D_TRT
+[05/13/2024-00:54:54] [TRT] [I] No importer registered for op: InstanceNormalization_TRT. Attempting to import as plugin.
+[05/13/2024-00:54:54] [TRT] [I] Searching for plugin: InstanceNormalization_TRT, plugin_version: 2, plugin_namespace: 
+[05/13/2024-00:54:54] [TRT] [I] Successfully created plugin: InstanceNormalization_TRT
+[05/13/2024-00:54:54] [TRT] [I] No importer registered for op: InstanceNormalization_TRT. Attempting to import as plugin.
+[05/13/2024-00:54:54] [TRT] [I] Searching for plugin: InstanceNormalization_TRT, plugin_version: 2, plugin_namespace: 
+[05/13/2024-00:54:54] [TRT] [I] Successfully created plugin: InstanceNormalization_TRT
+[05/13/2024-00:54:54] [TRT] [I] No importer registered for op: PIXELSHUFFLE3D_TRT. Attempting to import as plugin.
+[05/13/2024-00:54:54] [TRT] [I] Searching for plugin: PIXELSHUFFLE3D_TRT, plugin_version: 1, plugin_namespace: 
+[05/13/2024-00:54:54] [TRT] [I] Successfully created plugin: PIXELSHUFFLE3D_TRT
+[05/13/2024-00:54:54] [TRT] [I] No importer registered for op: InstanceNormalization_TRT. Attempting to import as plugin.
+[05/13/2024-00:54:54] [TRT] [I] Searching for plugin: InstanceNormalization_TRT, plugin_version: 2, plugin_namespace: 
+[05/13/2024-00:54:54] [TRT] [I] Successfully created plugin: InstanceNormalization_TRT
+[05/13/2024-00:54:54] [TRT] [I] No importer registered for op: InstanceNormalization_TRT. Attempting to import as plugin.
+[05/13/2024-00:54:54] [TRT] [I] Searching for plugin: InstanceNormalization_TRT, plugin_version: 2, plugin_namespace: 
+[05/13/2024-00:54:54] [TRT] [I] Successfully created plugin: InstanceNormalization_TRT
+[05/13/2024-00:54:54] [TRT] [I] No importer registered for op: PIXELSHUFFLE3D_TRT. Attempting to import as plugin.
+[05/13/2024-00:54:54] [TRT] [I] Searching for plugin: PIXELSHUFFLE3D_TRT, plugin_version: 1, plugin_namespace: 
+[05/13/2024-00:54:54] [TRT] [I] Successfully created plugin: PIXELSHUFFLE3D_TRT
+[05/13/2024-00:54:54] [TRT] [I] No importer registered for op: InstanceNormalization_TRT. Attempting to import as plugin.
+[05/13/2024-00:54:54] [TRT] [I] Searching for plugin: InstanceNormalization_TRT, plugin_version: 2, plugin_namespace: 
+[05/13/2024-00:54:54] [TRT] [I] Successfully created plugin: InstanceNormalization_TRT
+[05/13/2024-00:54:54] [TRT] [I] No importer registered for op: InstanceNormalization_TRT. Attempting to import as plugin.
+[05/13/2024-00:54:54] [TRT] [I] Searching for plugin: InstanceNormalization_TRT, plugin_version: 2, plugin_namespace: 
+[05/13/2024-00:54:54] [TRT] [I] Successfully created plugin: InstanceNormalization_TRT
+[05/13/2024-00:54:54] [TRT] [I] No importer registered for op: PIXELSHUFFLE3D_TRT. Attempting to import as plugin.
+[05/13/2024-00:54:54] [TRT] [I] Searching for plugin: PIXELSHUFFLE3D_TRT, plugin_version: 1, plugin_namespace: 
+[05/13/2024-00:54:54] [TRT] [I] Successfully created plugin: PIXELSHUFFLE3D_TRT
+[05/13/2024-00:54:54] [TRT] [I] No importer registered for op: InstanceNormalization_TRT. Attempting to import as plugin.
+[05/13/2024-00:54:54] [TRT] [I] Searching for plugin: InstanceNormalization_TRT, plugin_version: 2, plugin_namespace: 
+[05/13/2024-00:54:54] [TRT] [I] Successfully created plugin: InstanceNormalization_TRT
+[05/13/2024-00:54:54] [TRT] [I] No importer registered for op: InstanceNormalization_TRT. Attempting to import as plugin.
+[05/13/2024-00:54:54] [TRT] [I] Searching for plugin: InstanceNormalization_TRT, plugin_version: 2, plugin_namespace: 
+[05/13/2024-00:54:54] [TRT] [I] Successfully created plugin: InstanceNormalization_TRT
+[05/13/2024-00:54:54] [TRT] [I] No importer registered for op: PIXELSHUFFLE3D_TRT. Attempting to import as plugin.
+[05/13/2024-00:54:54] [TRT] [I] Searching for plugin: PIXELSHUFFLE3D_TRT, plugin_version: 1, plugin_namespace: 
+[05/13/2024-00:54:54] [TRT] [I] Successfully created plugin: PIXELSHUFFLE3D_TRT
+[05/13/2024-00:54:54] [TRT] [I] No importer registered for op: InstanceNormalization_TRT. Attempting to import as plugin.
+[05/13/2024-00:54:54] [TRT] [I] Searching for plugin: InstanceNormalization_TRT, plugin_version: 2, plugin_namespace: 
+[05/13/2024-00:54:54] [TRT] [I] Successfully created plugin: InstanceNormalization_TRT
+[05/13/2024-00:54:54] [TRT] [I] No importer registered for op: InstanceNormalization_TRT. Attempting to import as plugin.
+[05/13/2024-00:54:54] [TRT] [I] Searching for plugin: InstanceNormalization_TRT, plugin_version: 2, plugin_namespace: 
+[05/13/2024-00:54:54] [TRT] [I] Successfully created plugin: InstanceNormalization_TRT
+[05/13/2024-00:54:54] [TRT] [I] No importer registered for op: CONV3D1X1X1K4_TRT. Attempting to import as plugin.
+[05/13/2024-00:54:54] [TRT] [I] Searching for plugin: CONV3D1X1X1K4_TRT, plugin_version: 1, plugin_namespace: 
+[05/13/2024-00:54:54] [TRT] [I] Successfully created plugin: CONV3D1X1X1K4_TRT
+[05/13/2024-00:54:54] [TRT] [I] Graph optimization time: 0.000669797 seconds.
+[05/13/2024-00:54:54] [TRT] [I] Reading Calibration Cache for calibrator: MinMaxCalibration
+[05/13/2024-00:54:54] [TRT] [I] Generated calibration scales using calibration cache. Make sure that calibration cache has latest scales.
+[05/13/2024-00:54:54] [TRT] [I] To regenerate calibration cache, please delete the existing one. TensorRT will generate a new calibration cache.
+[05/13/2024-00:54:54] [TRT] [I] Graph optimization time: 0.00165266 seconds.
+[05/13/2024-00:54:54] [TRT] [I] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +8, now: CPU 2379, GPU 1406 (MiB)
+[05/13/2024-00:54:54] [TRT] [I] [MemUsageChange] Init cuDNN: CPU +0, GPU +8, now: CPU 2379, GPU 1414 (MiB)
+[05/13/2024-00:54:54] [TRT] [I] Local timing cache in use. Profiling results in this builder pass will not be stored.
+[05/13/2024-01:04:09] [TRT] [I] Skipping tactic 0x264d83735b1cba13 due to exception an illegal memory access was encountered
+[05/13/2024-01:04:10] [TRT] [I] Skipping tactic 0xaceaca2c82ab40f3 due to exception an illegal memory access was encountered
+[05/13/2024-01:04:10] [TRT] [I] Skipping tactic 0x43e3804f158e597d due to exception an illegal memory access was encountered
+[05/13/2024-01:04:10] [TRT] [I] Skipping tactic 0x4e7f02f91ddf4673 due to exception an illegal memory access was encountered
+[05/13/2024-01:04:10] [TRT] [I] Skipping tactic 0x8f07802f58d278c0 due to exception an illegal memory access was encountered
+[05/13/2024-01:04:10] [TRT] [I] Skipping tactic 0x5812ced7874b44d1 due to exception an illegal memory access was encountered
+[05/13/2024-01:04:10] [TRT] [I] Skipping tactic 0xb7a90e7097d64877 due to exception an illegal memory access was encountered
+[05/13/2024-01:04:10] [TRT] [I] Skipping tactic 0x3e116db8858d0d41 due to exception an illegal memory access was encountered
+[05/13/2024-01:04:10] [TRT] [I] Skipping tactic 0xd7985d83133bcf37 due to exception an illegal memory access was encountered
+[05/13/2024-01:04:10] [TRT] [I] Skipping tactic 0xccdb99df0646c7b3 due to exception an illegal memory access was encountered
+[05/13/2024-01:04:10] [TRT] [W] GPU error during getBestTactic: Conv_70 : an illegal memory access was encountered
+[05/13/2024-01:04:10] [TRT] [I] Skipping tactic 0x0000000000000000 due to exception an illegal memory access was encountered
+[05/13/2024-01:04:10] [TRT] [I] Skipping tactic 0x0000000000000000 due to exception an illegal memory access was encountered
+[05/13/2024-01:04:10] [TRT] [I] Skipping tactic 0x0000000000000000 due to exception an illegal memory access was encountered
+[05/13/2024-01:04:10] [TRT] [I] Skipping tactic 0x0000000000000000 due to exception an illegal memory access was encountered
+[05/13/2024-01:04:10] [TRT] [E] plugin/instanceNormalizationPlugin/instanceNormalizationPlugin.cu (192) - Cudnn Error in terminate: 4 (CUDNN_STATUS_INTERNAL_ERROR)
+[05/13/2024-01:04:37] [TRT] [I] [MemUsageChange] Init CUDA: CPU +2, GPU +0, now: CPU 44, GPU 480 (MiB)
+[05/13/2024-01:04:45] [TRT] [I] [MemUsageChange] Init builder kernel library: CPU +1957, GPU +346, now: CPU 2106, GPU 826 (MiB)
+[05/13/2024-01:04:45] [TRT] [I] No importer registered for op: CONV3D3X3X3C1K32_TRT. Attempting to import as plugin.
+[05/13/2024-01:04:45] [TRT] [I] Searching for plugin: CONV3D3X3X3C1K32_TRT, plugin_version: 1, plugin_namespace: 
+[05/13/2024-01:04:45] [TRT] [I] Successfully created plugin: CONV3D3X3X3C1K32_TRT
+[05/13/2024-01:04:45] [TRT] [I] No importer registered for op: InstanceNormalization_TRT. Attempting to import as plugin.
+[05/13/2024-01:04:45] [TRT] [I] Searching for plugin: InstanceNormalization_TRT, plugin_version: 2, plugin_namespace: 
+[05/13/2024-01:04:45] [TRT] [I] Successfully created plugin: InstanceNormalization_TRT
+[05/13/2024-01:04:45] [TRT] [I] No importer registered for op: InstanceNormalization_TRT. Attempting to import as plugin.
+[05/13/2024-01:04:45] [TRT] [I] Searching for plugin: InstanceNormalization_TRT, plugin_version: 2, plugin_namespace: 
+[05/13/2024-01:04:45] [TRT] [I] Successfully created plugin: InstanceNormalization_TRT
+[05/13/2024-01:04:45] [TRT] [I] No importer registered for op: InstanceNormalization_TRT. Attempting to import as plugin.
+[05/13/2024-01:04:45] [TRT] [I] Searching for plugin: InstanceNormalization_TRT, plugin_version: 2, plugin_namespace: 
+[05/13/2024-01:04:45] [TRT] [I] Successfully created plugin: InstanceNormalization_TRT
+[05/13/2024-01:04:45] [TRT] [I] No importer registered for op: InstanceNormalization_TRT. Attempting to import as plugin.
+[05/13/2024-01:04:45] [TRT] [I] Searching for plugin: InstanceNormalization_TRT, plugin_version: 2, plugin_namespace: 
+[05/13/2024-01:04:45] [TRT] [I] Successfully created plugin: InstanceNormalization_TRT
+[05/13/2024-01:04:45] [TRT] [I] No importer registered for op: InstanceNormalization_TRT. Attempting to import as plugin.
+[05/13/2024-01:04:45] [TRT] [I] Searching for plugin: InstanceNormalization_TRT, plugin_version: 2, plugin_namespace: 
+[05/13/2024-01:04:45] [TRT] [I] Successfully created plugin: InstanceNormalization_TRT
+[05/13/2024-01:04:45] [TRT] [I] No importer registered for op: InstanceNormalization_TRT. Attempting to import as plugin.
+[05/13/2024-01:04:45] [TRT] [I] Searching for plugin: InstanceNormalization_TRT, plugin_version: 2, plugin_namespace: 
+[05/13/2024-01:04:45] [TRT] [I] Successfully created plugin: InstanceNormalization_TRT
+[05/13/2024-01:04:45] [TRT] [I] No importer registered for op: InstanceNormalization_TRT. Attempting to import as plugin.
+[05/13/2024-01:04:45] [TRT] [I] Searching for plugin: InstanceNormalization_TRT, plugin_version: 2, plugin_namespace: 
+[05/13/2024-01:04:45] [TRT] [I] Successfully created plugin: InstanceNormalization_TRT
+[05/13/2024-01:04:45] [TRT] [I] No importer registered for op: InstanceNormalization_TRT. Attempting to import as plugin.
+[05/13/2024-01:04:45] [TRT] [I] Searching for plugin: InstanceNormalization_TRT, plugin_version: 2, plugin_namespace: 
+[05/13/2024-01:04:45] [TRT] [I] Successfully created plugin: InstanceNormalization_TRT
+[05/13/2024-01:04:45] [TRT] [I] No importer registered for op: InstanceNormalization_TRT. Attempting to import as plugin.
+[05/13/2024-01:04:45] [TRT] [I] Searching for plugin: InstanceNormalization_TRT, plugin_version: 2, plugin_namespace: 
+[05/13/2024-01:04:45] [TRT] [I] Successfully created plugin: InstanceNormalization_TRT
+[05/13/2024-01:04:45] [TRT] [I] No importer registered for op: InstanceNormalization_TRT. Attempting to import as plugin.
+[05/13/2024-01:04:45] [TRT] [I] Searching for plugin: InstanceNormalization_TRT, plugin_version: 2, plugin_namespace: 
+[05/13/2024-01:04:45] [TRT] [I] Successfully created plugin: InstanceNormalization_TRT
+[05/13/2024-01:04:45] [TRT] [I] No importer registered for op: InstanceNormalization_TRT. Attempting to import as plugin.
+[05/13/2024-01:04:45] [TRT] [I] Searching for plugin: InstanceNormalization_TRT, plugin_version: 2, plugin_namespace: 
+[05/13/2024-01:04:45] [TRT] [I] Successfully created plugin: InstanceNormalization_TRT
+[05/13/2024-01:04:45] [TRT] [I] No importer registered for op: InstanceNormalization_TRT. Attempting to import as plugin.
+[05/13/2024-01:04:45] [TRT] [I] Searching for plugin: InstanceNormalization_TRT, plugin_version: 2, plugin_namespace: 
+[05/13/2024-01:04:45] [TRT] [I] Successfully created plugin: InstanceNormalization_TRT
+[05/13/2024-01:04:45] [TRT] [I] No importer registered for op: PIXELSHUFFLE3D_TRT. Attempting to import as plugin.
+[05/13/2024-01:04:45] [TRT] [I] Searching for plugin: PIXELSHUFFLE3D_TRT, plugin_version: 1, plugin_namespace: 
+[05/13/2024-01:04:45] [TRT] [I] Successfully created plugin: PIXELSHUFFLE3D_TRT
+[05/13/2024-01:04:45] [TRT] [I] No importer registered for op: InstanceNormalization_TRT. Attempting to import as plugin.
+[05/13/2024-01:04:45] [TRT] [I] Searching for plugin: InstanceNormalization_TRT, plugin_version: 2, plugin_namespace: 
+[05/13/2024-01:04:45] [TRT] [I] Successfully created plugin: InstanceNormalization_TRT
+[05/13/2024-01:04:45] [TRT] [I] No importer registered for op: InstanceNormalization_TRT. Attempting to import as plugin.
+[05/13/2024-01:04:45] [TRT] [I] Searching for plugin: InstanceNormalization_TRT, plugin_version: 2, plugin_namespace: 
+[05/13/2024-01:04:45] [TRT] [I] Successfully created plugin: InstanceNormalization_TRT
+[05/13/2024-01:04:45] [TRT] [I] No importer registered for op: PIXELSHUFFLE3D_TRT. Attempting to import as plugin.
+[05/13/2024-01:04:45] [TRT] [I] Searching for plugin: PIXELSHUFFLE3D_TRT, plugin_version: 1, plugin_namespace: 
+[05/13/2024-01:04:45] [TRT] [I] Successfully created plugin: PIXELSHUFFLE3D_TRT
+[05/13/2024-01:04:45] [TRT] [I] No importer registered for op: InstanceNormalization_TRT. Attempting to import as plugin.
+[05/13/2024-01:04:45] [TRT] [I] Searching for plugin: InstanceNormalization_TRT, plugin_version: 2, plugin_namespace: 
+[05/13/2024-01:04:45] [TRT] [I] Successfully created plugin: InstanceNormalization_TRT
+[05/13/2024-01:04:45] [TRT] [I] No importer registered for op: InstanceNormalization_TRT. Attempting to import as plugin.
+[05/13/2024-01:04:45] [TRT] [I] Searching for plugin: InstanceNormalization_TRT, plugin_version: 2, plugin_namespace: 
+[05/13/2024-01:04:45] [TRT] [I] Successfully created plugin: InstanceNormalization_TRT
+[05/13/2024-01:04:46] [TRT] [I] No importer registered for op: PIXELSHUFFLE3D_TRT. Attempting to import as plugin.
+[05/13/2024-01:04:46] [TRT] [I] Searching for plugin: PIXELSHUFFLE3D_TRT, plugin_version: 1, plugin_namespace: 
+[05/13/2024-01:04:46] [TRT] [I] Successfully created plugin: PIXELSHUFFLE3D_TRT
+[05/13/2024-01:04:46] [TRT] [I] No importer registered for op: InstanceNormalization_TRT. Attempting to import as plugin.
+[05/13/2024-01:04:46] [TRT] [I] Searching for plugin: InstanceNormalization_TRT, plugin_version: 2, plugin_namespace: 
+[05/13/2024-01:04:46] [TRT] [I] Successfully created plugin: InstanceNormalization_TRT
+[05/13/2024-01:04:46] [TRT] [I] No importer registered for op: InstanceNormalization_TRT. Attempting to import as plugin.
+[05/13/2024-01:04:46] [TRT] [I] Searching for plugin: InstanceNormalization_TRT, plugin_version: 2, plugin_namespace: 
+[05/13/2024-01:04:46] [TRT] [I] Successfully created plugin: InstanceNormalization_TRT
+[05/13/2024-01:04:46] [TRT] [I] No importer registered for op: PIXELSHUFFLE3D_TRT. Attempting to import as plugin.
+[05/13/2024-01:04:46] [TRT] [I] Searching for plugin: PIXELSHUFFLE3D_TRT, plugin_version: 1, plugin_namespace: 
+[05/13/2024-01:04:46] [TRT] [I] Successfully created plugin: PIXELSHUFFLE3D_TRT
+[05/13/2024-01:04:46] [TRT] [I] No importer registered for op: InstanceNormalization_TRT. Attempting to import as plugin.
+[05/13/2024-01:04:46] [TRT] [I] Searching for plugin: InstanceNormalization_TRT, plugin_version: 2, plugin_namespace: 
+[05/13/2024-01:04:46] [TRT] [I] Successfully created plugin: InstanceNormalization_TRT
+[05/13/2024-01:04:46] [TRT] [I] No importer registered for op: InstanceNormalization_TRT. Attempting to import as plugin.
+[05/13/2024-01:04:46] [TRT] [I] Searching for plugin: InstanceNormalization_TRT, plugin_version: 2, plugin_namespace: 
+[05/13/2024-01:04:46] [TRT] [I] Successfully created plugin: InstanceNormalization_TRT
+[05/13/2024-01:04:46] [TRT] [I] No importer registered for op: PIXELSHUFFLE3D_TRT. Attempting to import as plugin.
+[05/13/2024-01:04:46] [TRT] [I] Searching for plugin: PIXELSHUFFLE3D_TRT, plugin_version: 1, plugin_namespace: 
+[05/13/2024-01:04:46] [TRT] [I] Successfully created plugin: PIXELSHUFFLE3D_TRT
+[05/13/2024-01:04:46] [TRT] [I] No importer registered for op: InstanceNormalization_TRT. Attempting to import as plugin.
+[05/13/2024-01:04:46] [TRT] [I] Searching for plugin: InstanceNormalization_TRT, plugin_version: 2, plugin_namespace: 
+[05/13/2024-01:04:46] [TRT] [I] Successfully created plugin: InstanceNormalization_TRT
+[05/13/2024-01:04:46] [TRT] [I] No importer registered for op: InstanceNormalization_TRT. Attempting to import as plugin.
+[05/13/2024-01:04:46] [TRT] [I] Searching for plugin: InstanceNormalization_TRT, plugin_version: 2, plugin_namespace: 
+[05/13/2024-01:04:46] [TRT] [I] Successfully created plugin: InstanceNormalization_TRT
+[05/13/2024-01:04:46] [TRT] [I] No importer registered for op: CONV3D1X1X1K4_TRT. Attempting to import as plugin.
+[05/13/2024-01:04:46] [TRT] [I] Searching for plugin: CONV3D1X1X1K4_TRT, plugin_version: 1, plugin_namespace: 
+[05/13/2024-01:04:46] [TRT] [I] Successfully created plugin: CONV3D1X1X1K4_TRT
+[05/13/2024-01:04:46] [TRT] [I] Graph optimization time: 0.000621757 seconds.
+[05/13/2024-01:04:46] [TRT] [I] Reading Calibration Cache for calibrator: MinMaxCalibration
+[05/13/2024-01:04:46] [TRT] [I] Generated calibration scales using calibration cache. Make sure that calibration cache has latest scales.
+[05/13/2024-01:04:46] [TRT] [I] To regenerate calibration cache, please delete the existing one. TensorRT will generate a new calibration cache.
+[05/13/2024-01:04:46] [TRT] [I] Graph optimization time: 0.00162099 seconds.
+[05/13/2024-01:04:46] [TRT] [I] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +8, now: CPU 2379, GPU 1406 (MiB)
+[05/13/2024-01:04:46] [TRT] [I] [MemUsageChange] Init cuDNN: CPU +0, GPU +8, now: CPU 2379, GPU 1414 (MiB)
+[05/13/2024-01:04:46] [TRT] [I] Local timing cache in use. Profiling results in this builder pass will not be stored.
+[05/13/2024-01:14:05] [TRT] [I] Skipping tactic 0x264d83735b1cba13 due to exception an illegal memory access was encountered
+[05/13/2024-01:14:05] [TRT] [I] Skipping tactic 0xaceaca2c82ab40f3 due to exception an illegal memory access was encountered
+[05/13/2024-01:14:05] [TRT] [I] Skipping tactic 0x43e3804f158e597d due to exception an illegal memory access was encountered
+[05/13/2024-01:14:05] [TRT] [I] Skipping tactic 0x4e7f02f91ddf4673 due to exception an illegal memory access was encountered
+[05/13/2024-01:14:05] [TRT] [I] Skipping tactic 0x8f07802f58d278c0 due to exception an illegal memory access was encountered
+[05/13/2024-01:14:05] [TRT] [I] Skipping tactic 0x5812ced7874b44d1 due to exception an illegal memory access was encountered
+[05/13/2024-01:14:05] [TRT] [I] Skipping tactic 0xb7a90e7097d64877 due to exception an illegal memory access was encountered
+[05/13/2024-01:14:05] [TRT] [I] Skipping tactic 0x3e116db8858d0d41 due to exception an illegal memory access was encountered
+[05/13/2024-01:14:05] [TRT] [I] Skipping tactic 0xd7985d83133bcf37 due to exception an illegal memory access was encountered
+[05/13/2024-01:14:05] [TRT] [I] Skipping tactic 0xccdb99df0646c7b3 due to exception an illegal memory access was encountered
+[05/13/2024-01:14:05] [TRT] [W] GPU error during getBestTactic: Conv_70 : an illegal memory access was encountered
+[05/13/2024-01:14:05] [TRT] [I] Skipping tactic 0x0000000000000000 due to exception an illegal memory access was encountered
+[05/13/2024-01:14:05] [TRT] [I] Skipping tactic 0x0000000000000000 due to exception an illegal memory access was encountered
+[05/13/2024-01:14:05] [TRT] [I] Skipping tactic 0x0000000000000000 due to exception an illegal memory access was encountered
+[05/13/2024-01:14:05] [TRT] [I] Skipping tactic 0x0000000000000000 due to exception an illegal memory access was encountered
+[05/13/2024-01:14:05] [TRT] [E] plugin/instanceNormalizationPlugin/instanceNormalizationPlugin.cu (192) - Cudnn Error in terminate: 4 (CUDNN_STATUS_INTERNAL_ERROR)
+make[1]: Leaving directory '/work'

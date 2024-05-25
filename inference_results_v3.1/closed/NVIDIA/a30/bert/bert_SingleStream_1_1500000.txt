@@ -1,0 +1,846 @@
+$ARCH is [x86_64]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+make[1]: Entering directory '/work'
+$ARCH is [x86_64]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+[03/24/2024-00:17:17] [TRT] [I] [MemUsageChange] Init CUDA: CPU +1, GPU +0, now: CPU 43, GPU 480 (MiB)
+[03/24/2024-00:17:25] [TRT] [I] [MemUsageChange] Init builder kernel library: CPU +1958, GPU +346, now: CPU 2106, GPU 826 (MiB)
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 0) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [I] Using default for use_int8_scale_max: true
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 3) [Convolution]_output. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l0_attention_fc_aout. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 4) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs l0_fc_mid_out and (Unnamed Layer* 6) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs (Unnamed Layer* 11) [ElementWise]_output and (Unnamed Layer* 7) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs (Unnamed Layer* 13) [ElementWise]_output and (Unnamed Layer* 8) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs (Unnamed Layer* 15) [Activation]_output and (Unnamed Layer* 9) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs (Unnamed Layer* 16) [ElementWise]_output and (Unnamed Layer* 10) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l0_gelu_out. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 19) [Convolution]_output. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 4) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [I] Using default for use_int8_scale_max: true
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 23) [Convolution]_output. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l1_attention_fc_aout. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 24) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs l1_fc_mid_out and (Unnamed Layer* 26) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs (Unnamed Layer* 31) [ElementWise]_output and (Unnamed Layer* 27) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs (Unnamed Layer* 33) [ElementWise]_output and (Unnamed Layer* 28) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs (Unnamed Layer* 35) [Activation]_output and (Unnamed Layer* 29) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs (Unnamed Layer* 36) [ElementWise]_output and (Unnamed Layer* 30) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l1_gelu_out. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 39) [Convolution]_output. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 24) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [I] Using default for use_int8_scale_max: true
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 43) [Convolution]_output. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l2_attention_fc_aout. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 44) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs l2_fc_mid_out and (Unnamed Layer* 46) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs (Unnamed Layer* 51) [ElementWise]_output and (Unnamed Layer* 47) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs (Unnamed Layer* 53) [ElementWise]_output and (Unnamed Layer* 48) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs (Unnamed Layer* 55) [Activation]_output and (Unnamed Layer* 49) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs (Unnamed Layer* 56) [ElementWise]_output and (Unnamed Layer* 50) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l2_gelu_out. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 59) [Convolution]_output. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 44) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [I] Using default for use_int8_scale_max: true
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 63) [Convolution]_output. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l3_attention_fc_aout. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 64) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs l3_fc_mid_out and (Unnamed Layer* 66) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs (Unnamed Layer* 71) [ElementWise]_output and (Unnamed Layer* 67) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs (Unnamed Layer* 73) [ElementWise]_output and (Unnamed Layer* 68) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs (Unnamed Layer* 75) [Activation]_output and (Unnamed Layer* 69) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs (Unnamed Layer* 76) [ElementWise]_output and (Unnamed Layer* 70) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l3_gelu_out. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 79) [Convolution]_output. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 64) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [I] Using default for use_int8_scale_max: true
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 83) [Convolution]_output. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l4_attention_fc_aout. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 84) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs l4_fc_mid_out and (Unnamed Layer* 86) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs (Unnamed Layer* 91) [ElementWise]_output and (Unnamed Layer* 87) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs (Unnamed Layer* 93) [ElementWise]_output and (Unnamed Layer* 88) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs (Unnamed Layer* 95) [Activation]_output and (Unnamed Layer* 89) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs (Unnamed Layer* 96) [ElementWise]_output and (Unnamed Layer* 90) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l4_gelu_out. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 99) [Convolution]_output. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 84) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [I] Using default for use_int8_scale_max: true
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 103) [Convolution]_output. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l5_attention_fc_aout. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 104) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs l5_fc_mid_out and (Unnamed Layer* 106) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs (Unnamed Layer* 111) [ElementWise]_output and (Unnamed Layer* 107) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs (Unnamed Layer* 113) [ElementWise]_output and (Unnamed Layer* 108) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs (Unnamed Layer* 115) [Activation]_output and (Unnamed Layer* 109) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs (Unnamed Layer* 116) [ElementWise]_output and (Unnamed Layer* 110) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l5_gelu_out. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 119) [Convolution]_output. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 104) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [I] Using default for use_int8_scale_max: true
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 123) [Convolution]_output. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l6_attention_fc_aout. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 124) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs l6_fc_mid_out and (Unnamed Layer* 126) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs (Unnamed Layer* 131) [ElementWise]_output and (Unnamed Layer* 127) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs (Unnamed Layer* 133) [ElementWise]_output and (Unnamed Layer* 128) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs (Unnamed Layer* 135) [Activation]_output and (Unnamed Layer* 129) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs (Unnamed Layer* 136) [ElementWise]_output and (Unnamed Layer* 130) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l6_gelu_out. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 139) [Convolution]_output. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 124) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [I] Using default for use_int8_scale_max: true
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 143) [Convolution]_output. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l7_attention_fc_aout. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 144) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs l7_fc_mid_out and (Unnamed Layer* 146) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs (Unnamed Layer* 151) [ElementWise]_output and (Unnamed Layer* 147) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs (Unnamed Layer* 153) [ElementWise]_output and (Unnamed Layer* 148) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs (Unnamed Layer* 155) [Activation]_output and (Unnamed Layer* 149) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs (Unnamed Layer* 156) [ElementWise]_output and (Unnamed Layer* 150) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l7_gelu_out. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 159) [Convolution]_output. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 144) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [I] Using default for use_int8_scale_max: true
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 163) [Convolution]_output. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l8_attention_fc_aout. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 164) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs l8_fc_mid_out and (Unnamed Layer* 166) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs (Unnamed Layer* 171) [ElementWise]_output and (Unnamed Layer* 167) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs (Unnamed Layer* 173) [ElementWise]_output and (Unnamed Layer* 168) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs (Unnamed Layer* 175) [Activation]_output and (Unnamed Layer* 169) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs (Unnamed Layer* 176) [ElementWise]_output and (Unnamed Layer* 170) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l8_gelu_out. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 179) [Convolution]_output. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 164) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [I] Using default for use_int8_scale_max: true
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 183) [Convolution]_output. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l9_attention_fc_aout. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 184) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs l9_fc_mid_out and (Unnamed Layer* 186) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs (Unnamed Layer* 191) [ElementWise]_output and (Unnamed Layer* 187) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs (Unnamed Layer* 193) [ElementWise]_output and (Unnamed Layer* 188) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs (Unnamed Layer* 195) [Activation]_output and (Unnamed Layer* 189) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs (Unnamed Layer* 196) [ElementWise]_output and (Unnamed Layer* 190) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l9_gelu_out. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 199) [Convolution]_output. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 184) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [I] Using default for use_int8_scale_max: true
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 203) [Convolution]_output. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l10_attention_fc_aout. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 204) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs l10_fc_mid_out and (Unnamed Layer* 206) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs (Unnamed Layer* 211) [ElementWise]_output and (Unnamed Layer* 207) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs (Unnamed Layer* 213) [ElementWise]_output and (Unnamed Layer* 208) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs (Unnamed Layer* 215) [Activation]_output and (Unnamed Layer* 209) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs (Unnamed Layer* 216) [ElementWise]_output and (Unnamed Layer* 210) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l10_gelu_out. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 219) [Convolution]_output. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 204) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [I] Using default for use_int8_scale_max: true
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 223) [Convolution]_output. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l11_attention_fc_aout. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 224) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs l11_fc_mid_out and (Unnamed Layer* 226) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs (Unnamed Layer* 231) [ElementWise]_output and (Unnamed Layer* 227) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs (Unnamed Layer* 233) [ElementWise]_output and (Unnamed Layer* 228) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs (Unnamed Layer* 235) [Activation]_output and (Unnamed Layer* 229) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs (Unnamed Layer* 236) [ElementWise]_output and (Unnamed Layer* 230) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l11_gelu_out. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 239) [Convolution]_output. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 224) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [I] Using default for use_int8_scale_max: true
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 243) [Convolution]_output. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l12_attention_fc_aout. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 244) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs l12_fc_mid_out and (Unnamed Layer* 246) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs (Unnamed Layer* 251) [ElementWise]_output and (Unnamed Layer* 247) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs (Unnamed Layer* 253) [ElementWise]_output and (Unnamed Layer* 248) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs (Unnamed Layer* 255) [Activation]_output and (Unnamed Layer* 249) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs (Unnamed Layer* 256) [ElementWise]_output and (Unnamed Layer* 250) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l12_gelu_out. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 259) [Convolution]_output. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 244) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [I] Using default for use_int8_scale_max: true
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 263) [Convolution]_output. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l13_attention_fc_aout. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 264) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs l13_fc_mid_out and (Unnamed Layer* 266) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs (Unnamed Layer* 271) [ElementWise]_output and (Unnamed Layer* 267) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs (Unnamed Layer* 273) [ElementWise]_output and (Unnamed Layer* 268) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs (Unnamed Layer* 275) [Activation]_output and (Unnamed Layer* 269) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs (Unnamed Layer* 276) [ElementWise]_output and (Unnamed Layer* 270) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l13_gelu_out. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 279) [Convolution]_output. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 264) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [I] Using default for use_int8_scale_max: true
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 283) [Convolution]_output. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l14_attention_fc_aout. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 284) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs l14_fc_mid_out and (Unnamed Layer* 286) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs (Unnamed Layer* 291) [ElementWise]_output and (Unnamed Layer* 287) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs (Unnamed Layer* 293) [ElementWise]_output and (Unnamed Layer* 288) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs (Unnamed Layer* 295) [Activation]_output and (Unnamed Layer* 289) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs (Unnamed Layer* 296) [ElementWise]_output and (Unnamed Layer* 290) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l14_gelu_out. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 299) [Convolution]_output. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 284) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [I] Using default for use_int8_scale_max: true
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 303) [Convolution]_output. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l15_attention_fc_aout. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 304) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs l15_fc_mid_out and (Unnamed Layer* 306) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs (Unnamed Layer* 311) [ElementWise]_output and (Unnamed Layer* 307) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs (Unnamed Layer* 313) [ElementWise]_output and (Unnamed Layer* 308) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs (Unnamed Layer* 315) [Activation]_output and (Unnamed Layer* 309) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs (Unnamed Layer* 316) [ElementWise]_output and (Unnamed Layer* 310) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l15_gelu_out. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 319) [Convolution]_output. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 304) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [I] Using default for use_int8_scale_max: true
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 323) [Convolution]_output. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l16_attention_fc_aout. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 324) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs l16_fc_mid_out and (Unnamed Layer* 326) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs (Unnamed Layer* 331) [ElementWise]_output and (Unnamed Layer* 327) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs (Unnamed Layer* 333) [ElementWise]_output and (Unnamed Layer* 328) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs (Unnamed Layer* 335) [Activation]_output and (Unnamed Layer* 329) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs (Unnamed Layer* 336) [ElementWise]_output and (Unnamed Layer* 330) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l16_gelu_out. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 339) [Convolution]_output. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 324) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [I] Using default for use_int8_scale_max: true
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 343) [Convolution]_output. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l17_attention_fc_aout. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 344) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs l17_fc_mid_out and (Unnamed Layer* 346) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs (Unnamed Layer* 351) [ElementWise]_output and (Unnamed Layer* 347) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs (Unnamed Layer* 353) [ElementWise]_output and (Unnamed Layer* 348) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs (Unnamed Layer* 355) [Activation]_output and (Unnamed Layer* 349) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs (Unnamed Layer* 356) [ElementWise]_output and (Unnamed Layer* 350) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l17_gelu_out. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 359) [Convolution]_output. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 344) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [I] Using default for use_int8_scale_max: true
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 363) [Convolution]_output. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l18_attention_fc_aout. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 364) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs l18_fc_mid_out and (Unnamed Layer* 366) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs (Unnamed Layer* 371) [ElementWise]_output and (Unnamed Layer* 367) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs (Unnamed Layer* 373) [ElementWise]_output and (Unnamed Layer* 368) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs (Unnamed Layer* 375) [Activation]_output and (Unnamed Layer* 369) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs (Unnamed Layer* 376) [ElementWise]_output and (Unnamed Layer* 370) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l18_gelu_out. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 379) [Convolution]_output. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 364) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [I] Using default for use_int8_scale_max: true
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 383) [Convolution]_output. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l19_attention_fc_aout. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 384) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs l19_fc_mid_out and (Unnamed Layer* 386) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs (Unnamed Layer* 391) [ElementWise]_output and (Unnamed Layer* 387) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs (Unnamed Layer* 393) [ElementWise]_output and (Unnamed Layer* 388) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs (Unnamed Layer* 395) [Activation]_output and (Unnamed Layer* 389) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs (Unnamed Layer* 396) [ElementWise]_output and (Unnamed Layer* 390) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l19_gelu_out. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 399) [Convolution]_output. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 384) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [I] Using default for use_int8_scale_max: true
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 403) [Convolution]_output. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l20_attention_fc_aout. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 404) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs l20_fc_mid_out and (Unnamed Layer* 406) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs (Unnamed Layer* 411) [ElementWise]_output and (Unnamed Layer* 407) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs (Unnamed Layer* 413) [ElementWise]_output and (Unnamed Layer* 408) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs (Unnamed Layer* 415) [Activation]_output and (Unnamed Layer* 409) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs (Unnamed Layer* 416) [ElementWise]_output and (Unnamed Layer* 410) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l20_gelu_out. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 419) [Convolution]_output. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 404) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [I] Using default for use_int8_scale_max: true
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 423) [Convolution]_output. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l21_attention_fc_aout. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 424) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs l21_fc_mid_out and (Unnamed Layer* 426) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs (Unnamed Layer* 431) [ElementWise]_output and (Unnamed Layer* 427) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs (Unnamed Layer* 433) [ElementWise]_output and (Unnamed Layer* 428) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs (Unnamed Layer* 435) [Activation]_output and (Unnamed Layer* 429) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs (Unnamed Layer* 436) [ElementWise]_output and (Unnamed Layer* 430) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l21_gelu_out. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 439) [Convolution]_output. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 424) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [I] Using default for use_int8_scale_max: true
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 443) [Convolution]_output. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l22_attention_fc_aout. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 444) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs l22_fc_mid_out and (Unnamed Layer* 446) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs (Unnamed Layer* 451) [ElementWise]_output and (Unnamed Layer* 447) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs (Unnamed Layer* 453) [ElementWise]_output and (Unnamed Layer* 448) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs (Unnamed Layer* 455) [Activation]_output and (Unnamed Layer* 449) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs (Unnamed Layer* 456) [ElementWise]_output and (Unnamed Layer* 450) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l22_gelu_out. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 459) [Convolution]_output. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 444) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [I] Using default for use_int8_scale_max: true
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 463) [Convolution]_output. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l23_attention_fc_aout. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 464) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs l23_fc_mid_out and (Unnamed Layer* 466) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs (Unnamed Layer* 471) [ElementWise]_output and (Unnamed Layer* 467) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs (Unnamed Layer* 473) [ElementWise]_output and (Unnamed Layer* 468) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs (Unnamed Layer* 475) [Activation]_output and (Unnamed Layer* 469) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] IElementWiseLayer with inputs (Unnamed Layer* 476) [ElementWise]_output and (Unnamed Layer* 470) [Constant]_output: first input has type Half but second input has type Float.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: l23_gelu_out. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 479) [Convolution]_output. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] ITensor::setType(Int8) was called on non I/O tensor: (Unnamed Layer* 464) [PluginV2DynamicExt]_output. This will have no effect unless this tensor is marked as an output.
+[03/24/2024-00:17:26] [TRT] [W] Calibrator is not being used. Users must provide dynamic range for all tensors that are not Int32 or Bool.
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor input_ids, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor segment_ids, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor cu_seqlens, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor max_seqlen, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor l0_fc_mid_out, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 6) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 7) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 8) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 9) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 10) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 11) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 12) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 13) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 14) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 15) [Activation]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 16) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 17) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor l1_fc_mid_out, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 26) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 27) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 28) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 29) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 30) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 31) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 32) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 33) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 34) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 35) [Activation]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 36) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 37) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor l2_fc_mid_out, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 46) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 47) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 48) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 49) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 50) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 51) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 52) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 53) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 54) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 55) [Activation]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 56) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 57) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor l3_fc_mid_out, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 66) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 67) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 68) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 69) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 70) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 71) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 72) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 73) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 74) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 75) [Activation]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 76) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 77) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor l4_fc_mid_out, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 86) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 87) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 88) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 89) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 90) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 91) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 92) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 93) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 94) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 95) [Activation]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 96) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 97) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor l5_fc_mid_out, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 106) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 107) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 108) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 109) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 110) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 111) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 112) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 113) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 114) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 115) [Activation]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 116) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 117) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor l6_fc_mid_out, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 126) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 127) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 128) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 129) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 130) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 131) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 132) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 133) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 134) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 135) [Activation]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 136) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 137) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor l7_fc_mid_out, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 146) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 147) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 148) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 149) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 150) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 151) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 152) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 153) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 154) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 155) [Activation]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 156) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 157) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor l8_fc_mid_out, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 166) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 167) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 168) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 169) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 170) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 171) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 172) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 173) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 174) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 175) [Activation]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 176) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 177) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor l9_fc_mid_out, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 186) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 187) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 188) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 189) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 190) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 191) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 192) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 193) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 194) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 195) [Activation]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 196) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 197) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor l10_fc_mid_out, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 206) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 207) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 208) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 209) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 210) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 211) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 212) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 213) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 214) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 215) [Activation]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 216) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 217) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor l11_fc_mid_out, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 226) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 227) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 228) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 229) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 230) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 231) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 232) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 233) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 234) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 235) [Activation]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 236) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 237) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor l12_fc_mid_out, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 246) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 247) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 248) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 249) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 250) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 251) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 252) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 253) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 254) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 255) [Activation]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 256) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 257) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor l13_fc_mid_out, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 266) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 267) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 268) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 269) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 270) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 271) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 272) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 273) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 274) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 275) [Activation]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 276) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 277) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor l14_fc_mid_out, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 286) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 287) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 288) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 289) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 290) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 291) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 292) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 293) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 294) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 295) [Activation]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 296) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 297) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor l15_fc_mid_out, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 306) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 307) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 308) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 309) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 310) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 311) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 312) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 313) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 314) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 315) [Activation]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 316) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 317) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor l16_fc_mid_out, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 326) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 327) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 328) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 329) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 330) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 331) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 332) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 333) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 334) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 335) [Activation]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 336) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 337) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor l17_fc_mid_out, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 346) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 347) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 348) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 349) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 350) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 351) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 352) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 353) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 354) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 355) [Activation]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 356) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 357) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor l18_fc_mid_out, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 366) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 367) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 368) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 369) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 370) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 371) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 372) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 373) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 374) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 375) [Activation]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 376) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 377) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor l19_fc_mid_out, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 386) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 387) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 388) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 389) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 390) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 391) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 392) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 393) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 394) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 395) [Activation]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 396) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 397) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor l20_fc_mid_out, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 406) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 407) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 408) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 409) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 410) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 411) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 412) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 413) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 414) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 415) [Activation]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 416) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 417) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor l21_fc_mid_out, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 426) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 427) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 428) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 429) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 430) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 431) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 432) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 433) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 434) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 435) [Activation]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 436) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 437) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor l22_fc_mid_out, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 446) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 447) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 448) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 449) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 450) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 451) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 452) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 453) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 454) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 455) [Activation]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 456) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 457) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor l23_fc_mid_out, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 466) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 467) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 468) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 469) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 470) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 471) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 472) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 473) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 474) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 475) [Activation]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 476) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:26] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 477) [ElementWise]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[03/24/2024-00:17:28] [TRT] [I] Graph optimization time: 1.58222 seconds.
+[03/24/2024-00:17:28] [TRT] [I] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +6, GPU +8, now: CPU 3814, GPU 958 (MiB)
+[03/24/2024-00:17:28] [TRT] [I] [MemUsageChange] Init cuDNN: CPU +1, GPU +10, now: CPU 3815, GPU 968 (MiB)
+[03/24/2024-00:17:28] [TRT] [I] Local timing cache in use. Profiling results in this builder pass will not be stored.
+[03/24/2024-00:18:00] [TRT] [I] [GraphReduction] The approximate region cut reduction algorithm is called.
+[03/24/2024-00:18:00] [TRT] [I] Detected 4 inputs and 1 output network tensors.
+[03/24/2024-00:18:14] [TRT] [I] Total Host Persistent Memory: 527712
+[03/24/2024-00:18:14] [TRT] [I] Total Device Persistent Memory: 0
+[03/24/2024-00:18:14] [TRT] [I] Total Scratch Memory: 0
+[03/24/2024-00:18:14] [TRT] [I] [BlockAssignment] Started assigning block shifts. This will take 224 steps to complete.
+[03/24/2024-00:18:14] [TRT] [I] [BlockAssignment] Algorithm ShiftNTopDown took 3.32691ms to assign 7 blocks to 224 nodes requiring 2754048 bytes.
+[03/24/2024-00:18:14] [TRT] [I] Total Activation Memory: 2753024
+[03/24/2024-00:18:14] [TRT] [I] Total Weights Memory: 305046024
+[03/24/2024-00:18:14] [TRT] [I] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +8, now: CPU 4092, GPU 1338 (MiB)
+[03/24/2024-00:18:14] [TRT] [I] [MemUsageChange] Init cuDNN: CPU +1, GPU +8, now: CPU 4093, GPU 1346 (MiB)
+[03/24/2024-00:18:14] [TRT] [I] [MemUsageStats] Peak memory usage of TRT CPU/GPU memory allocators: CPU 32 MiB, GPU 398 MiB
+[03/24/2024-00:18:14] [TRT] [I] [MemUsageChange] TensorRT-managed allocation in building engine: CPU +0, GPU +291, now: CPU 0, GPU 291 (MiB)
+[03/24/2024-00:18:15] [TRT] [I] [MemUsageStats] Peak memory usage during Engine building and serialization: CPU: 5227 MiB
+{'benchmark': <Benchmark.BERT: AliasedName(name='bert', aliases=(), patterns=())>, 'bert_opt_seqlen': 270, 'buffer_manager_thread_count': 0, 'data_dir': '/scratch/gonisla//data', 'gpu_batch_size': 1, 'gpu_copy_streams': 1, 'gpu_inference_streams': 1, 'input_dtype': 'int32', 'input_format': 'linear', 'log_dir': '/work/build/logs/2024.03.24-00.17.13', 'precision': 'int8', 'preprocessed_data_dir': '/scratch/gonisla//preprocessed_data', 'scenario': <Scenario.SingleStream: AliasedName(name='SingleStream', aliases=('single-stream', 'single_stream'), patterns=())>, 'system': SystemConfiguration(host_cpu_conf=CPUConfiguration(layout={CPU(name='Intel(R) Xeon(R) Silver 4314 CPU @ 2.40GHz', architecture=<CPUArchitecture.x86_64: AliasedName(name='x86_64', aliases=(), patterns=())>, core_count=16, threads_per_core=1): 1}), host_mem_conf=MemoryConfiguration(host_memory_capacity=Memory(quantity=65.551536, byte_suffix=<ByteSuffix.GB: (1000, 3)>, _num_bytes=65551536000), comparison_tolerance=0.05), accelerator_conf=AcceleratorConfiguration(layout=defaultdict(<class 'int'>, {GPU(name='NVIDIA A30', accelerator_type=<AcceleratorType.Discrete: AliasedName(name='Discrete', aliases=(), patterns=())>, vram=Memory(quantity=24.0, byte_suffix=<ByteSuffix.GiB: (1024, 3)>, _num_bytes=25769803776), max_power_limit=165.0, pci_id='0x20B710DE', compute_sm=80): 1})), numa_conf=None, system_id='ocejon'), 'use_graphs': True, 'use_small_tile_gemm_plugin': False, 'system_id': 'ocejon', 'config_name': 'ocejon_bert_SingleStream', 'workload_setting': WorkloadSetting(harness_type=<HarnessType.Custom: AliasedName(name='custom', aliases=(), patterns=())>, accuracy_target=<AccuracyTarget.k_99: 0.99>, power_setting=<PowerSetting.MaxP: AliasedName(name='MaxP', aliases=(), patterns=())>), 'optimization_level': 'plugin-enabled', 'use_cpu': False, 'use_inferentia': False, 'num_profiles': 1, 'config_ver': 'custom_k_99_MaxP', 'accuracy_level': '99%', 'inference_server': 'custom', 'power_limit': None, 'cpu_freq': None, 'batch_size': 1, 'dla_core': None}
+This is the path: -----> 
+build/models/bert/bert_large_v1_1_fake_quant.onnx
+Time taken to generate engines: 61.07230997085571 seconds
+make[1]: Leaving directory '/work'
+make[1]: Entering directory '/work'
+$ARCH is [x86_64]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+[2024-03-24 00:18:21,990 main.py:230 INFO] Detected system ID: KnownSystem.ocejon
+[2024-03-24 00:18:22,555 generate_conf_files.py:107 INFO] Generated measurements/ entries for ocejon_TRT/bert-99/SingleStream
+[2024-03-24 00:18:22,555 __init__.py:46 INFO] Running command: ./build/bin/harness_bert --logfile_outdir="/work/build/logs/2024.03.24-00.17.13/ocejon_TRT/bert-99/SingleStream" --logfile_prefix="mlperf_log_" --performance_sample_count=10833 --gpu_batch_size=1 --tensor_path="build/preprocessed_data/squad_tokenized/input_ids.npy,build/preprocessed_data/squad_tokenized/segment_ids.npy,build/preprocessed_data/squad_tokenized/input_mask.npy" --use_graphs=true --gpu_inference_streams=1 --gpu_copy_streams=1 --gpu_engines="./build/engines/ocejon/bert/SingleStream/bert-SingleStream-gpu-int8_S_384_B_1_P_1_vs.custom_k_99_MaxP.plan" --mlperf_conf_path="build/loadgen-configs/ocejon_TRT/bert-99/SingleStream/mlperf.conf" --user_conf_path="build/loadgen-configs/ocejon_TRT/bert-99/SingleStream/user.conf" --scenario SingleStream --model bert
+[2024-03-24 00:18:22,555 __init__.py:53 INFO] Overriding Environment
+benchmark : Benchmark.BERT
+buffer_manager_thread_count : 0
+coalesced_tensor : True
+data_dir : /scratch/gonisla//data
+gpu_batch_size : 1
+gpu_copy_streams : 1
+gpu_inference_streams : 1
+input_dtype : int32
+input_format : linear
+log_dir : /work/build/logs/2024.03.24-00.17.13
+precision : int8
+preprocessed_data_dir : /scratch/gonisla//preprocessed_data
+scenario : Scenario.SingleStream
+single_stream_expected_latency_ns : 1500000
+system : SystemConfiguration(host_cpu_conf=CPUConfiguration(layout={CPU(name='Intel(R) Xeon(R) Silver 4314 CPU @ 2.40GHz', architecture=<CPUArchitecture.x86_64: AliasedName(name='x86_64', aliases=(), patterns=())>, core_count=16, threads_per_core=1): 1}), host_mem_conf=MemoryConfiguration(host_memory_capacity=Memory(quantity=65.551536, byte_suffix=<ByteSuffix.GB: (1000, 3)>, _num_bytes=65551536000), comparison_tolerance=0.05), accelerator_conf=AcceleratorConfiguration(layout=defaultdict(<class 'int'>, {GPU(name='NVIDIA A30', accelerator_type=<AcceleratorType.Discrete: AliasedName(name='Discrete', aliases=(), patterns=())>, vram=Memory(quantity=24.0, byte_suffix=<ByteSuffix.GiB: (1024, 3)>, _num_bytes=25769803776), max_power_limit=165.0, pci_id='0x20B710DE', compute_sm=80): 1})), numa_conf=None, system_id='ocejon')
+tensor_path : build/preprocessed_data/squad_tokenized/input_ids.npy,build/preprocessed_data/squad_tokenized/segment_ids.npy,build/preprocessed_data/squad_tokenized/input_mask.npy
+use_graphs : True
+use_small_tile_gemm_plugin : False
+system_id : ocejon
+config_name : ocejon_bert_SingleStream
+workload_setting : WorkloadSetting(HarnessType.Custom, AccuracyTarget.k_99, PowerSetting.MaxP)
+optimization_level : plugin-enabled
+use_cpu : False
+use_inferentia : False
+num_profiles : 1
+config_ver : custom_k_99_MaxP
+accuracy_level : 99%
+inference_server : custom
+skip_file_checks : True
+power_limit : None
+cpu_freq : None
+&&&& RUNNING BERT_HARNESS # ./build/bin/harness_bert
+I0324 00:18:22.607987  1930 main_bert.cc:163] Found 1 GPUs
+I0324 00:18:23.543149  1930 bert_server.cc:142] Engine Path: ./build/engines/ocejon/bert/SingleStream/bert-SingleStream-gpu-int8_S_384_B_1_P_1_vs.custom_k_99_MaxP.plan
+[I] [TRT] Loaded engine size: 352 MiB
+[I] [TRT] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +6, GPU +8, now: CPU 462, GPU 844 (MiB)
+[I] [TRT] [MemUsageChange] Init cuDNN: CPU +2, GPU +10, now: CPU 464, GPU 854 (MiB)
+[I] [TRT] [MemUsageChange] TensorRT-managed allocation in engine deserialization: CPU +0, GPU +290, now: CPU 0, GPU 290 (MiB)
+I0324 00:18:23.761968  1930 bert_server.cc:203] Engines Creation Completed
+I0324 00:18:23.762557  1930 bert_server.cc:208] Use CUDA graphs
+I0324 00:18:23.762715  1930 bert_core_vs.cc:385] Engine - Device Memory requirements: 2753024
+I0324 00:18:23.762722  1930 bert_core_vs.cc:393] Engine - Number of Optimization Profiles: 1
+I0324 00:18:23.762727  1930 bert_core_vs.cc:415] Engine - Profile 0 maxDims 384 Bmax=1 Smax=384
+[I] [TRT] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +8, now: CPU 111, GPU 850 (MiB)
+[I] [TRT] [MemUsageChange] Init cuDNN: CPU +0, GPU +8, now: CPU 111, GPU 858 (MiB)
+I0324 00:18:23.789865  1930 bert_core_vs.cc:426] Setting Opt.Prof. to 0
+I0324 00:18:23.789886  1930 bert_core_vs.cc:444] Context creation complete. Max supported batchSize: 1
+[I] [TRT] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +0, now: CPU 0, GPU 290 (MiB)
+I0324 00:18:23.789961  1930 bert_core_vs.cc:476] Setup complete
+I0324 00:18:24.121635  1935 bert_core_vs.cc:352] Created 96 CUDA graphs
+I0324 00:18:24.124449  1930 main_bert.cc:184] Starting running actual test.
+I0324 00:28:24.801025  1930 main_bert.cc:190] Finished running actual test.
+================================================
+MLPerf Results Summary
+================================================
+SUT name : BERT SERVER
+Scenario : SingleStream
+Mode     : PerformanceOnly
+90th percentile latency (ns) : 2328540
+Result is : VALID
+  Min duration satisfied : Yes
+  Min queries satisfied : Yes
+  Early stopping satisfied: Yes
+Early Stopping Result:
+ * Processed at least 64 queries (291362).
+ * Would discard 28758 highest latency queries.
+ * Early stopping 90th percentile estimate: 2331130
+ * Early stopping 99th percentile estimate: 2950889
+
+================================================
+Additional Stats
+================================================
+QPS w/ loadgen overhead         : 485.60
+QPS w/o loadgen overhead        : 486.42
+
+Min latency (ns)                : 1741258
+Max latency (ns)                : 3347763
+Mean latency (ns)               : 2055830
+50.00 percentile latency (ns)   : 1955492
+90.00 percentile latency (ns)   : 2328540
+95.00 percentile latency (ns)   : 2790945
+97.00 percentile latency (ns)   : 2882603
+99.00 percentile latency (ns)   : 2949813
+99.90 percentile latency (ns)   : 3012573
+
+================================================
+Test Parameters Used
+================================================
+samples_per_query : 1
+target_qps : 666.667
+target_latency (ns): 0
+max_async_queries : 1
+min_duration (ms): 600000
+max_duration (ms): 0
+min_query_count : 100
+max_query_count : 0
+qsl_rng_seed : 148687905518835231
+sample_index_rng_seed : 520418551913322573
+schedule_rng_seed : 811580660758947900
+accuracy_log_rng_seed : 0
+accuracy_log_probability : 0
+accuracy_log_sampling_target : 0
+print_timestamps : 0
+performance_issue_unique : 0
+performance_issue_same : 0
+performance_issue_same_index : 0
+performance_sample_count : 10833
+
+No warnings encountered during test.
+
+No errors encountered during test.
+[2024-03-24 00:28:25,301 run_harness.py:167 INFO] Result: result_90.00_percentile_latency_ns: 2328540, Result is VALID
+ 
+======================== Result summaries: ========================
+
+ ocejon_TRT-custom_k_99_MaxP-SingleStream:
+   bert-99:
+     performance: result_90.00_percentile_latency_ns: 2328540, Result is VALID
+ 
+
+======================== Extra Perf Stats: ========================
+
+ ocejon_TRT-custom_k_99_MaxP-SingleStream:
+    FileNotFoundError: Cannot find perf logs for ocejon_TRT/bert-99/SingleStream at build/artifacts/closed/NVIDIA/results/ocejon_TRT/bert-99/SingleStream/performance/run_1. Non-NVIDIA users ignore this. NVIDIA users run `make pull_artifacts_repo`.
+make[1]: Leaving directory '/work'

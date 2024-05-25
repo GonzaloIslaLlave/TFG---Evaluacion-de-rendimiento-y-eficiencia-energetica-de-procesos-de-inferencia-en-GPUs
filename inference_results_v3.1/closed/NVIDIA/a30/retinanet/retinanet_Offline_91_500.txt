@@ -1,0 +1,286 @@
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+make[1]: Entering directory '/work'
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+$ARCH is [x86_64]
+$SYSTEM_NAME is [KnownSystem.ocejon]
+$IS_SOC is [0]
+$USE_CPU is [0]
+$USE_INFERENTIA is [0]
+[05/04/2024-13:34:30] [TRT] [I] [MemUsageChange] Init CUDA: CPU +2, GPU +0, now: CPU 126, GPU 480 (MiB)
+[05/04/2024-13:34:38] [TRT] [I] [MemUsageChange] Init builder kernel library: CPU +1958, GPU +346, now: CPU 2188, GPU 826 (MiB)
+[05/04/2024-13:34:38] [TRT] [I] No importer registered for op: NMS_OPT_TRT. Attempting to import as plugin.
+[05/04/2024-13:34:38] [TRT] [I] Searching for plugin: NMS_OPT_TRT, plugin_version: 2, plugin_namespace: 
+[05/04/2024-13:34:38] [TRT] [W] builtin_op_importers.cpp:5421: Attribute permuteBeforeReshape not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/04/2024-13:34:38] [TRT] [W] builtin_op_importers.cpp:5421: Attribute concatInputs not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/04/2024-13:34:38] [TRT] [I] Successfully created plugin: NMS_OPT_TRT
+[05/04/2024-13:34:38] [TRT] [I] Graph optimization time: 0.0050919 seconds.
+[05/04/2024-13:34:38] [TRT] [I] Reading Calibration Cache for calibrator: EntropyCalibration2
+[05/04/2024-13:34:38] [TRT] [I] Generated calibration scales using calibration cache. Make sure that calibration cache has latest scales.
+[05/04/2024-13:34:38] [TRT] [I] To regenerate calibration cache, please delete the existing one. TensorRT will generate a new calibration cache.
+[05/04/2024-13:34:38] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 163) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/04/2024-13:34:38] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 174) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/04/2024-13:34:38] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 177) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/04/2024-13:34:38] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 183) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/04/2024-13:34:38] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 190) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/04/2024-13:34:38] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 196) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/04/2024-13:34:38] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 202) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/04/2024-13:34:38] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 209) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/04/2024-13:34:38] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 215) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/04/2024-13:34:38] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 221) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/04/2024-13:34:38] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 228) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/04/2024-13:34:38] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 234) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/04/2024-13:34:38] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 240) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/04/2024-13:34:38] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 247) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/04/2024-13:34:38] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 253) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/04/2024-13:34:38] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 259) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/04/2024-13:34:38] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 266) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/04/2024-13:34:38] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 272) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/04/2024-13:34:38] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 278) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/04/2024-13:34:38] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 287) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/04/2024-13:34:38] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 293) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/04/2024-13:34:38] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 295) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/04/2024-13:34:38] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 306) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/04/2024-13:34:38] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 313) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/04/2024-13:34:38] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 315) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/04/2024-13:34:38] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 320) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/04/2024-13:34:38] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 326) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/04/2024-13:34:38] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 332) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/04/2024-13:34:38] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 334) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/04/2024-13:34:38] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 339) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/04/2024-13:34:38] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 345) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/04/2024-13:34:38] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 351) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/04/2024-13:34:38] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 353) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/04/2024-13:34:38] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 518) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/04/2024-13:34:38] [TRT] [I] Graph optimization time: 0.126095 seconds.
+[05/04/2024-13:34:38] [TRT] [I] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +6, GPU +10, now: CPU 2507, GPU 910 (MiB)
+[05/04/2024-13:34:38] [TRT] [I] [MemUsageChange] Init cuDNN: CPU +1, GPU +10, now: CPU 2508, GPU 920 (MiB)
+[05/04/2024-13:34:38] [TRT] [I] Local timing cache in use. Profiling results in this builder pass will not be stored.
+[05/04/2024-13:58:41] [TRT] [I] Skipping tactic 0x0edd5d0285e564d4 due to exception an illegal memory access was encountered
+[05/04/2024-13:58:41] [TRT] [I] Skipping tactic 0x2468d082d0ff7c9a due to exception an illegal memory access was encountered
+[05/04/2024-13:58:41] [TRT] [I] Skipping tactic 0x47b1629a4bff4800 due to exception an illegal memory access was encountered
+[05/04/2024-13:58:41] [TRT] [I] Skipping tactic 0xd14bd6d95fefd45e due to exception an illegal memory access was encountered
+[05/04/2024-13:58:41] [TRT] [I] Skipping tactic 0xa2f15b0a75b7dcec due to exception an illegal memory access was encountered
+[05/04/2024-13:58:41] [TRT] [I] Skipping tactic 0x445983715412fbda due to exception an illegal memory access was encountered
+[05/04/2024-13:58:41] [TRT] [I] Skipping tactic 0x991db9fd58152c33 due to exception an illegal memory access was encountered
+[05/04/2024-13:58:41] [TRT] [I] Skipping tactic 0xdc1f355deb032b87 due to exception an illegal memory access was encountered
+[05/04/2024-13:58:41] [TRT] [I] Skipping tactic 0x5f1a472d416ff35e due to exception an illegal memory access was encountered
+[05/04/2024-13:58:41] [TRT] [I] Skipping tactic 0xb5f710b331ba8377 due to exception an illegal memory access was encountered
+[05/04/2024-13:58:41] [TRT] [I] Skipping tactic 0x748f926574b7bdc4 due to exception an illegal memory access was encountered
+[05/04/2024-13:58:41] [TRT] [I] Skipping tactic 0xb86b920539eb9c79 due to exception an illegal memory access was encountered
+[05/04/2024-13:58:41] [TRT] [I] Skipping tactic 0x55edef142e02adaa due to exception an illegal memory access was encountered
+[05/04/2024-13:58:41] [TRT] [I] Skipping tactic 0x2d8ab2aa0639fda9 due to exception an illegal memory access was encountered
+[05/04/2024-13:58:41] [TRT] [I] Skipping tactic 0xb936321f82fd390c due to exception an illegal memory access was encountered
+[05/04/2024-13:58:41] [TRT] [I] Skipping tactic 0x8141573686849b61 due to exception an illegal memory access was encountered
+[05/04/2024-13:58:41] [TRT] [I] Skipping tactic 0x0e07dc8353bf7e9f due to exception an illegal memory access was encountered
+[05/04/2024-13:58:41] [TRT] [I] Skipping tactic 0x45f7566cdb2b10fb due to exception an illegal memory access was encountered
+[05/04/2024-13:58:41] [TRT] [I] Skipping tactic 0x6986b0c6a136276e due to exception an illegal memory access was encountered
+[05/04/2024-13:58:41] [TRT] [I] Skipping tactic 0xe742f4598442d2f1 due to exception an illegal memory access was encountered
+[05/04/2024-13:58:41] [TRT] [I] Skipping tactic 0xad886d4d69834922 due to exception an illegal memory access was encountered
+[05/04/2024-13:58:41] [TRT] [I] Skipping tactic 0x3f2b14dec582741e due to exception an illegal memory access was encountered
+[05/04/2024-13:58:41] [TRT] [I] Skipping tactic 0xea2b7420057a01c1 due to exception an illegal memory access was encountered
+[05/04/2024-13:58:41] [TRT] [W] GPU error during getBestTactic: /head/classification_head/cls_logits/Conv : an illegal memory access was encountered
+[05/04/2024-13:58:41] [TRT] [W] GPU error during getBestTactic: /head/regression_head/conv/conv.2/Conv + /head/regression_head/conv/conv.3/Relu : an illegal memory access was encountered
+[05/04/2024-13:58:41] [TRT] [W] GPU error during getBestTactic: /head/regression_head/conv/conv.2/Conv + /head/regression_head/conv/conv.3/Relu : an illegal memory access was encountered
+[05/04/2024-13:58:41] [TRT] [W] GPU error during getBestTactic: /head/regression_head/conv/conv.2/Conv + /head/regression_head/conv/conv.3/Relu : an illegal memory access was encountered
+[05/04/2024-13:58:41] [TRT] [W] GPU error during getBestTactic: /head/regression_head/conv/conv.2/Conv + /head/regression_head/conv/conv.3/Relu : an illegal memory access was encountered
+[05/04/2024-13:58:41] [TRT] [W] GPU error during getBestTactic: /head/regression_head/conv/conv.2/Conv + /head/regression_head/conv/conv.3/Relu : an illegal memory access was encountered
+[05/04/2024-13:58:41] [TRT] [W] GPU error during getBestTactic: /head/regression_head/conv/conv.2/Conv + /head/regression_head/conv/conv.3/Relu : an illegal memory access was encountered
+[05/04/2024-13:58:41] [TRT] [W] GPU error during getBestTactic: /head/regression_head/conv/conv.2/Conv + /head/regression_head/conv/conv.3/Relu : an illegal memory access was encountered
+[05/04/2024-13:58:41] [TRT] [W] GPU error during getBestTactic: /head/regression_head/conv/conv.2/Conv + /head/regression_head/conv/conv.3/Relu : an illegal memory access was encountered
+[05/04/2024-13:58:41] [TRT] [W] GPU error during getBestTactic: /head/regression_head/conv/conv.2/Conv + /head/regression_head/conv/conv.3/Relu : an illegal memory access was encountered
+[05/04/2024-13:58:41] [TRT] [W] GPU error during getBestTactic: /head/regression_head/conv/conv.2/Conv + /head/regression_head/conv/conv.3/Relu : an illegal memory access was encountered
+[05/04/2024-13:58:41] [TRT] [W] GPU error during getBestTactic: /head/regression_head/conv/conv.2/Conv + /head/regression_head/conv/conv.3/Relu : an illegal memory access was encountered
+[05/04/2024-13:58:42] [TRT] [W] GPU error during getBestTactic: /head/regression_head/conv/conv.2/Conv + /head/regression_head/conv/conv.3/Relu : an illegal memory access was encountered
+[05/04/2024-13:58:42] [TRT] [W] GPU error during getBestTactic: /head/regression_head/conv/conv.2/Conv + /head/regression_head/conv/conv.3/Relu : an illegal memory access was encountered
+[05/04/2024-13:58:42] [TRT] [W] GPU error during getBestTactic: /head/regression_head/conv/conv.2/Conv + /head/regression_head/conv/conv.3/Relu : an illegal memory access was encountered
+[05/04/2024-13:58:42] [TRT] [W] GPU error during getBestTactic: /head/regression_head/conv/conv.2/Conv + /head/regression_head/conv/conv.3/Relu : an illegal memory access was encountered
+[05/04/2024-13:58:42] [TRT] [W] GPU error during getBestTactic: /head/regression_head/conv/conv.2/Conv + /head/regression_head/conv/conv.3/Relu : an illegal memory access was encountered
+[05/04/2024-13:58:42] [TRT] [W] GPU error during getBestTactic: /head/regression_head/conv/conv.2/Conv + /head/regression_head/conv/conv.3/Relu : an illegal memory access was encountered
+[05/04/2024-13:58:42] [TRT] [W] GPU error during getBestTactic: /head/regression_head/conv/conv.2/Conv + /head/regression_head/conv/conv.3/Relu : an illegal memory access was encountered
+[05/04/2024-13:58:42] [TRT] [E] 1: [cudaDriverHelpers.cpp::operator()::93] Error Code 1: Cuda Driver (an illegal memory access was encountered)
+[05/04/2024-13:58:42] [TRT] [E] 1: [cudaDriverHelpers.cpp::operator()::93] Error Code 1: Cuda Driver (an illegal memory access was encountered)
+[05/04/2024-13:58:42] [TRT] [E] 1: [cudaDriverHelpers.cpp::operator()::93] Error Code 1: Cuda Driver (an illegal memory access was encountered)
+[05/04/2024-13:58:42] [TRT] [E] 1: [cudaDriverHelpers.cpp::operator()::93] Error Code 1: Cuda Driver (an illegal memory access was encountered)
+[05/04/2024-13:58:42] [TRT] [E] 1: [cudaDriverHelpers.cpp::operator()::93] Error Code 1: Cuda Driver (an illegal memory access was encountered)
+[05/04/2024-13:58:42] [TRT] [E] 1: [cudaDriverHelpers.cpp::operator()::93] Error Code 1: Cuda Driver (an illegal memory access was encountered)
+[05/04/2024-13:58:42] [TRT] [E] 1: [cudaDriverHelpers.cpp::operator()::93] Error Code 1: Cuda Driver (an illegal memory access was encountered)
+[05/04/2024-13:58:42] [TRT] [E] 1: [cudaDriverHelpers.cpp::operator()::93] Error Code 1: Cuda Driver (an illegal memory access was encountered)
+[05/04/2024-13:58:42] [TRT] [E] 1: [cudaDriverHelpers.cpp::operator()::93] Error Code 1: Cuda Driver (an illegal memory access was encountered)
+[05/04/2024-13:58:42] [TRT] [E] 1: [cudaDriverHelpers.cpp::operator()::93] Error Code 1: Cuda Driver (an illegal memory access was encountered)
+[05/04/2024-13:58:42] [TRT] [E] 1: [cudaDriverHelpers.cpp::operator()::93] Error Code 1: Cuda Driver (an illegal memory access was encountered)
+[05/04/2024-13:58:42] [TRT] [E] 10: Could not find any implementation for node /head/regression_head/conv/conv.2/Conv + /head/regression_head/conv/conv.3/Relu.
+[05/04/2024-13:58:42] [TRT] [E] 1: [cudaResources.cpp::~ScopedCudaStream::47] Error Code 1: Cuda Runtime (an illegal memory access was encountered)
+[05/04/2024-13:58:42] [TRT] [E] 10: [optimizer.cpp::computeCosts::4014] Error Code 10: Internal Error (Could not find any implementation for node /head/regression_head/conv/conv.2/Conv + /head/regression_head/conv/conv.3/Relu.)
+Loading TensorRT plugin from build/plugins/NMSOptPlugin/libnmsoptplugin.so
+Loading TensorRT plugin from build/plugins/retinanetConcatPlugin/libretinanetconcatplugin.so
+[05/04/2024-13:58:45] [TRT] [I] [MemUsageChange] Init CUDA: CPU +2, GPU +0, now: CPU 126, GPU 480 (MiB)
+[05/04/2024-13:58:53] [TRT] [I] [MemUsageChange] Init builder kernel library: CPU +1958, GPU +346, now: CPU 2188, GPU 826 (MiB)
+[05/04/2024-13:58:53] [TRT] [I] No importer registered for op: NMS_OPT_TRT. Attempting to import as plugin.
+[05/04/2024-13:58:53] [TRT] [I] Searching for plugin: NMS_OPT_TRT, plugin_version: 2, plugin_namespace: 
+[05/04/2024-13:58:53] [TRT] [W] builtin_op_importers.cpp:5421: Attribute permuteBeforeReshape not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/04/2024-13:58:53] [TRT] [W] builtin_op_importers.cpp:5421: Attribute concatInputs not found in plugin node! Ensure that the plugin creator has a default value defined or the engine may fail to build.
+[05/04/2024-13:58:53] [TRT] [I] Successfully created plugin: NMS_OPT_TRT
+[05/04/2024-13:58:53] [TRT] [I] Graph optimization time: 0.00516315 seconds.
+[05/04/2024-13:58:53] [TRT] [I] Reading Calibration Cache for calibrator: EntropyCalibration2
+[05/04/2024-13:58:53] [TRT] [I] Generated calibration scales using calibration cache. Make sure that calibration cache has latest scales.
+[05/04/2024-13:58:53] [TRT] [I] To regenerate calibration cache, please delete the existing one. TensorRT will generate a new calibration cache.
+[05/04/2024-13:58:53] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 163) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/04/2024-13:58:53] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 174) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/04/2024-13:58:53] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 177) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/04/2024-13:58:53] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 183) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/04/2024-13:58:53] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 190) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/04/2024-13:58:53] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 196) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/04/2024-13:58:53] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 202) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/04/2024-13:58:53] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 209) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/04/2024-13:58:53] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 215) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/04/2024-13:58:53] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 221) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/04/2024-13:58:53] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 228) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/04/2024-13:58:53] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 234) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/04/2024-13:58:53] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 240) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/04/2024-13:58:53] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 247) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/04/2024-13:58:53] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 253) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/04/2024-13:58:53] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 259) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/04/2024-13:58:53] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 266) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/04/2024-13:58:53] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 272) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/04/2024-13:58:53] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 278) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/04/2024-13:58:53] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 287) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/04/2024-13:58:53] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 293) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/04/2024-13:58:53] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 295) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/04/2024-13:58:53] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 306) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/04/2024-13:58:53] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 313) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/04/2024-13:58:53] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 315) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/04/2024-13:58:53] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 320) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/04/2024-13:58:53] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 326) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/04/2024-13:58:53] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 332) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/04/2024-13:58:53] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 334) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/04/2024-13:58:53] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 339) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/04/2024-13:58:53] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 345) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/04/2024-13:58:53] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 351) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/04/2024-13:58:53] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 353) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/04/2024-13:58:53] [TRT] [W] Missing scale and zero-point for tensor (Unnamed Layer* 518) [Constant]_output, expect fall back to non-int8 implementation for any layer consuming or producing given tensor
+[05/04/2024-13:58:53] [TRT] [I] Graph optimization time: 0.124301 seconds.
+[05/04/2024-13:58:53] [TRT] [I] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +6, GPU +10, now: CPU 2507, GPU 910 (MiB)
+[05/04/2024-13:58:53] [TRT] [I] [MemUsageChange] Init cuDNN: CPU +1, GPU +10, now: CPU 2508, GPU 920 (MiB)
+[05/04/2024-13:58:53] [TRT] [I] Local timing cache in use. Profiling results in this builder pass will not be stored.
+[05/04/2024-14:22:55] [TRT] [I] Skipping tactic 0x0edd5d0285e564d4 due to exception an illegal memory access was encountered
+[05/04/2024-14:22:55] [TRT] [I] Skipping tactic 0x2468d082d0ff7c9a due to exception an illegal memory access was encountered
+[05/04/2024-14:22:55] [TRT] [I] Skipping tactic 0x47b1629a4bff4800 due to exception an illegal memory access was encountered
+[05/04/2024-14:22:55] [TRT] [I] Skipping tactic 0xd14bd6d95fefd45e due to exception an illegal memory access was encountered
+[05/04/2024-14:22:55] [TRT] [I] Skipping tactic 0xa2f15b0a75b7dcec due to exception an illegal memory access was encountered
+[05/04/2024-14:22:55] [TRT] [I] Skipping tactic 0x445983715412fbda due to exception an illegal memory access was encountered
+[05/04/2024-14:22:55] [TRT] [I] Skipping tactic 0x991db9fd58152c33 due to exception an illegal memory access was encountered
+[05/04/2024-14:22:55] [TRT] [I] Skipping tactic 0xdc1f355deb032b87 due to exception an illegal memory access was encountered
+[05/04/2024-14:22:55] [TRT] [I] Skipping tactic 0x5f1a472d416ff35e due to exception an illegal memory access was encountered
+[05/04/2024-14:22:55] [TRT] [I] Skipping tactic 0xb5f710b331ba8377 due to exception an illegal memory access was encountered
+[05/04/2024-14:22:55] [TRT] [I] Skipping tactic 0x748f926574b7bdc4 due to exception an illegal memory access was encountered
+[05/04/2024-14:22:55] [TRT] [I] Skipping tactic 0xb86b920539eb9c79 due to exception an illegal memory access was encountered
+[05/04/2024-14:22:55] [TRT] [I] Skipping tactic 0x55edef142e02adaa due to exception an illegal memory access was encountered
+[05/04/2024-14:22:55] [TRT] [I] Skipping tactic 0x2d8ab2aa0639fda9 due to exception an illegal memory access was encountered
+[05/04/2024-14:22:55] [TRT] [I] Skipping tactic 0xb936321f82fd390c due to exception an illegal memory access was encountered
+[05/04/2024-14:22:55] [TRT] [I] Skipping tactic 0x8141573686849b61 due to exception an illegal memory access was encountered
+[05/04/2024-14:22:55] [TRT] [I] Skipping tactic 0x0e07dc8353bf7e9f due to exception an illegal memory access was encountered
+[05/04/2024-14:22:55] [TRT] [I] Skipping tactic 0x45f7566cdb2b10fb due to exception an illegal memory access was encountered
+[05/04/2024-14:22:55] [TRT] [I] Skipping tactic 0x6986b0c6a136276e due to exception an illegal memory access was encountered
+[05/04/2024-14:22:55] [TRT] [I] Skipping tactic 0xe742f4598442d2f1 due to exception an illegal memory access was encountered
+[05/04/2024-14:22:55] [TRT] [I] Skipping tactic 0xad886d4d69834922 due to exception an illegal memory access was encountered
+[05/04/2024-14:22:55] [TRT] [I] Skipping tactic 0x3f2b14dec582741e due to exception an illegal memory access was encountered
+[05/04/2024-14:22:55] [TRT] [I] Skipping tactic 0xea2b7420057a01c1 due to exception an illegal memory access was encountered
+[05/04/2024-14:22:55] [TRT] [W] GPU error during getBestTactic: /head/classification_head/cls_logits/Conv : an illegal memory access was encountered
+[05/04/2024-14:22:55] [TRT] [W] GPU error during getBestTactic: /head/regression_head/conv/conv.2/Conv + /head/regression_head/conv/conv.3/Relu : an illegal memory access was encountered
+[05/04/2024-14:22:55] [TRT] [W] GPU error during getBestTactic: /head/regression_head/conv/conv.2/Conv + /head/regression_head/conv/conv.3/Relu : an illegal memory access was encountered
+[05/04/2024-14:22:55] [TRT] [W] GPU error during getBestTactic: /head/regression_head/conv/conv.2/Conv + /head/regression_head/conv/conv.3/Relu : an illegal memory access was encountered
+[05/04/2024-14:22:55] [TRT] [W] GPU error during getBestTactic: /head/regression_head/conv/conv.2/Conv + /head/regression_head/conv/conv.3/Relu : an illegal memory access was encountered
+[05/04/2024-14:22:55] [TRT] [W] GPU error during getBestTactic: /head/regression_head/conv/conv.2/Conv + /head/regression_head/conv/conv.3/Relu : an illegal memory access was encountered
+[05/04/2024-14:22:55] [TRT] [W] GPU error during getBestTactic: /head/regression_head/conv/conv.2/Conv + /head/regression_head/conv/conv.3/Relu : an illegal memory access was encountered
+[05/04/2024-14:22:55] [TRT] [W] GPU error during getBestTactic: /head/regression_head/conv/conv.2/Conv + /head/regression_head/conv/conv.3/Relu : an illegal memory access was encountered
+[05/04/2024-14:22:55] [TRT] [W] GPU error during getBestTactic: /head/regression_head/conv/conv.2/Conv + /head/regression_head/conv/conv.3/Relu : an illegal memory access was encountered
+[05/04/2024-14:22:55] [TRT] [W] GPU error during getBestTactic: /head/regression_head/conv/conv.2/Conv + /head/regression_head/conv/conv.3/Relu : an illegal memory access was encountered
+[05/04/2024-14:22:55] [TRT] [W] GPU error during getBestTactic: /head/regression_head/conv/conv.2/Conv + /head/regression_head/conv/conv.3/Relu : an illegal memory access was encountered
+[05/04/2024-14:22:55] [TRT] [W] GPU error during getBestTactic: /head/regression_head/conv/conv.2/Conv + /head/regression_head/conv/conv.3/Relu : an illegal memory access was encountered
+[05/04/2024-14:22:55] [TRT] [W] GPU error during getBestTactic: /head/regression_head/conv/conv.2/Conv + /head/regression_head/conv/conv.3/Relu : an illegal memory access was encountered
+[05/04/2024-14:22:55] [TRT] [W] GPU error during getBestTactic: /head/regression_head/conv/conv.2/Conv + /head/regression_head/conv/conv.3/Relu : an illegal memory access was encountered
+[05/04/2024-14:22:55] [TRT] [W] GPU error during getBestTactic: /head/regression_head/conv/conv.2/Conv + /head/regression_head/conv/conv.3/Relu : an illegal memory access was encountered
+[05/04/2024-14:22:55] [TRT] [W] GPU error during getBestTactic: /head/regression_head/conv/conv.2/Conv + /head/regression_head/conv/conv.3/Relu : an illegal memory access was encountered
+[05/04/2024-14:22:55] [TRT] [W] GPU error during getBestTactic: /head/regression_head/conv/conv.2/Conv + /head/regression_head/conv/conv.3/Relu : an illegal memory access was encountered
+[05/04/2024-14:22:55] [TRT] [W] GPU error during getBestTactic: /head/regression_head/conv/conv.2/Conv + /head/regression_head/conv/conv.3/Relu : an illegal memory access was encountered
+[05/04/2024-14:22:55] [TRT] [W] GPU error during getBestTactic: /head/regression_head/conv/conv.2/Conv + /head/regression_head/conv/conv.3/Relu : an illegal memory access was encountered
+[05/04/2024-14:22:55] [TRT] [E] 1: [cudaDriverHelpers.cpp::operator()::93] Error Code 1: Cuda Driver (an illegal memory access was encountered)
+[05/04/2024-14:22:55] [TRT] [E] 1: [cudaDriverHelpers.cpp::operator()::93] Error Code 1: Cuda Driver (an illegal memory access was encountered)
+[05/04/2024-14:22:55] [TRT] [E] 1: [cudaDriverHelpers.cpp::operator()::93] Error Code 1: Cuda Driver (an illegal memory access was encountered)
+[05/04/2024-14:22:55] [TRT] [E] 1: [cudaDriverHelpers.cpp::operator()::93] Error Code 1: Cuda Driver (an illegal memory access was encountered)
+[05/04/2024-14:22:55] [TRT] [E] 1: [cudaDriverHelpers.cpp::operator()::93] Error Code 1: Cuda Driver (an illegal memory access was encountered)
+[05/04/2024-14:22:55] [TRT] [E] 1: [cudaDriverHelpers.cpp::operator()::93] Error Code 1: Cuda Driver (an illegal memory access was encountered)
+[05/04/2024-14:22:55] [TRT] [E] 1: [cudaDriverHelpers.cpp::operator()::93] Error Code 1: Cuda Driver (an illegal memory access was encountered)
+[05/04/2024-14:22:55] [TRT] [E] 1: [cudaDriverHelpers.cpp::operator()::93] Error Code 1: Cuda Driver (an illegal memory access was encountered)
+[05/04/2024-14:22:55] [TRT] [E] 1: [cudaDriverHelpers.cpp::operator()::93] Error Code 1: Cuda Driver (an illegal memory access was encountered)
+[05/04/2024-14:22:55] [TRT] [E] 1: [cudaDriverHelpers.cpp::operator()::93] Error Code 1: Cuda Driver (an illegal memory access was encountered)
+[05/04/2024-14:22:55] [TRT] [E] 1: [cudaDriverHelpers.cpp::operator()::93] Error Code 1: Cuda Driver (an illegal memory access was encountered)
+[05/04/2024-14:22:55] [TRT] [E] 10: Could not find any implementation for node /head/regression_head/conv/conv.2/Conv + /head/regression_head/conv/conv.3/Relu.
+[05/04/2024-14:22:56] [TRT] [E] 1: [cudaResources.cpp::~ScopedCudaStream::47] Error Code 1: Cuda Runtime (an illegal memory access was encountered)
+[05/04/2024-14:22:56] [TRT] [E] 10: [optimizer.cpp::computeCosts::4014] Error Code 10: Internal Error (Could not find any implementation for node /head/regression_head/conv/conv.2/Conv + /head/regression_head/conv/conv.3/Relu.)
+Loading TensorRT plugin from build/plugins/NMSOptPlugin/libnmsoptplugin.so
+Loading TensorRT plugin from build/plugins/retinanetConcatPlugin/libretinanetconcatplugin.so
+make[1]: Leaving directory '/work'
